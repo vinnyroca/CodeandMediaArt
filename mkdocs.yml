@@ -1,0 +1,26 @@
+site_name: Code and Media Art
+nav:
+  - Syllabus: index.md
+
+theme:
+
+  name: simple-blog
+  sidebar: true
+  navigation_depth: 2
+
+  colors:
+    title: green
+    text: black
+    background: white
+    primary: green
+  components:
+    footer: false
+    title: false
+    preview: true
+
+extra_css:
+- extra.css
+
+extra_javascript:
+  - https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js
+  - https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"
