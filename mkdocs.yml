@@ -1,6 +1,7 @@
 site_name: Code and Media Art
 nav:
   - Syllabus: index.md
+  - Schedule: schedule.md
 
 theme:
 
