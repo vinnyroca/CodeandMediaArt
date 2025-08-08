@@ -60,6 +60,19 @@
                 <!-- block menu -->
                 <li class="nav-item">
                     <!-- block menu -->
+    
+        <li class="nav-item" id="component-menu">
+            <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class=" active 
+                            nav-link text-gray text-decoration-none" href=".">[Syllabus]</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="
+                            nav-link text-gray text-decoration-none" href="schedule/">[Schedule]</a>
+                        </li>
+            </ul>
+        </li>
 <!-- endblock -->
                 </li>
                 <!-- endblock -->
@@ -131,52 +144,13 @@
         <p><script>hljs.highlightAll();</script>
 
 <h1 id="syllabus">Syllabus</h1>
-<pre><code class="language-js">function setup(){
-    createCanvas(400,400);
-}
-
-function draw(){
-    background(220);
+<pre><code class="language-java">void setup()
+{
+  size(200,200,200);
 }
 </code></pre>
 <h2 id="multiple-sketches-with-instance-mode">Multiple Sketches with Instance Mode</h2>
-<div id="sketch-container-1"></div>
-
-<script>
-  const s2 = (p) => {
-    p.setup = () => {
-      let c = p.createCanvas(windowWidth, 200);
-      c.parent("sketch-container-2");
-      p.background(230);
-    };
-    p.draw = () => {
-      p.fill(0, 0, 255, 100);
-      p.rect(p.mouseX, p.mouseY, 40, 40);
-    };
-  };
-
-
-  new p5(s2);
-</script>
-
-<p>hello</p>
-<div id="sketch-container-2"></div>
-
-<script>
-  const s1 = (p) => {
-    p.setup = () => {
-      let c = p.createCanvas(windowWidth, 600);
-      c.parent("sketch-container-1");
-      p.background(255);
-    };
-    p.draw = () => {
-      p.fill(255, 0, 0, 100);
-      p.ellipse(p.mouseX, p.mouseY, 40);
-    };
-  };
- new p5(s1);
-
-  </script></p>
+<div id="sketch-container-1"></div></p>
     </article>
 </section>
 <!-- endblock -->
@@ -189,6 +163,19 @@ function draw(){
 
             
                     <!-- block preview -->
+    <div class="preview row row-cols-md-3 text-center pt-md-3" id="component-preview">
+        <div class="col themed-grid-col">
+            <a rel="prev" class="nav-link disabled">
+                <i class="fa fa-arrow-left"></i> Previous
+            </a>
+        </div>
+        <div class="col themed-grid-col"></div>
+        <div class="col themed-grid-col">
+            <a rel="next" href="schedule/" class="nav-link">
+                Next <i class="fa fa-arrow-right"></i>
+            </a>
+        </div>
+    </div>
 <!-- endblock -->
             
 

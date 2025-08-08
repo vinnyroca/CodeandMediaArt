@@ -1,0 +1,374 @@
+<!doctype html>
+<html data-bs-theme="">
+    <head>
+                <title>01 Processing - Code and Media Art</title>
+
+            <meta charset="utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+            
+            
+            
+
+            
+                <link  rel="icon" type="image/x-icon" href="../assets/img/favicon.ico">
+            
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Mono:400,700">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+            <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+            <link rel="stylesheet" href="../assets/css/root.min.css">
+            <link rel="stylesheet" href="../assets/css/main.min.css">
+            <link rel="stylesheet" href="../assets/css/media.min.css">
+            <link rel="stylesheet" href="../assets/css/mkdocstrings.min.css">
+                <link href="../extra.css" rel="stylesheet">
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js""></script>
+                <script src="../search/main.js"></script>
+
+            
+                
+                     <style>:root {--text: var(--color-black);}</style> 
+                     <style>:root {--title: var(--color-green);}</style> 
+                     <style>:root {--primary: var(--color-green);}</style> 
+                     <style>:root {--background: var(--color-white);}</style> 
+                
+            
+    </head>
+
+    <body>
+        <div class="container py-3">
+            <header>
+                    <!-- block header -->
+<nav class="navbar navbar-expand-xl border-bottom">
+    <div class="container-fluid">
+        
+
+        
+            <span class=" fs-4 title-color site-name" id="component-site-name" style="text-transform: uppercase;">Code and Media Art</span>
+        
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsMenu"
+            aria-controls="navbarsMenu" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse flex-column ml-auto" id="navbarsMenu">
+            <ul class="navbar-nav">
+
+                <!-- block menu -->
+                <li class="nav-item">
+                    <!-- block menu -->
+    
+        <li class="nav-item" id="component-menu">
+            <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="
+                            nav-link text-gray text-decoration-none" href="..">[Syllabus]</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="
+                            nav-link text-gray text-decoration-none" href="../schedule/">[Schedule]</a>
+                        </li>
+            </ul>
+        </li>
+<!-- endblock -->
+                </li>
+                <!-- endblock -->
+
+                <!-- block search -->
+                <li class="nav-item">
+                    <a class="collapsed" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                        <div class="md-search-icon">
+                            <i class="fa fa-search" aria-hidden="true"></i>
+                        </div>
+                    </a>
+                </li>
+                <!--  endblock -->
+
+                <!-- block source -->
+                <li class="nav-item">
+                    
+                </li>
+                <!--  endblock -->
+            </ul>
+        </div>
+    </div>
+</nav>
+<!--  endblock -->
+            </header>
+
+            <main><!-- block search -->
+<div class="collapse" id="collapseExample">
+    <div role="search" class="search-box">
+        <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+            <input type="text" name="q" class="search-query"
+            placeholder="Search docs" title="Type search term here" />
+        </form>
+    </div>
+</div>
+<!-- endblock -->
+
+                
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-3 d-none d-md-block" id="component-sidebar">
+                                    <!-- block sidebar -->
+<div class="navbar-expand-md" role="complementary">
+    
+    <div class="sidebar navbar-collapse collapse card">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-bs-level="1"><a href="#processing-shapes-and-color" class="nav-link">Processing, Shapes and Color</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-bs-level="2"><a href="#about-processing" class="nav-link">About Processing</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#what-is-processing" class="nav-link">What is Processing?</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#drawing-with-code" class="nav-link">Drawing with Code</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#class-exercise-shapes-fills-and-strokes" class="nav-link">Class Exercise - Shapes, Fills, and Strokes</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div>
+<!-- endblock -->
+                            </div>
+                            <div class="col-md-9 col-12" id="component-content">
+                                    <!-- block content -->
+<section class="container post" id="component-content">
+    <article>
+        <header>
+            
+            
+        </header>
+        <p><script>hljs.highlightAll();</script>
+
+<h1 id="processing-shapes-and-color">Processing, Shapes and Color</h1>
+<p>Get started by openning up <strong>Processing</strong> on your computers.</p>
+<h2 id="about-processing">About Processing</h2>
+<p><a href="https://processing.org/"><strong>Procesing</strong></a> is an open source project by <a href="https://reas.com/">Casey Raes</a> and <a href="https://www.benfry.com/">Ben Fry</a>. It is a development environment in which artists and designers can both produce software art and learn how to code.</p>
+<p>Processing conceptually builds on the idea that artists make use of forms of "programming" and instructions.</p>
+<figure> <img src = "../assets/images/code_01_martin_01.jpg"><figcaption> Agnes Martin. Untitled. 1999.</figcaption> </figure>
+
+<figure> <img src = "../assets/images/code_01_lewitt_01.jpg"><figcaption> Soll LeWitt. Wall Drawing #260. 1975.</figcaption> </figure>
+
+<p>Processing is a tool for making software.</p>
+<p>Processing's approach to software:</p>
+<ul>
+<li>Software is a unique medium with unique qualities</li>
+<li>Every programming language is a distinct material</li>
+<li>Sketching is necessary for the development of ideas</li>
+<li>Programming is not just for engineers</li>
+</ul>
+<blockquote>
+<p>"Processing...repositions programming in a way that is accessible to people who are
+interested in programming but who may be intimidated by or uninterested in the type
+taught in computer science departments. The computer originated as a tool for fast
+calculations and has evolved into a medium for expression."</p>
+<p>-Casey Raes, Ben Fry - Processing: a programming handbook for visual designersand artists</p>
+</blockquote>
+<p><strong>Processing</strong> started in 2001 and has grown into the <a href="https://processingfoundation.org/"><strong>Processing Foundation</strong></a> which includes a web interpretation of Processing called <a href="https://p5js.org/"><strong>P5.js</strong></a>, created by <a href="https://get-lauren.net/">Lauren Lee McCarthy</a>.</p>
+<figure> <img src = "../assets/images/code_01_raes_01.jpg"><figcaption> Still Life (RGB A), 2016, Casey Raes</figcaption> </figure>
+
+<figure> <img src = "../assets/images/code_01_mccarthy_01.jpg"><figcaption> Auto, 2025, Lauren Lee McCarthy</figcaption> </figure>
+
+<h2 id="what-is-processing">What is Processing?</h2>
+<figure> <img src = "../assets/images/code_01_interface_01.jpg"><figcaption>Interface of Processing</figcaption> </figure>
+
+<h3 id="interface-of-processing">Interface of Processing</h3>
+<p>The interface of Processing is fairly simple:</p>
+<ul>
+<li>The large area in the center functions like a text editor where we can enter the instructions (also know as <em>code</em>) for our artworks.</li>
+<li>The play button at the top allows us to run our code.</li>
+<li>The stop button stops our code.</li>
+<li>The top menus allow us to access various options related to the Processing editor.</li>
+</ul>
+<h3 id="customize-your-processing-editor">Customize your Processing Editor</h3>
+<p>Navigate to <strong>Tools</strong> -&gt; <strong>Theme Selector</strong> -&gt; the select a theme.</p>
+<figure> <img src = "../assets/images/code_01_theme.gif"><figcaption>Selecting a Dark Mode theme</figcaption> </figure>
+
+<h2 id="drawing-with-code">Drawing with Code</h2>
+<h3 id="size">size()</h3>
+<p><a href="https://processing.org/reference/size_.html"><strong>size()</strong></a> sets the size of our sketch.</p>
+<p><strong>size()</strong> takes in the parameters <strong>width</strong> and <strong>height</strong>.</p>
+<p>size(width, height);</p>
+<p>if we want our sketch to look be 800 pixels by 800 pixels we could write;</p>
+<pre><code class="language-java">//Set our sketch to 800 by 800 pixels
+size(800,800);
+</code></pre>
+<p>Notice the "//" on the first line. This marks a comment. A comment is meant for human programmers and is not "read" by our computer.</p>
+<p>Also notice the semi colon ";" at the end of the second line. For our purposes now, we can think of the semi colon as a period, marking the end of our line of code.</p>
+<h3 id="background">background()</h3>
+<p><a href="https://processing.org/reference/background_.html">backgroud()</a> sets the background for our sketch.</p>
+<p>Background can take in many different types of parameters including color values and images. For now we'll focus on setting a gray scale value.</p>
+<p>background(gray) - gray is a decimal number between 0 and 255 with black being 0 and 255 being white.</p>
+<p>To draw a middle gray background on our sketch:</p>
+<pre><code class="language-java">//Draw a middle gray background
+background(127);
+</code></pre>
+<h3 id="ellipse">ellipse()</h3>
+<p><a href="https://processing.org/reference/ellipse_.html">Reference</a></p>
+<p><code>ellipse()</code> draws an ellipse to our screen.</p>
+<p><code>ellipse(a, b, c, d)</code></p>
+<p>Parameters</p>
+<ul>
+<li><strong>a</strong>      - x-coordinate of the ellipse</li>
+<li><strong>b</strong>     - y-coordinate of the ellipse</li>
+<li><strong>c</strong>     - width of the ellipse by default</li>
+<li><strong>d</strong>     - height of the ellipse by default</li>
+</ul>
+<figure> <img src = "../assets/images/code_01_grid.jpg"><figcaption>Coordinate system of Processing</figcaption> </figure>
+
+<figure> <img src = "../assets/images/code_01_sketchgrid.jpg" width = "400"; height = "400"><figcaption> Our current sketch with grid lines every 20 pixels</figcaption> </figure>
+
+<p>To draw a circle with a diameter of 200 in the center our screen we would write:</p>
+<pre><code class="language-java">ellipse(400,400,200,200);
+</code></pre>
+<figure> <img src = "../assets/images/code_01_ellipse.jpg" width = "400"; height = "400"><figcaption> Our ellipse</figcaption> </figure>
+
+<figure> <img src = "../assets/images/code_01_ellipsegrid.jpg" width = "400"; height = "400"><figcaption> Our ellipse on a coordinate grid</figcaption> </figure>
+
+<h3 id="drawing-order">Drawing Order</h3>
+<p>The order that we write our code is important! The computer "reads" our code from the top to bottom, just like we do. The drawing order in Processing is the same. Each shape is drawn on top of the previous shape.</p>
+<p>Try adding a line of code to make a new circle in the center our our sketch with a diameter of 400 pixels.</p>
+<pre><code class="language-java">ellipse(400,400,400,400);
+</code></pre>
+<p>Because our code now looks like this:</p>
+<pre><code class="language-java">//Set our sketch to 800 by 800 pixels
+size(800,800);
+
+//Draw a middle gray background
+background(127);
+ellipse(400,400,200,200);
+ellipse(400,400,400,400);
+</code></pre>
+<p>We are first drawing our background, then drawing our smaller ellipse, and, finally, the larger ellipse on top.</p>
+<figure> <img src = "../assets/images/code_01_ellipse_04.jpg" width = "400"; height = "400"><figcaption> Our larger ellipse covering our smaller ellipse</figcaption> </figure>
+
+<p>If we change the ordering of our ellipses:</p>
+<pre><code class="language-java">ellipse(400,400,400,400);
+ellipse(400,400,200,200);
+</code></pre>
+<p>We'll see the smaller ellipse drawn on top of the larger one:</p>
+<figure> <img src = "../assets/images/code_01_ellipse_05.jpg" width = "400"; height = "400"><figcaption> </figcaption> </figure>
+
+<h3 id="rect">rect()</h3>
+<p><a href="https://processing.org/reference/rect_.html">Reference</a> </p>
+<p><code>rect()</code> draws a rectangle to our screen.</p>
+<p><code>rect(a, b, c, d)</code>  </p>
+<p>Parameters</p>
+<ul>
+<li><strong>a</strong>     - x-coordinate</li>
+<li><strong>b</strong>     - y-coordinate</li>
+<li><strong>c</strong>     - width </li>
+<li><strong>d</strong>     - height</li>
+</ul>
+<p>Try drawing a square at (400,400) with a size and width of 200.</p>
+<pre><code class="language-java">rect(400,400,200,200);
+</code></pre>
+<p>What do you notice?</p>
+<figure> <img src = "../assets/images/code_01_rect_01.jpg" width = "400"; height = "400"><figcaption> </figcaption> </figure>
+
+<p>Unlike <code>ellipse()</code> which places the ellipse's center at the given (x,y) parameter, <code>rect()</code> places the rectangle at its top left corner. We can think of this as simliar to how you might draw out a rectangle on the desktop of your computer.</p>
+<h3 id="rectmode">rectMode()</h3>
+<p><a href="https://processing.org/reference/rectMode_.html">Reference</a></p>
+<p>We can modify how rectangles our drawn by using the function <code>rectMode()</code>.</p>
+<p><code>rectMode()</code> can take in a few parameters, but we will focus on <code>CENTER</code> and <code>CORNER</code></p>
+<p><code>rectMode(CORNER)</code> is the default behavior with our rectangle being draw from the upper left corner.</p>
+<p><code>rectMode(CENTER)</code> will draw our retangle at the center of the given (x,y) coordinates.</p>
+<p>If we were to write:</p>
+<pre><code class="language-java">rect(400,400,200,200);
+rectMode(CENTER);
+</code></pre>
+<p>We would notice that nothing happens.</p>
+<p>For <code>rectMode()</code> to work properly, we need to tell our computer to draw our rectangles in the center <em>before</em> drawing our rectangle.</p>
+<p>If we write:</p>
+<pre><code class="language-java">rectMode(CENTER);
+rect(400,400,200,200);
+</code></pre>
+<p>We get this result:</p>
+<figure> <img src = "../assets/images/code_01_rectMode_01.jpg" width = "400"; height = "400"><figcaption> </figcaption> </figure>
+
+<p>In essence, <code>rectMode()</code> will effect any rectangle after it is called. With this in mind, we can call <code>rectMode()</code> multiple times in a sketch to change the behavior of different rectangles.</p>
+<p>Let's try writing:</p>
+<pre><code class="language-java">rectMode(CENTER);
+rect(400,400,200,200);
+rectMode(CORNER);
+rect(400,400,200,200);
+</code></pre>
+<p>We can see out first rectangle remain in the center, while our second is drawn from the corner.</p>
+<figure> <img src = "../assets/images/code_01_rectMode_02.jpg" width = "400"; height = "400"><figcaption> </figcaption> </figure>
+
+<h3 id="fill">fill()</h3>
+<p><code>fill()</code> is simliar to <code>rectMode()</code> in that it changes the behavior of our shapes. <code>fill()</code> sets the color that shapes are filled with.</p>
+<p>Before moving onto color, <code>fill()</code> can also take in a <code>gray</code> value between 0 - 255.</p>
+<p>Writing <code>fill()</code> before our most recent rectangle:</p>
+<pre><code class="language-java">rectMode(CORNER);
+fill(127);
+rect(400,400,200,200);
+</code></pre>
+<p>It changes the color of our rectangle to gray.</p>
+<figure> <img src = "../assets/images/code_01_fill_01.jpg" width = "400"; height = "400"><figcaption> </figcaption> </figure>
+
+<h2 id="class-exercise-shapes-fills-and-strokes">Class Exercise - Shapes, Fills, and Strokes</h2>
+<p>For this exercise, create the below 800 by 800 pixel drawing using the code we have learned so far.</p>
+<p>Additionally, to get comfortable looking at Processing's reference, to complete this exercise, you'll need to look into the following functions and figure out how to use them in your sketch.</p>
+<p><code>line()</code> <a href="https://processing.org/reference/line_.html">(Reference)</a> - Draws lines to screen</p>
+<p><code>stroke()</code> <a href="https://processing.org/reference/stroke_.html">(Reference)</a> - Sets line and border color</p>
+<p><code>noStroke()</code> <a href="https://processing.org/reference/noStroke_.html">(Reference)</a> - Turns off strokes</p>
+<p><code>strokeWeight()</code> <a href="https://processing.org/reference/strokeWeight_.html">(Reference)</a> - Changes the thinkness of strokes</p>
+<p>Be sure to comment your code to keep track of what you are writing!</p>
+<p>Begin with:</p>
+<pre><code class="language-java">size(800,800);
+background(200);
+</code></pre>
+<figure> <img src = "../assets/images/code_01_exercise.jpg" ><figcaption> </figcaption> </figure>
+
+<p>Mavis Pusey, “Personante” (1990), oil on canvas, 53 ½ × 75 inches (courtesy the Neil Lane-Jacobson Family Foundation)</p>
+<p>Quad tool</p>
+<p>hint, you can draw shapes beyond the bound of the canvas</p>
+<figure> <img src = "../assets/images/code_01_marvis_01.jpg" ><figcaption> </figcaption> </figure>
+<figure> <img src = "../assets/images/code_01_marvis_02.jpg" ><figcaption> </figcaption> </figure>
+<figure> <img src = "../assets/images/code_01_marvis_03.jpg" ><figcaption> </figcaption> </figure></p>
+    </article>
+</section>
+<!-- endblock -->
+                            </div>
+                        </div>
+                    </div>
+                
+                
+            </main>
+
+            
+                    <!-- block preview -->
+<!-- endblock -->
+            
+
+            
+            
+        </div>
+
+            <script>var base_url = '..';</script>
+            <script src="../assets/js/jquery-3.3.1.slim.min.js""></script>
+            <script src="../assets/js/bootstrap.bundle.min.js""></script>
+            <script src="../assets/js/main.min.js""></script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js" defer></script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"" defer></script>
+                <script src="../search/main.js" defer></script>
+
+    </body>
+
+</html>
