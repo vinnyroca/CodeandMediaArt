@@ -134,7 +134,23 @@
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-bs-level="2"><a href="#class-exercise-shapes-fills-and-strokes" class="nav-link">Class Exercise - Shapes, Fills, and Strokes</a>
+            <li class="nav-item" data-bs-level="2"><a href="#drawing-exercise" class="nav-link">Drawing Exercise</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#color" class="nav-link">Color</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#opacity" class="nav-link">Opacity</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#opacity-exercise" class="nav-link">Opacity Exercise</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#independent-exercise-drawing-in-color" class="nav-link">Independent Exercise: Drawing in Color</a>
               <ul class="nav flex-column">
               </ul>
             </li>
@@ -185,6 +201,9 @@ calculations and has evolved into a medium for expression."</p>
 <figure> <img src = "../assets/images/code_01_mccarthy_01.jpg"><figcaption> Auto, 2025, Lauren Lee McCarthy</figcaption> </figure>
 
 <h2 id="what-is-processing">What is Processing?</h2>
+<p>We spent our first day drawing with are human understandable instructions. To write instructions for our computer to make artworks with our computer, we need to write our instructions in a language the computer understanding.</p>
+<p>To do that we are going to be writing instructions for our code in the Processing programming language.</p>
+<p>Processing is built on <strong>Java.</strong></p>
 <figure> <img src = "../assets/images/code_01_interface_01.jpg"><figcaption>Interface of Processing</figcaption> </figure>
 
 <h3 id="interface-of-processing">Interface of Processing</h3>
@@ -200,6 +219,7 @@ calculations and has evolved into a medium for expression."</p>
 <figure> <img src = "../assets/images/code_01_theme.gif"><figcaption>Selecting a Dark Mode theme</figcaption> </figure>
 
 <h2 id="drawing-with-code">Drawing with Code</h2>
+<p>Code is written in particular "languages." These languages are not as complicated as "human" languages, but each langague is slightly different and expects you to write your code is specific ways.</p>
 <h3 id="size">size()</h3>
 <p><a href="https://processing.org/reference/size_.html"><strong>size()</strong></a> sets the size of our sketch.</p>
 <p><strong>size()</strong> takes in the parameters <strong>width</strong> and <strong>height</strong>.</p>
@@ -210,6 +230,13 @@ size(800,800);
 </code></pre>
 <p>Notice the "//" on the first line. This marks a comment. A comment is meant for human programmers and is not "read" by our computer.</p>
 <p>Also notice the semi colon ";" at the end of the second line. For our purposes now, we can think of the semi colon as a period, marking the end of our line of code.</p>
+<h3 id="errors">Errors</h3>
+<p>If I forget to add a semicolon, my sketch won't run, and Processing will let me know I have an error.</p>
+<pre><code class="language-java">//Set our sketch to 800 by 800 pixels
+size(800,800)
+</code></pre>
+<figure> <img src = "../assets/images/code_01_error.jpg"><figcaption></figcaption> </figure>
+
 <h3 id="background">background()</h3>
 <p><a href="https://processing.org/reference/background_.html">backgroud()</a> sets the background for our sketch.</p>
 <p>Background can take in many different types of parameters including color values and images. For now we'll focus on setting a gray scale value.</p>
@@ -322,7 +349,7 @@ rect(400,400,200,200);
 <p>It changes the color of our rectangle to gray.</p>
 <figure> <img src = "../assets/images/code_01_fill_01.jpg" width = "400"; height = "400"><figcaption> </figcaption> </figure>
 
-<h2 id="class-exercise-shapes-fills-and-strokes">Class Exercise - Shapes, Fills, and Strokes</h2>
+<h2 id="drawing-exercise">Drawing Exercise</h2>
 <p>For this exercise, create the below 800 by 800 pixel drawing using the code we have learned so far.</p>
 <p>Additionally, to get comfortable looking at Processing's reference, to complete this exercise, you'll need to look into the following functions and figure out how to use them in your sketch.</p>
 <p><code>line()</code> <a href="https://processing.org/reference/line_.html">(Reference)</a> - Draws lines to screen</p>
@@ -336,6 +363,133 @@ background(200);
 </code></pre>
 <figure> <img src = "../assets/images/code_01_exercise.jpg" ><figcaption> </figcaption> </figure>
 
+<h2 id="color">Color</h2>
+<p><a href="https://processing.org/tutorials/color">Reference</a></p>
+<figure> <img src = "../assets/images/code_01_albers_02.jpeg"width = "400"; height = "400" ><figcaption>Josef Albers. Homage to the Square: "Ascending". 1953.</figcaption> </figure>
+
+<figure> <img src = "../assets/images/code_01_albers_01.jpg" width = "400"; height = "400"><figcaption>Recreation of Josef Alber's painting in Processing</figcaption> </figure>
+
+<p>Code:</p>
+<pre><code class="language-java">//Home to the Square: &quot;Ascending&quot;
+
+size(800, 800);
+
+background(247, 238, 220);
+
+//Attribues
+noStroke();
+rectMode(CENTER);
+
+//Squares
+fill(138, 200, 237);
+rect(400, 400, 780, 780);
+
+fill(196, 195, 194);
+rect(400, 440, 630, 630);
+
+fill(255, 250, 244);
+rect(400, 478, 470, 470);
+
+fill(254, 226, 21);
+rect(400, 517, 313, 313);
+</code></pre>
+<p>If we copy this sketch into processing, we notice our <code>fill()</code> looks quite different. Before we would write <code>fill(127);</code> and see our shapes turn gray.</p>
+<p>Now we can see the syntax is <code>fill(a, b, c)</code>. Processing by default represents colors in Red, Blue and Green values, or RGB for short.</p>
+<ul>
+<li><strong>a</strong>     - amount of red (0-255);</li>
+<li><strong>b</strong>     - amount of green (0-255);</li>
+<li><strong>c</strong>     - amount of blue (0-255);</li>
+</ul>
+<p>Try changing some of the colors in the Alber's sketch to see the effects.</p>
+<p>With RGB, we "mix" red green and blue togeter to get differnt results.</p>
+<p>For example if we wanted to fill our shapes will yellow, we would write:</p>
+<pre><code class="language-java">//Yellow in RGB
+fill(255,255,0);
+</code></pre>
+<figure> <img src = "../assets/images/code_01_color_01.jpg" width = "400"; height = "400"><figcaption>A yellow ellipse</figcaption> </figure>
+
+<p>Mixing RGB values leads to a variety of colors:</p>
+<pre><code class="language-java">//purple
+fill(255,0,255);
+
+//cyan
+fill(0,255,255);
+
+//white
+fill(255,255,255);
+
+//black
+fill(0,0,0);
+</code></pre>
+<h3 id="color-selector">Color Selector</h3>
+<p>We can also see the RGB values of colors using Processing's built in color picker.</p>
+<p>Navigate to <strong>Tools</strong> -&gt; <strong>Color Selector</strong></p>
+<figure> <img src = "../assets/images/code_01_color_02.jpg" width = "400"; ><figcaption>A yellow ellipse</figcaption> </figure>
+
+<h3 id="color-exercise">Color Exercise</h3>
+<p>Using the the <strong>Color Selector</strong> tool for reference, create and 800 x 800 image of three or more shapes that, next to each other, form a gradient. Choose a background color that compliments your gradient.</p>
+<p>Example:</p>
+<figure> <img src = "../assets/images/code_01_color_03.jpg" width = "400"; ><figcaption>Three ellipses forming a color gradient</figcaption> </figure>
+
+<h2 id="opacity">Opacity</h2>
+<figure> <img src = "../assets/images/code_01_albers_03.jpg "width = "380"; height = "500" ><figcaption>Josef Alber's opacity illusion painting</figcaption> </figure>
+
+<figure> <img src = "../assets/images/code_01_albers_04.jpg" width = "380"; height = "500"><figcaption>Recreation of Josef Alber's painting using opacity</figcaption> </figure>
+
+<p>Code:</p>
+<pre><code class="language-java">background(134, 119, 90);
+
+noStroke();
+rectMode(CENTER);
+
+fill(97, 88, 89);
+
+//Three rectangles behind
+rect(337.5, 500, 520, 170);
+rect(337.5, 750, 520, 170);
+rect(337.5, 250, 520, 170);
+
+//Main Center rectanlge
+fill(254, 255, 223);
+rect(337.5, 500, 350, 850);
+
+
+//Center Rectangles with Opacity
+fill(97, 88, 89, 230);
+rect(337.5, 750, 350, 170);
+
+fill(97, 88, 89, 180);
+rect(337.5, 500, 350, 170);
+
+fill(97, 88, 89, 100);
+rect(337.5, 250, 350, 170);
+</code></pre>
+<p>With our colors for our <code>fill()</code>, there is a hidden fourth parameter, <strong>alpha</strong>, commonly known as opacity!</p>
+<p><code>fill(a, b, c, d)</code></p>
+<ul>
+<li><strong>a</strong>     - amount of red (0-255);</li>
+<li><strong>b</strong>     - amount of green (0-255);</li>
+<li><strong>c</strong>     - amount of blue (0-255);</li>
+<li><strong>d</strong>     - alpha (0-255)</li>
+</ul>
+<p>We'll talk about this more next class, but for now note the while <strong>alpha</strong> can be a decimal number(e.g. 1.67, 3.14, 88.666), our RGB values can only be entered in as whole number (e.g. 0, 45, 73).</p>
+<p>In programming, a whole numbers is called an <strong>integer</strong> or <code>int</code>, for short. A decminal number is called <strong>floating-point number</strong>, or <code>float</code> for short. We will go into more detail on this next class.</p>
+<figure> <img src = "../assets/images/code_01_opacity_01.jpg" width = "200px"><figcaption>Cicle at full opacity</figcaption> </figure>
+
+<figure> <img src = "../assets/images/code_01_opacity_02.jpg" width = "200px"><figcaption>Cicle at half opacity</figcaption> </figure>
+
+<figure> <img src = "../assets/images/code_01_opacity_03.jpg" width = "200px"><figcaption>Cicle at a quarter opacity</figcaption> </figure>
+
+<figure> <img src = "../assets/images/code_01_opacity_04.jpg" width = "200px"><figcaption>Notice how the background color blends with my shape's fill color</figcaption> </figure>
+
+<h2 id="opacity-exercise">Opacity Exercise</h2>
+<p>Try creating an image similar to the one you created for the Color Exercise. Instead of using multiple colors, use one color and changes the alpha parameter of the <code>fill()</code> function.</p>
+<h2 id="independent-exercise-drawing-in-color">Independent Exercise: Drawing in Color</h2>
+<p><strong>Due next class session.</strong></p>
+<h3 id="part-one">Part One</h3>
+<p>At either sunrise or sunset between now and our next class session attend the lighting program at James Turrell's <a href="https://www.pomona.edu/museum/collections/james-turrell-skyspace">Skyspace</a> at Pomona College.</p>
+<p>Reflect on your expereice between the relationship between the LED color lights, and the color of the sky. This work is a form of new media art! The lights that are part of exhibition had to be programmed to match with the time of day and to change colors as the sky changes.</p>
+<p><strong>Exercise:</strong> Write a poetic set of instructions for James Turrell's Skyspace. How would you describe the colors? What is the progression of the piece? Be as specific as possible. Next class we'll be talking about how we can change values within our code while our program is running. Consider what values are changing with the lights to given different results.</p>
 <p>Mavis Pusey, “Personante” (1990), oil on canvas, 53 ½ × 75 inches (courtesy the Neil Lane-Jacobson Family Foundation)</p>
 <p>Quad tool</p>
 <p>hint, you can draw shapes beyond the bound of the canvas</p>

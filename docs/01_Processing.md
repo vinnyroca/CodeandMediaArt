@@ -38,6 +38,12 @@ calculations and has evolved into a medium for expression."
 
 ## What is Processing?
 
+We spent our first day drawing with are human understandable instructions. To write instructions for our computer to make artworks with our computer, we need to write our instructions in a language the computer understanding.
+
+To do that we are going to be writing instructions for our code in the Processing programming language.
+
+Processing is built on **Java.**
+
 <figure> <img src = "../assets/images/code_01_interface_01.jpg"><figcaption>Interface of Processing</figcaption> </figure>
 
 ### Interface of Processing
@@ -57,6 +63,8 @@ Navigate to **Tools** -> **Theme Selector** -> the select a theme.
 
 ## Drawing with Code
 
+Code is written in particular "languages." These languages are not as complicated as "human" languages, but each langague is slightly different and expects you to write your code is specific ways.
+
 ### size()
 
 [**size()**](https://processing.org/reference/size_.html) sets the size of our sketch.
@@ -75,6 +83,17 @@ size(800,800);
 Notice the "//" on the first line. This marks a comment. A comment is meant for human programmers and is not "read" by our computer.
 
 Also notice the semi colon ";" at the end of the second line. For our purposes now, we can think of the semi colon as a period, marking the end of our line of code.
+
+### Errors
+
+If I forget to add a semicolon, my sketch won't run, and Processing will let me know I have an error.
+
+```java
+//Set our sketch to 800 by 800 pixels
+size(800,800)
+```
+
+<figure> <img src = "../assets/images/code_01_error.jpg"><figcaption></figcaption> </figure>
 
 ### background()
 
@@ -245,7 +264,7 @@ It changes the color of our rectangle to gray.
 
 <figure> <img src = "../assets/images/code_01_fill_01.jpg" width = "400"; height = "400"><figcaption> </figcaption> </figure>
 
-## Class Exercise - Shapes, Fills, and Strokes
+## Drawing Exercise
 
 For this exercise, create the below 800 by 800 pixel drawing using the code we have learned so far.
 
@@ -267,8 +286,172 @@ Begin with:
 size(800,800);
 background(200);
 ```
-
 <figure> <img src = "../assets/images/code_01_exercise.jpg" ><figcaption> </figcaption> </figure>
+
+## Color
+
+[Reference](https://processing.org/tutorials/color)
+
+<figure> <img src = "../assets/images/code_01_albers_02.jpeg"width = "400"; height = "400" ><figcaption>Josef Albers. Homage to the Square: "Ascending". 1953.</figcaption> </figure>
+
+<figure> <img src = "../assets/images/code_01_albers_01.jpg" width = "400"; height = "400"><figcaption>Recreation of Josef Alber's painting in Processing</figcaption> </figure>
+
+Code:
+
+```java
+//Home to the Square: "Ascending"
+
+size(800, 800);
+
+background(247, 238, 220);
+
+//Attribues
+noStroke();
+rectMode(CENTER);
+
+//Squares
+fill(138, 200, 237);
+rect(400, 400, 780, 780);
+
+fill(196, 195, 194);
+rect(400, 440, 630, 630);
+
+fill(255, 250, 244);
+rect(400, 478, 470, 470);
+
+fill(254, 226, 21);
+rect(400, 517, 313, 313);
+```
+
+If we copy this sketch into processing, we notice our `fill()` looks quite different. Before we would write `fill(127);` and see our shapes turn gray.
+
+Now we can see the syntax is `fill(a, b, c)`. Processing by default represents colors in Red, Blue and Green values, or RGB for short.
+
+- **a**		- amount of red (0-255);
+- **b**		- amount of green (0-255);
+- **c**		- amount of blue (0-255);
+
+Try changing some of the colors in the Alber's sketch to see the effects.
+
+With RGB, we "mix" red green and blue togeter to get differnt results.
+
+For example if we wanted to fill our shapes will yellow, we would write:
+
+```java
+//Yellow in RGB
+fill(255,255,0);
+```
+
+<figure> <img src = "../assets/images/code_01_color_01.jpg" width = "400"; height = "400"><figcaption>A yellow ellipse</figcaption> </figure>
+
+Mixing RGB values leads to a variety of colors:
+
+```java
+//purple
+fill(255,0,255);
+
+//cyan
+fill(0,255,255);
+
+//white
+fill(255,255,255);
+
+//black
+fill(0,0,0);
+```
+### Color Selector
+
+We can also see the RGB values of colors using Processing's built in color picker.
+
+Navigate to **Tools** -> **Color Selector**
+
+<figure> <img src = "../assets/images/code_01_color_02.jpg" width = "400"; ><figcaption>A yellow ellipse</figcaption> </figure>
+
+### Color Exercise
+
+Using the the **Color Selector** tool for reference, create and 800 x 800 image of three or more shapes that, next to each other, form a gradient. Choose a background color that compliments your gradient.
+
+Example:
+
+<figure> <img src = "../assets/images/code_01_color_03.jpg" width = "400"; ><figcaption>Three ellipses forming a color gradient</figcaption> </figure>
+
+
+## Opacity
+
+<figure> <img src = "../assets/images/code_01_albers_03.jpg "width = "380"; height = "500" ><figcaption>Josef Alber's opacity illusion painting</figcaption> </figure>
+
+<figure> <img src = "../assets/images/code_01_albers_04.jpg" width = "380"; height = "500"><figcaption>Recreation of Josef Alber's painting using opacity</figcaption> </figure>
+
+Code:
+
+```java
+background(134, 119, 90);
+
+noStroke();
+rectMode(CENTER);
+
+fill(97, 88, 89);
+
+//Three rectangles behind
+rect(337.5, 500, 520, 170);
+rect(337.5, 750, 520, 170);
+rect(337.5, 250, 520, 170);
+
+//Main Center rectanlge
+fill(254, 255, 223);
+rect(337.5, 500, 350, 850);
+
+
+//Center Rectangles with Opacity
+fill(97, 88, 89, 230);
+rect(337.5, 750, 350, 170);
+
+fill(97, 88, 89, 180);
+rect(337.5, 500, 350, 170);
+
+fill(97, 88, 89, 100);
+rect(337.5, 250, 350, 170);
+```
+With our colors for our `fill()`, there is a hidden fourth parameter, **alpha**, commonly known as opacity!
+
+ `fill(a, b, c, d)`
+
+- **a**		- amount of red (0-255);
+- **b**		- amount of green (0-255);
+- **c**		- amount of blue (0-255);
+- **d**		- alpha (0-255)
+
+We'll talk about this more next class, but for now note the while **alpha** can be a decimal number(e.g. 1.67, 3.14, 88.666), our RGB values can only be entered in as whole number (e.g. 0, 45, 73).
+
+In programming, a whole numbers is called an **integer** or `int`, for short. A decminal number is called **floating-point number**, or `float` for short. We will go into more detail on this next class.
+
+<figure> <img src = "../assets/images/code_01_opacity_01.jpg" width = "200px"><figcaption>Cicle at full opacity</figcaption> </figure>
+
+<figure> <img src = "../assets/images/code_01_opacity_02.jpg" width = "200px"><figcaption>Cicle at half opacity</figcaption> </figure>
+
+<figure> <img src = "../assets/images/code_01_opacity_03.jpg" width = "200px"><figcaption>Cicle at a quarter opacity</figcaption> </figure>
+
+<figure> <img src = "../assets/images/code_01_opacity_04.jpg" width = "200px"><figcaption>Notice how the background color blends with my shape's fill color</figcaption> </figure>
+
+## Opacity Exercise
+
+Try creating an image similar to the one you created for the Color Exercise. Instead of using multiple colors, use one color and changes the alpha parameter of the `fill()` function.
+
+## Independent Exercise: Drawing in Color
+
+**Due next class session.**
+
+### Part One
+
+At either sunrise or sunset between now and our next class session attend the lighting program at James Turrell's [Skyspace](https://www.pomona.edu/museum/collections/james-turrell-skyspace) at Pomona College.
+
+Reflect on your expereice between the relationship between the LED color lights, and the color of the sky. This work is a form of new media art! The lights that are part of exhibition had to be programmed to match with the time of day and to change colors as the sky changes.
+
+**Exercise:** Write a poetic set of instructions for James Turrell's Skyspace. How would you describe the colors? What is the progression of the piece? Be as specific as possible. Next class we'll be talking about how we can change values within our code while our program is running. Consider what values are changing with the lights to given different results.
+
+
+
+
 
 Mavis Pusey, “Personante” (1990), oil on canvas, 53 ½ × 75 inches (courtesy the Neil Lane-Jacobson Family Foundation)
 
