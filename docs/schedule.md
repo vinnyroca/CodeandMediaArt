@@ -62,35 +62,35 @@
 ||Class | Due|
 |---|---|---|
 |8/26|- Introduction(s)<br>- Procedural Play||
-|8/28|- **Tutorial:** [Processing, Shape, and Color](./01_Processing.md)<br> - Begin Merhutu Exercise|**Assignment Due:**<br>- Install Processing|
-|9/2|||
-|9/4|||
-|9/9|||
-|9/11|||
-|9/16|||
-|9/18|||
-|9/23|||
-|9/25|||
-|9/30|||
-|10/2|||
-|10/7|||
-|10/9|||
-|10/14|||
-|10/16|||
-|10/21|||
-|10/23|||
-|10/28|||
-|10/30|||
-|11/4|||
-|11/6|||
-|11/11|||
-|11/13|||
-|11/18|||
-|11/20|||
-|11/25|||
-|11/27|||
-|12/2|||
-|12/4|||
+|8/28|- **Tutorial:** [Processing, Shape, and Color](./01_Processing.md)<br> - Begin Drawing in Color Assignment|**Assignment Due:**<br>- [Install Processing](https://processing.org/download)|
+|9/2||**Assignment Due:**<br>- [Drawing In Color](./01_Processing.md/#independent-exercise-drawing-in-color)|
+|9/4||**Assignment Due:**<br>|
+|9/9||**Assignment Due:**<br>|
+|9/11||**Assignment Due:**<br>|
+|9/16|Class Work|**Assignment Due:**<br>|
+|9/18|`Clock Crit`|**Assignment Due:**<br>Clock|
+|9/23||**Assignment Due:**<br>|
+|9/25||**Assignment Due:**<br>|
+|9/30||**Assignment Due:**<br>|
+|10/2||**Assignment Due:**<br>|
+|10/7|Class Work|**Assignment Due:**<br>|
+|10/9|Class Work|**Assignment Due:**<br>|
+|10/14|No Class|**Assignment Due:**<br>|
+|10/16|`Interactive Crit`|**Assignment Due:**<br>Interactive Image|
+|10/21||**Assignment Due:**<br>|
+|10/23||**Assignment Due:**<br>|
+|10/28|Class Work|**Assignment Due:**<br>|
+|10/30|Class Work|**Assignment Due:**<br>|
+|11/4|`Performance Crit`|**Assignment Due:**<br>Performance|
+|11/6||**Assignment Due:**<br>|
+|11/11||**Assignment Due:**<br>|
+|11/13||**Assignment Due:**<br>|
+|11/18||**Assignment Due:**<br>|
+|11/20||**Assignment Due:**<br>|
+|11/25|Class Work|**Assignment Due:**<br>|
+|11/27|No Class|**Assignment Due:**<br>|
+|12/2|Class Work|**Assignment Due:**<br>|
+|12/4|Class Work|**Assignment Due:**<br>|
 
 
 

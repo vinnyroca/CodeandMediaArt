@@ -1,5 +1,36 @@
 <script>hljs.highlightAll();</script>
 
+<script>
+// Get the header element
+let header = document.querySelector('header');
+
+// Get the height of the header
+document.querySelectorAll('a[href^="#"]')
+.forEach(function (anchor) {
+    anchor.addEventListener('click', 
+    function (event) {
+        event.preventDefault();
+
+        // Get the target element that 
+        // the anchor link points to
+        let target = document.querySelector(
+            this.getAttribute('href')
+        );
+        
+        let headerHeight = header.offsetHeight*2;
+        
+        let targetPosition = target
+            .getBoundingClientRect().top - headerHeight;
+
+        window.scrollTo({
+            top: targetPosition + window.scrollY,
+            behavior: 'smooth'
+        });
+    });
+});
+</script>
+
+
 # Processing, Shapes and Color
 
 Get started by openning up **Processing** on your computers.
@@ -439,30 +470,66 @@ Try creating an image similar to the one you created for the Color Exercise. Ins
 
 ## Independent Exercise: Drawing in Color
 
-**Due next class session.**
+**Due next at the start of next class session.**
 
-### Part One
+### Part 1: Turrell
 
-At either sunrise or sunset between now and our next class session attend the lighting program at James Turrell's [Skyspace](https://www.pomona.edu/museum/collections/james-turrell-skyspace) at Pomona College.
+At either sunrise or sunset between now and our next class session attend the lighting program at James Turrell's *Dividing the Light* at Pomona College [Skyspace](https://www.pomona.edu/museum/collections/james-turrell-skyspace).
+
+<figure> <img src = "../assets/images/code_01_turrell_01.jpg" width = "400px"><figcaption>James Turell. Dividing the Light. 2007.</figcaption> </figure>
 
 Reflect on your expereice between the relationship between the LED color lights, and the color of the sky. This work is a form of new media art! The lights that are part of exhibition had to be programmed to match with the time of day and to change colors as the sky changes.
 
-**Exercise:** Write a poetic set of instructions for James Turrell's Skyspace. How would you describe the colors? What is the progression of the piece? Be as specific as possible. Next class we'll be talking about how we can change values within our code while our program is running. Consider what values are changing with the lights to given different results.
+**Exercise:** Write a poetic set of instructions for James Turrell's *Dividing the Light*. How would you describe the colors? What is the progression of the piece? Be as specific as possible. Next class we'll be talking about how we can change values within our code while our program is running. Consider what values are changing with the lights to given different results.
 
+### Part 2: Pusey
 
+Read the article about the work of Mavis Pusey posted to discord.
 
+Using Processing, recreate the below portion of Pusey's painting "Personate" as an 800x800 sketch.
 
+To make this image, you'll need to look into the function `quad()`. [Reference](https://processing.org/reference/quad_.html)
 
-Mavis Pusey, “Personante” (1990), oil on canvas, 53 ½ × 75 inches (courtesy the Neil Lane-Jacobson Family Foundation)
+As a hint you can drawing shapes beyond our 800 x 800 display!
 
-Quad tool
+#### Saving
 
-hint, you can draw shapes beyond the bound of the canvas
+In order to save this image as a PNG, you can add the following line of code to the end of your sketch.
 
-<figure> <img src = "../assets/images/code_01_marvis_01.jpg" ><figcaption> </figcaption> </figure>
-<figure> <img src = "../assets/images/code_01_marvis_02.jpg" ><figcaption> </figcaption> </figure>
-<figure> <img src = "../assets/images/code_01_marvis_03.jpg" ><figcaption> </figcaption> </figure>
+`save("mavis_pusey_exercise.png")`
 
+Everytime you run your sketch, this line of code will either save or overwrite a PNG image file in your Processing sketch folder.
+
+For this to work you will need to save your sketch first!
+
+`save()` [reference](https://processing.org/reference/save_.html);
+
+<figure> <img src = "../assets/images/code_01_marvis_01.jpg" ><figcaption> Mavis Pusey. Personante. 1990.</figcaption> </figure>
+<figure> <img src = "../assets/images/code_01_marvis_02.jpg" ><figcaption> </figcaption>Portion of painting to recreate in processing</figure>
+<figure> <img src = "../assets/images/code_01_marvis_03.jpg" ><figcaption>Portion of painting with grid lines every 100 pixels</figcaption> </figure>
+
+### Submit
+
+Use the box link in discord to submit the following:
+
+A zipped folder with:
+
+1. Your processing folder containing:
+> a. Your Processing sketch
+>
+>b. Image of your Mavis Pusey sketch in PNG format
+
+2. A PDF of your *Dividing the Light* instructions
+
+Your Zipped folder should be named using the following format:
+
+`Firstname_LastName_DrawingandColor`
+
+If you make a mistake and need to upload another folder, append the zipped file name with a numerical value:
+
+`Firstname_LastName_DrawingandColor_02`
+
+Additionally, post your PNG image and *Dividing the Light* instructions to the assignments discord channel.
 
 
 
