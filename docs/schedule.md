@@ -62,7 +62,7 @@
 ||Class | Due|
 |---|---|---|
 |8/26|- Introduction(s)<br>- Procedural Play||
-|8/28|- **Tutorial:** [Processing, Shape, and Color](./01_Processing.md)<br> - Begin Drawing in Color Assignment|**Assignment Due:**<br>- [Install Processing](https://processing.org/download)|
+|8/28|- **Tutorial:** [Processing, Shape, and Color](./01_Processing.md)<br> - Begin Drawing in Color Assignment|**Assignment Due:**<br>- [Install Processing](https://processing.org/download)<br>- Join the class [Discord Server]()|
 |9/2||**Assignment Due:**<br>- [Drawing In Color](./01_Processing.md/#independent-exercise-drawing-in-color)|
 |9/4||**Assignment Due:**<br>|
 |9/9||**Assignment Due:**<br>|
