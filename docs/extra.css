@@ -41,11 +41,15 @@ md-footer__inner { display: none !important; }
     ul>li.nav-item, ul.dropdown-menu>li{
         margin: 0 !important;
         padding:0em !important;
+        margin-top:0;
+        margin-bottom:0;
+        font-size:1em !important;
+        line-height:1.1em !important;
     }
 
     a.nav-link{
-        font-size:1.25em !important;
-        line-height:1.75em !important;
+        font-size:1em !important;
+        line-height:1.25em !important;
         padding:0;
         margin-top:1rem;
         margin-bottom:1rem;
@@ -282,8 +286,11 @@ ol>li{
 
 ul>li.nav-item, ul.dropdown-menu>li{
     list-style-type: none;
+    margin: 0 !important;
     margin-top:0;
     margin-bottom:0;
+     font-size:1em !important;
+     line-height:1.1em !important;
 }
 ul.dropdown-menu>li{
     padding:0;
@@ -396,7 +403,7 @@ pre{
 }
 
 .hljs-keyword {
-    color: #d09113;
+    color: #2ae5ef;
 }
 
 .hljs,
@@ -407,14 +414,13 @@ pre{
 .hljs-title,
 .hljs-attr,
 .hljs-meta-keyword {
-  font-style: italic;
-  color: #3d8eea;
+  
+  color: #5c9feb;
 }
 
 .hljs-string,
 .hljs-meta,
 .hljs-name,
-.hljs-type,
 .hljs-symbol,
 .hljs-bullet,
 .hljs-addition,
@@ -422,6 +428,10 @@ pre{
 .hljs-template-tag,
 .hljs-template-variable {
     color: #f2777a;
+}
+
+.hljs-type{
+color: #eb913d;
 }
 
 .hljs-comment,

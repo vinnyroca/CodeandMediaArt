@@ -596,15 +596,24 @@ Syntax: `fill(a, b, c, d)`
 We'll talk about this more next class, but for now note the while **alpha** can be a decimal number(e.g. 1.67, 3.14, 88.666), our RGB values can only be entered in as whole number (e.g. 0, 45, 73).
 
 In programming, a whole numbers is called an **integer** or `int`, for short. A decimal number is called **floating-point number**, or `float` for short. We will go into more detail on this next class.
+<div class = "div-container">
+    <div style = "width: 46%;">
+        <figure> <img src = "../assets/images/code_01_opacity_01.jpg" width = "200px"><figcaption>Circle at full opacity</figcaption> </figure>
+    </div>
 
-<figure> <img src = "../assets/images/code_01_opacity_01.jpg" width = "200px"><figcaption>Cicle at full opacity</figcaption> </figure>
+<div style = "width: 46%;">
+<figure> <img src = "../assets/images/code_01_opacity_02.jpg" width = "200px"><figcaption>Circle at half opacity</figcaption> </figure>
+</div>
+</div>
+<div class = "div-container">
+    <div style = "width: 46%;">
+<figure> <img src = "../assets/images/code_01_opacity_03.jpg" width = "200px"><figcaption>Circle at a quarter opacity</figcaption> </figure>
+    </div>
 
-<figure> <img src = "../assets/images/code_01_opacity_02.jpg" width = "200px"><figcaption>Cicle at half opacity</figcaption> </figure>
-
-<figure> <img src = "../assets/images/code_01_opacity_03.jpg" width = "200px"><figcaption>Cicle at a quarter opacity</figcaption> </figure>
-
+<div style = "width: 46%;">
 <figure> <img src = "../assets/images/code_01_opacity_04.jpg" width = "200px"><figcaption>Notice how the background color blends with my shape's fill color</figcaption> </figure>
-
+</div>
+</div>
 ## Opacity Exercise
 
 Try creating an image similar to the one you created for the Color Exercise. Instead of using multiple colors, use one color and change the alpha parameter of the `fill()` function.
@@ -655,6 +664,8 @@ For this to work you will need to save your sketch first!
 
 ### Submit
 
+[Upload Link](https://scrippscollege.app.box.com/f/ca85fc12477c43ddb0b54528ab1434be);
+
 Use the box link in discord to submit the following:
 
 A zipped folder with:
@@ -675,6 +686,12 @@ If you make a mistake and need to upload another folder, append the zipped file 
 `Firstname_LastName_DrawingandColor_02`
 
 Additionally, post your PNG image and *Dividing the Light* instructions to the assignments discord channel.
+
+> **How to Zip a folder:**
+> 
+> [Windows](https://support.microsoft.com/en-us/windows/zip-and-unzip-files-8d28fa72-f2f9-712f-67df-f80cf89fd4e5)
+> 
+> [MacOS](https://support.apple.com/guide/mac-help/zip-and-unzip-files-and-folders-on-mac-mchlp2528/mac)
 
 
 
