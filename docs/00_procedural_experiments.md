@@ -1,5 +1,12 @@
 # Playing with Code(s)
 
+Code can be approached as a conceptual framework.
+We could also consider here substituting the word code for conditions or instructions.
+
+To make code, is to make the conditions for something to be generated.
+
+In this class, we'll be considering code in a literal sense, as computer code. However, the history of code in art has been informed by a long relationship between instructions, art, and games.
+
 ## Rules as Code: Danish Clapping Game
 
 Play in a pair
@@ -12,7 +19,20 @@ Instructions:
 
 - If you choose the same position, clap hands and repeat from the top. If you choose different positions, repeat from the top.
 
-## Loose Codes: Art of Yoko Ono
+## Code and Art
+
+### Vera Molnar
+
+<figure> <img src = "../assets/images/code_00_molar.jpg" ><figcaption>Vera Molnar. Lettres de ma Mère (“Letter from my Mother”). 1987. Courtesy of The Anne and Michael Spalter Digital Art Collection</figcaption></figure>
+
+
+## Loose Codes of Art
+
+### Robert Barry
+
+<figure> <img src = "../assets/images/code_00_barry.jpg" ><figcaption>Robert Barry. ART WORK. 1970.</figcaption></figure>
+
+### Yoko Ono
 
 <figure> <img src = "../assets/images/code_00_ono_00.jpg" ><figcaption>Yoko Ono. Cut Piece. 1964.</figcaption></figure>
 
@@ -35,7 +55,13 @@ Write it on a piece of paper.
 1963 spring
 ```
 
-## Strict Codes: Art of Sol Lewitt
+## Strict Codes of Art
+
+### Mel Bochner
+
+<figure> <img src = "../assets/images/code_00.jpg" ><figcaption>Mel Bochner. Measurement Room: No Vantage Point. 2019–2020.</figcaption></figure>
+
+### Sol Lewitt
 
 <figure> <img src = "../assets/images/code_00_lewitt_01.jpg" ><figcaption>Sol Lewitt. Wall Drawing #118. 1971 </figcaption></figure>
 
@@ -47,5 +73,75 @@ random. The points should be evenly distributed
 over the area of the wall. All of the points should
 be connected by straight lines.”
 
-## Coding Games: Dots & Boxes
+[Sol LeWitt: A Wall Drawing Retrospective - MASS MoCA](https://www.youtube.com/embed/c4cgB4vJ2XY?si=qiUEQj92Rs8d8plU)
+
+Modified version of #118 for paper:
+
+```
+On a pieces of paper, using a pencil,
+place twenty points evenly distributed
+over the area of one of the paper's sides.
+All of the points should be connected
+with straight lines.
+```
+
+## Game Codes: Dots & Boxes
+
+Instructions:
+```
+Draw a three by three  grid of dots
+
+Each player takes turn drawing a horizontal
+or vertical line that connects two dots
+
+The player who completes the fourth
+side of a 1×1 box earns one point 
+and takes another turn (initial the box)
+
+The player with the most boxes at the end wins
+```
+
+## In-class exercise: Conditional Drawing
+
+Using Sol LeWitt as a starting point, design your own set of conditions that produce a drawing.
+
+In this exercise, try to be as percise as possible with your instructions, while still leaving room for generative variation.
+
+Make one drawing with your conditions, then refine your *code*.
+
+After some time, we'll exchange our conditions and see what drawings emerge.
+
+## Independent Exercise: Install Processing
+
+Processing, the program we will be using for this class, is installed on all the lab computers. If you would like to work outside the lab on exercises and assignments, you can install processing on your personal laptop.
+
+[Download Processing](https://processing.org/download)
+
+## Independent Exercise: Pea Work
+
+Original:
+
+**Due: end of the semester or anytime in between**
+
+Yoko Ono. *Pea Piece*. 1960.
+
+```
+PEA PIECE
+
+Carry a bag of peas.
+Leave a pea wherever you go.
+
+1960 winter
+```
+
+A modified version to complete for your exercise:
+
+```
+Carry your bag of five beads.
+Leave a bead where it 
+makes sense to do so.
+```
+
+Share an image of a place you left a bead within the class Discord.
+
 
