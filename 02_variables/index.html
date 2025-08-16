@@ -221,45 +221,76 @@ document.querySelectorAll('a[href^="#"]')
 });
 </script>
 
+<style>
+  #sketch_01-container {
+    width: 85%;
+    max-width: 400px;  
+    margin: auto;
+  }
+
+  #sketch_01-container canvas {
+    width: 85% !important;   
+    height: auto !important;  
+    display: block;
+  }
+</style>
+
+<script src="../assets/sketches/p5.js"></script>
+<script src="../assets/sketches/code_02/code_02_01.js"></script>
+<script src="../assets/sketches/code_02/code_02_02.js"></script>
+<script src="../assets/sketches/code_02/code_02_03.js"></script>
+<script src="../assets/sketches/code_02/code_02_04.js"></script>
+<script src="../assets/sketches/code_02/code_02_05.js"></script>
+<script src="../assets/sketches/code_02/code_02_06.js"></script>
+<script src="../assets/sketches/code_02/code_02_07.js"></script>
+<script src="../assets/sketches/code_02/code_02_08.js"></script>
+<script src="../assets/sketches/code_02/code_02_09.js"></script>
+<script src="../assets/sketches/code_02/code_02_10.js"></script>
+<script src="../assets/sketches/code_02/code_02_11.js"></script>
+<script src="../assets/sketches/code_02/code_02_12.js"></script>
+<script src="../assets/sketches/code_02/code_02_13.js"></script>
+<script src="../assets/sketches/code_02/code_02_14.js"></script>
+<script src="../assets/sketches/code_02/code_02_15.js"></script>
+
 <h1 id="variables">Variables</h1>
 <blockquote>
 <p><code>RECAP:</code> What we learned last class:</p>
 <ul>
-<li>What is Processing?</li>
+<li>What is p5.js?</li>
 <li>How to code essential shapes</li>
 <li>How to code colors</li>
 <li>How to code attributes</li>
 </ul>
 <p><code>PLAN:</code></p>
 <ul>
-<li>The flow of Processing</li>
+<li>The flow of p5.js</li>
 <li><code>setup()</code> and <code>draw()</code></li>
 <li>How to write blocks of code</li>
 <li><code>mouseX</code> and <code>mouseY</code></li>
 <li><code>mousePressed()</code></li>
 <li><code>width</code> and <code>height</code></li>
-<li>Basic math in Processing</li>
+<li>Basic math in p5.js</li>
 <li>How to make our own variables</li>
-<li>Types of variables</li>
 <li>How to use incrementation operators</li>
 <li><code>random()</code></li>
-<li>Independent exercise: Random face</li>
+<li>Independent exercise: Face Generator</li>
 </ul>
 </blockquote>
 <h2 id="setup-and-draw">setup() and draw()</h2>
-<p><code>setup()</code> -&gt; The starting conditions of our Processing sketch.</p>
-<p><code>draw()</code> -&gt; The continuous loop of our Processing sketch.</p>
+<p><code>setup()</code> -&gt; The starting conditions of our p5 sketch.</p>
+<p><code>draw()</code> -&gt; The continuous loop of our p5 sketch.</p>
 <figure> <img src = "../assets/images/code_02_flow_01.png"><figcaption>Setup condition of a tennis match (Serena vs. Venus Williams, 2027)</figcaption></figure>
 <figure> <img src = "../assets/images/code_02_flow_02.gif"><figcaption>Draw condition of a tennis match (Serena vs. Venus Williams, 2027)</figcaption></figure>
 <figure> <img src = "../assets/images/code_02_flow_03.png"><figcaption>Setup condition of a Pong</figcaption></figure>
 <figure> <img src = "../assets/images/code_02_flow_04.gif"><figcaption>Draw condition of a Pong</figcaption></figure>
-<figure> <img src = "../assets/images/code_02_01.gif"><figcaption>Setup condition of a Processing sketch, just size()</figcaption></figure>
-<figure> <img src = "../assets/images/code_02_02.gif"><figcaption>Drawing condition of a Processing sketch</figcaption></figure>
-
+<div id="01"></div>
+<p><small>Setup condition of p5 sketch</small></p>
+<div id="02"></div>
+<p><small>Draw condition of p5 sketch (Click to restart)</small></p>
 <h2 id="code-block">Code Block</h2>
-<p>To get this logic of setting up our sketch with <code>setup()</code> then continually drawing our sketch with <code>draw()</code> , we need to learn how to add these functions to our code. To do that we need to make a code block. In short, a code block is a section of code that is grouped together.</p>
+<p>To get this logic of setting up our sketch with <code>setup()</code> then continually drawing our sketch with <code>draw()</code> , we need to learn how to add these functions to our code. To do that we need to examine the code blocks. In short, a code block is a section of code that is grouped together.</p>
 <p>Example:</p>
-<pre><code class="language-java">void setup(){
+<pre><code class="language-js">function setup(){
     //some code
     //some more code
     //even more code
@@ -267,134 +298,117 @@ document.querySelectorAll('a[href^="#"]')
 </code></pre>
 <p>This code block above consists of a few elements:</p>
 <ol>
-<li><code>void</code> - This is a <em>return type</em> - we'll touch on this later in the course. Until then, we will be using this keyword <code>void</code>.</li>
-<li><code>setup()</code> - This is the name of our function. <code>setup()</code> is a special function that Processing already knows how to handle.</li>
+<li><code>function</code> - This designates our code block as a function.</li>
+<li><code>setup()</code> - This is the name of our function. <code>setup()</code> is a special function that p5 already knows how to handle.</li>
 <li><code>{ }</code> - Open and closed curly brackets, these indicate where we will write our code.</li>
 <li><strong>Body</strong> - this is just the code that we will be writing.</li>
 </ol>
-<p>Both <code>setup()</code> and <code>draw()</code> in our Processing sketch would look like this:</p>
-<pre><code class="language-java">void setup(){
-
-}
-
-void draw(){
-
-}
-</code></pre>
 <blockquote>
 <p><code>NOTE</code>: Unlike when we were drawing without <code>setup()</code> and <code>draw()</code>, the order of these functions doesn't matter. We could reverse their positions and <code>setup()</code> would still run first. <em>However</em>, the order inside our code blocks <em>does</em> matter. Code will be executed from the top line to the bottom.</p>
 </blockquote>
 <h2 id="drawing-with-variables">Drawing with Variables</h2>
 <p>Let's start by going over all we did last class by using the following to draw a circle:</p>
 <ul>
-<li><code>size()</code></li>
+<li><code>createCanvas()</code></li>
 <li><code>background()</code></li>
 <li><code>noStroke()</code></li>
 <li><code>fill()</code></li>
 <li><code>circle()</code></li>
 </ul>
-<pre><code class="language-java">size(800,400);
-background(12,123,220);
-noStroke();
-fill(255,194,10);
-circle(400,200,80);
-</code></pre>
-<figure> <img src = "../assets/images/code_02_03.gif"><figcaption>Result of the above Processing code</figcaption></figure>
-
-<p>Now let's put everything in either the <code>setup()</code> or <code>draw()</code> functions.</p>
-<p>For now, we'll put our <code>size()</code> in <code>setup()</code> and everything else in <code>draw()</code>.</p>
-<pre><code class="language-java">void setup(){
-    size(800,400);
+<pre><code class="language-js">function setup(){
+  createCanvas(400,400);
 }
 
-void draw(){
-    background(12,123,220);
-    noStroke();
-    fill(255,194,10);
-    circle(400,200,80);
+function draw(){
+  background(12,123,220);
+  noStroke();
+  fill(255,194,10);
+  circle(200,200,80);
 }
-</code></pre>
-<figure> <img src = "../assets/images/code_02_03.gif"><figcaption>Result of the above Processing code</figcaption></figure>
 
-<p>We added a bunch more code, but everything looks the same!</p>
+
+</code></pre>
+<div id="03"></div>
+<p><small>Result of the above code</small></p>
 <p>Looking more closely at <code>draw()</code>, we can see that even though draw is happening over and over again, its drawing the same thing!</p>
 <p>In order to make our sketch draw dynamically, we need to change the values of our sketch dynamically. We can do this with <strong>variables</strong></p>
 <h2 id="mousex-and-mousey">mouseX and mouseY</h2>
-<p>To start we'll use some of Processing's built-in variables.</p>
-<p><a href="https://processing.org/reference/mouseX.html">Reference</a></p>
+<p>To start we'll use some of p5's built-in variables.</p>
+<p><a href="https://p5js.org/reference/p5/mouseX/">Reference</a></p>
 <p><code>mouseX</code> is a variable that always stores our mouse's horizontal position.
 <code>mouseY</code> is a variable that always stores our mouse's vertical position.</p>
 <p>These values update as we move our mouse!</p>
 <p>As an experiment, let's replace our <code>circle()</code> x value with <code>mouseX</code></p>
-<pre><code class="language-java">    circle(mouseX,200,80);
+<pre><code class="language-js">    circle(mouseX,200,80);
 </code></pre>
-<figure> <img src = "../assets/images/code_02_04.gif"><figcaption>Our circle now follows the horizontal position of our mouse</figcaption></figure>
+<div id="04"></div>
 
-<p>If we change the y value to <code>mouseY</code>:</p>
+<p>If we change the y value to <code>mouseY</code>, our circle will follow our mouse:</p>
 <pre><code class="language-java">    circle(mouseX,mouseY,80);
 </code></pre>
-<figure> <img src = "../assets/images/code_02_05.gif"><figcaption>Our circle now follows wherever our mouse goes</figcaption></figure>
+<div id="05"></div>
 
-<p>Let's see what happens if we move our <code>background()</code> to the top of our <code>setup()</code>. Remember, this will cause <code>background()</code> to only run once.</p>
-<pre><code class="language-java">void setup(){
-    size(800,400);
+<p>Let's see what happens if we move our <code>background()</code> to the top of our <code>setup()</code> and change the size of our circle to 10. Remember, this will cause <code>background()</code> to only run once.</p>
+<pre><code class="language-js">function setup(){
+    createCanvas(400,400);
     background(12,123,220);
 }
 
-void draw(){
+function draw(){
     noStroke();
     fill(255,194,10);
-    circle(mouseX,mouseY,80);
+    circle(mouseX,mouseY,10);
 }
 </code></pre>
-<figure> <img src = "../assets/images/code_02_06.gif"><figcaption>We made a painting program!</figcaption></figure>
-
+<div id="06"></div>
+<p><small>We made a painting program!</small></p>
+<p>Our sketch is not drawing our circle over and over again at our <code>mouseX</code> and <code>mouseY</code> position without redrawing the background.</p>
 <h2 id="mousepressed">mousePressed()</h2>
-<p><code>mousePressed()</code> is a special function within Processing that is called every time we click our mouse. We can use this to clear our drawing to start on a fresh background.</p>
+<p><code>mousePressed()</code> is a special function within p5 that is called every time we click our mouse. We can use this to clear our drawing to start on a fresh background.</p>
 <p>To use <code>mousePressed()</code> we need to make a new block of code. To clear our background when our mouse is pressed, we can add a new <code>background()</code> in our <code>mousePressed()</code> function.</p>
-<pre><code class="language-java">void setup(){
-    size(800,400);
+<pre><code class="language-js">function setup(){
+    size(400,400);
     background(12,123,220);
 }
 
-void draw(){
+function draw(){
     noStroke();
     fill(255,194,10);
-    circle(mouseX,mouseY,80);
+    circle(mouseX,mouseY,10);
 }
 
-void mousePressed(){
+function mousePressed(){
     background(12,123,220);
 }
 </code></pre>
-<figure> <img src = "../assets/images/code_02_07.gif"><figcaption>We made another painting program!</figcaption></figure>
-
+<div id="07"></div>
+<p><small>We made resetting painting program!</small></p>
 <p>As a note, <code>mouseX</code> and <code>mouseY</code> can replace any value in our sketch.</p>
 <p>If I move my <code>background()</code> from <code>setup()</code> to <code>draw()</code> and replace my circle diameter with <code>mouseX</code>.</p>
-<pre><code class="language-java">    circle(400, 200, mouseX);
+<pre><code class="language-js">    circle(200, 200, mouseX);
 </code></pre>
 <p>Our <code>mouseX</code> variable now changes the size of our circle!</p>
-<figure> <img src = "../assets/images/code_02_08.gif"><figcaption> Changing the size of our circle with a variable</figcaption></figure>
-
+<div id="08"></div>
+<p><small>The size of our circle controlled by the position of our mouse!</small></p>
 <h2 id="in-class-exercise-painting-program">In-class Exercise: Painting Program</h2>
 <p>Spend some time using the sketch we wrote to create your own painting program!</p>
 <p>Try adjusting the opacity value in your <code>fill()</code> to get new results!</p>
-<p>As a bonus, see if you can save your drawing every time you click your mouse using <code>save()</code>.</p>
 <h2 id="width-and-height">width and height</h2>
-<p>Some other built in Processing variables include <code>width</code> and <code>height</code>.</p>
+<p>Some other built in p5 variables include <code>width</code> and <code>height</code>.</p>
 <p>These variables always store the width and height of my sketch.</p>
-<pre><code class="language-java">void setup(){
-    size(800,400);
+<pre><code class="language-js">function setup(){
+    createCanvas(400,400);
 }
 
-void draw(){
+function draw(){
     background(12,123,220);
     noStroke();
     fill(255,194,10);
     circle(width/2,height/2,80);
 }
 </code></pre>
-<p><img  src = "../assets/images/code_02_09.gif"  ></p>
+<div id="09"></div>
+
 <h2 id="arithmetic-operators">Arithmetic Operators</h2>
 <ul>
 <li><code>+</code> - Addition </li>
@@ -410,11 +424,11 @@ void draw(){
 <figure> <img src = "../assets/images/code_02_variable_01.png"width = "400px"><figcaption>Simplified drawing of variables in memory</figcaption></figure>
 
 <h2 id="making-our-own-variable">Making our Own Variable</h2>
-<figure> <img src = "../assets/images/code_02_10.gif"><figcaption>Let's work towards this example</figcaption></figure>
+<div id="10"></div>
 
 <h3 id="steps-of-a-variable">Steps of a Variable</h3>
 <ul>
-<li>Type of variable</li>
+<li>Stating <code>let</code></li>
 <li>Name of variable</li>
 <li>Initialize variable</li>
 </ul>
@@ -451,15 +465,15 @@ void draw(){
 <pre><code class="language-java">float circleX;
 
 void setup(){
-    size(800,400);
+    size(400,400);
     circleX = 40;
 }
 </code></pre>
 <p>Or, when we declare our variable:</p>
-<pre><code class="language-java">float circleX = 40;
+<pre><code class="language-js">float circleX = 40;
 
-void setup(){
-    size(800,400);
+function setup(){
+    createCanvas(400,400);
 }
 </code></pre>
 <h3 id="variable-scope">Variable Scope</h3>
@@ -469,22 +483,22 @@ void setup(){
 <p><strong>Local</strong> variables are declared within a function and can only be used within that function.</p>
 <h3 id="making-our-circle-move">Making our Circle Move</h3>
 <p>After we declare the type and name of our variable and initialize its value, we should have this sketch:</p>
-<pre><code class="language-java">float circleX = 0;
+<pre><code class="language-js">let circleX = 0;
 
-void setup(){
-  size(800,400);
+function setup(){
+  createCanvas(400,400);
 
 }
 
-void draw(){
+function draw(){
   background(12,123,220);
   noStroke();
   fill(255,194,10);
-  circle(400,200,80);
+  circle(200,200,80);
 }
 </code></pre>
 <p>Then we need to replace our circle's X value with our new variable:</p>
-<pre><code class="language-java">circle(x,200,80);
+<pre><code class="language-java">circle(circleX,200,80);
 </code></pre>
 <p>Lastly, we need a way to increase our variable over time. For this, we can use an incrementation operator.</p>
 <h2 id="incrementation-operators">Incrementation Operators</h2>
@@ -496,14 +510,14 @@ void draw(){
 <li>Division - <code>ourVariable/=2</code></li>
 </ul>
 <p>To move our circle, we can increment our variable <code>circleX</code> by <code>1</code> each time <code>draw()</code> is called.</p>
-<pre><code class="language-java">float circleX = 0;
+<pre><code class="language-js">let circleX = 0;
 
-void setup(){
-  size(800, 400);
+function setup(){
+  createCanvas(400, 400);
 
 }
 
-void draw(){
+function draw(){
   background(12, 123, 220);
   noStroke();
   fill(255, 194, 10);
@@ -543,28 +557,6 @@ void draw(){
 </code></pre>
 <figure> <img src = "../assets/images/code_02_12.gif"><figcaption></figcaption></figure>
 
-<p>We can use <code>random()</code> to give our circle a random size each time we press the mouse!</p>
-<pre><code class="language-java">float circleSize = 0;
-
-void setup(){
-  size(800, 400);
-
-}
-
-void draw(){
-  background(12, 123, 220);
-  noStroke();
-  fill(255, 194, 10);
-  circle(width/2, height/2, circleSize);
-
-}
-
-void mousePressed(){
-  circleSize = random(0,width);
-}
-</code></pre>
-<figure> <img src = "../assets/images/code_02_13.gif"><figcaption></figcaption></figure>
-
 <p>Or, by moving our <code>background()</code> and adding in some more variables, we can make many circles appear randomly on our screen.</p>
 <p>Variables:</p>
 <ul>
@@ -575,19 +567,19 @@ void mousePressed(){
 <li><code>b</code></li>
 <li><code>g</code> </li>
 </ul>
-<pre><code class="language-java">float y;
-float x; 
-float a;
-float r;
-float g;
-float b;
+<pre><code class="language-js">let x;
+let y; 
+let a;
+let r;
+let g;
+let b;
 
-void setup(){
-  size(800, 400);
+function setup(){
+  createCanvas(400, 400);
   background(12, 123, 220);
 }
 
-void draw(){
+function draw(){
 
   noStroke();
 
@@ -610,19 +602,19 @@ void draw(){
 <figure> <img src = "../assets/images/code_02_face.png"><figcaption></figcaption></figure>
 
 <p>Make a new Processing sketch and copy the example code below. Read this code and play around with it to figure out how it works - a large part of learning to program is by reading the code of others!</p>
-<pre><code class="language-java">float faceSize;
-float eyeSize;
-float eyeX;
-float eyeY;
-float mouthY;
-float mouthSizeX;
-float mouthSizeY;
+<pre><code class="language-js">let faceSize;
+let eyeSize;
+let eyeX;
+let eyeY;
+let mouthY;
+let mouthSizeX;
+let mouthSizeY;
 
-void setup() {
-  size(800, 800);
+function setup() {
+  createCanvas(400, 400);
 }
 
-void draw() {
+function draw() {
   //face
   fill(147, 41, 214);
   circle(width/2, height/2, faceSize);
@@ -643,13 +635,13 @@ void draw() {
   rect(width/2, height/2+mouthY, mouthSizeX, mouthSizeY);
 }
 
-void mousePressed() {
+function mousePressed() {
   noStroke();
 
   background(random(100, 255), random(100, 255), random(60));
 
   //face
-  faceSize = random(300, width*.75);
+  faceSize = random(width*.25, width*.75);
 
   //eyes
   eyeSize = faceSize * random(.1, .7);

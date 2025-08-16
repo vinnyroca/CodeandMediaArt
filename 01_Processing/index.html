@@ -120,9 +120,9 @@
     <div class="sidebar navbar-collapse collapse card">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-bs-level="1"><a href="#processing-shapes-and-color" class="nav-link">Processing, Shapes and Color</a>
+            <li class="nav-item" data-bs-level="1"><a href="#p5js-shapes-and-color" class="nav-link">p5.js, Shapes and Color</a>
               <ul class="nav flex-column">
-            <li class="nav-item" data-bs-level="2"><a href="#about-processing" class="nav-link">About Processing</a>
+            <li class="nav-item" data-bs-level="2"><a href="#about-p5js" class="nav-link">About p5.js</a>
               <ul class="nav flex-column">
               </ul>
             </li>
@@ -130,15 +130,11 @@
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-bs-level="2"><a href="#what-is-processing" class="nav-link">What is Processing?</a>
+            <li class="nav-item" data-bs-level="2"><a href="#what-is-p5js" class="nav-link">What is p5.js?</a>
               <ul class="nav flex-column">
               </ul>
             </li>
             <li class="nav-item" data-bs-level="2"><a href="#drawing-with-code" class="nav-link">Drawing with Code</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-bs-level="2"><a href="#saving" class="nav-link">Saving</a>
               <ul class="nav flex-column">
               </ul>
             </li>
@@ -209,31 +205,17 @@ document.querySelectorAll('a[href^="#"]')
 });
 </script>
 
-<h1 id="processing-shapes-and-color">Processing, Shapes and Color</h1>
-<p>Get started by opening up <strong>Processing</strong> on your computers.</p>
-<h2 id="about-processing">About Processing</h2>
-<p><a href="https://processing.org/"><strong>Procesing</strong></a> is an open source project by <a href="https://reas.com/">Casey Raes</a> and <a href="https://www.benfry.com/">Ben Fry</a>. It is a development environment in which artists and designers can both produce software art and learn how to code.</p>
-<p>Processing conceptually builds on the idea that artists make use of forms of "programming" and instructions.</p>
+<h1 id="p5js-shapes-and-color">p5.js, Shapes and Color</h1>
+<p>Get started by going to the <a href="https://editor.p5js.org/">p5.js editor website</a>.</p>
+<h2 id="about-p5js">About p5.js</h2>
+<p><a href="https://p5js.org/"><strong>p5.js</strong></a> is an open source project. It a JavaScript library adaptation of the open source project Processing developed by <a href="https://reas.com/">Casey Raes</a> and <a href="https://www.benfry.com/">Ben Fry</a> in 2001. p5.js is a development environment in which artists and designers can both produce software art and learn how to code.</p>
+<p>p5.js and Processing conceptually builds on the idea that artists make use of forms of "programming" and instructions.</p>
 <figure> <img src = "../assets/images/code_01_martin_01.jpg"><figcaption> Agnes Martin. Untitled. 1999.</figcaption> </figure>
 
 <figure> <img src = "../assets/images/code_01_lewitt_01.jpg"><figcaption> Soll LeWitt. Wall Drawing #260. 1975.</figcaption> </figure>
 
-<p>Processing is a tool for making software.</p>
-<p>Processing's approach to software:</p>
-<ul>
-<li><code>Software is a unique medium with unique qualities</code></li>
-<li><code>Every programming language is a distinct material</code></li>
-<li><code>Sketching is necessary for the development of ideas</code></li>
-<li><code>Programming is not just for engineers</code></li>
-</ul>
-<blockquote>
-<p>"Processing...repositions programming in a way that is accessible to people who are
-interested in programming but who may be intimidated by or uninterested in the type
-taught in computer science departments. The computer originated as a tool for fast
-calculations and has evolved into a medium for expression."</p>
-<p>-Casey Raes, Ben Fry - Processing: a programming handbook for visual designersand artists</p>
-</blockquote>
-<p><strong>Processing</strong> started in 2001 and has grown into the <a href="https://processingfoundation.org/"><strong>Processing Foundation</strong></a> which includes a web interpretation of Processing called <a href="https://p5js.org/"><strong>P5.js</strong></a>, created by <a href="https://get-lauren.net/">Lauren Lee McCarthy</a>.</p>
+<p>p5.js is a tool for making software.</p>
+<p><a href="https://p5js.org/"><strong>P5.js</strong></a> was first developed by <a href="https://get-lauren.net/">Lauren Lee McCarthy</a> in 2013.</p>
 <h2 id="artist-spotlight">Artist Spotlight</h2>
 <h3 id="casey-raes">Casey Raes</h3>
 <blockquote>
@@ -263,35 +245,40 @@ calculations and has evolved into a medium for expression."</p>
 <p><a href="https://get-lauren.net/Surrogate">Website</a></p>
 <figure> <img src = "../assets/images/code_01_mccarthy_02.jpg"><figcaption>Lauren Lee McCarthy. Surrogate. 2021</figcaption> </figure>
 
-<h2 id="what-is-processing">What is Processing?</h2>
-<p>We spent our first day drawing with are human understandable instructions. To write instructions for our computer to make artworks with our computer, we need to write our instructions in a language the computer understanding.</p>
-<p>To do that we are going to be writing instructions for our code in the Processing programming language.</p>
-<p>Processing is built on <strong>Java.</strong></p>
-<figure> <img src = "../assets/images/code_01_interface_01.jpg"><figcaption>Interface of Processing</figcaption> </figure>
+<h2 id="what-is-p5js">What is p5.js?</h2>
+<p>We spent our first day drawing with our human understandable instructions. To write instructions for our computer to make artworks with our computer, we need to write our instructions in a language the computer understanding.</p>
+<p>To do that we are going to be writing instructions for our code in the language p5.js uses, JavaScript.</p>
+<figure> <img src = "../assets/images/code_01_p5.jpg"><figcaption>Interface of p5 Editor</figcaption> </figure>
 
-<h3 id="interface-of-processing">Interface of Processing</h3>
-<p>The interface of Processing is fairly simple:</p>
+<h3 id="p5js-editor">p5.js Editor</h3>
+<p>If you have done so already, head to the p5 <a href="https://editor.p5js.org/">Editor</a>.</p>
+<p>The p5 editor allows us to write code for our browser in our browser!</p>
+<p>If you haven't done so already, you can sign up for an account and login.</p>
+<p>The interface of the p5 Editor is fairly simple:</p>
 <ul>
-<li>The large area in the center functions like a text editor where we can enter the instructions (also know as <em>code</em>) for our artworks.</li>
+<li>The area on the left is where we can write our instructions (also know as <em>code</em>) for our artworks.</li>
 <li>The play button at the top allows us to run our code.</li>
 <li>The stop button stops our code.</li>
-<li>The top menus allow us to access various options related to the Processing editor.</li>
+<li>The top menus allow us to access various options related to the p5 editor.</li>
 </ul>
-<h3 id="customize-your-processing-editor">Customize your Processing Editor</h3>
-<p>Navigate to <strong>Tools</strong> -&gt; <strong>Theme Selector</strong> -&gt; the select a theme.</p>
-<figure> <img src = "../assets/images/code_01_theme.gif"><figcaption>Selecting a Dark Mode theme</figcaption> </figure>
-
+<h3 id="customizing-your-p5-editor">Customizing your p5 editor</h3>
+<p>I reccomend using p5 in High Contrast mode.</p>
+<p>You can change to High Contrast mode by click on the gear icon and going to General Settings.</p>
+<p>You can also customize your Text Size for easier reading.</p>
+<h3 id="saving-and-renaming">Saving and Renaming</h3>
+<p>You can save you sketch by pressing <strong>ctrl+s</strong> of navigating to file -&gt; save.</p>
+<p>You can rename your sketch by click on your project name next to the pencil icon.</p>
 <h2 id="drawing-with-code">Drawing with Code</h2>
 <p>Code is written in particular "languages." These languages are not as complicated as "human" languages, but each language is slightly different and expects you to write your code is specific ways.</p>
-<h3 id="size">size()</h3>
-<p><a href="https://processing.org/reference/size_.html">Reference</a></p>
-<p><code>size()</code> is a function that sets the size of our sketch.</p>
+<h3 id="createcanvas">createCanvas()</h3>
+<p><a href="https://p5js.org/reference/p5/createCanvas/">Reference</a></p>
+<p><code>createCanvas()</code> is a function that sets the size of our sketch.</p>
 <p>The way to call a function, sometimes refereed to as a command, is the function name followed by open and closed parentheses.</p>
 <p>Functions are very similar to how you might have learned them in your math classes, such as f(x).</p>
 <p>A function takes in a value, x, and often times, returns a value, f(x).</p>
 <p>It is important to note that not all functions take in values, but we will take about that a bit later.</p>
-<p><code>size()</code>, for example, takes in the parameters <strong>width</strong> and <strong>height</strong>.</p>
-<p>The reference for <code>size()</code> would look something like this:</p>
+<p><code>createCanvas()</code>, for example, takes in the parameters <strong>width</strong> and <strong>height</strong>.</p>
+<p>The reference for <code>createCanvas()</code> would look something like this:</p>
 <hr />
 <p>Syntax: <code>size(a, b)</code></p>
 <p>Parameters</p>
@@ -303,21 +290,26 @@ calculations and has evolved into a medium for expression."</p>
 <p><strong>Syntax</strong> is the word we use to describe the particular writing style of a programming language. Every programming language has a different <strong>syntax</strong>.</p>
 <p>The syntax for size is that it takes in and a and b parameter.</p>
 <p>a is equal to the width of our sketch and b is equal to our height.</p>
-<p>If we want our sketch to look be 800 pixels by 800 pixels we could write;</p>
-<pre><code class="language-java">//Set our sketch to 800 by 800 pixels
-size(800,800);
+<p>If we want our sketch to look be 400 pixels by 400 pixels we could write;</p>
+<pre><code class="language-js">function setup(){
+    //Set our sketch to 800 by 800 pixels
+    createCanvas(400,400);
+}
+
 </code></pre>
 <p>Notice the "//" on the first line. This marks a comment. A comment is meant for human programmers and is not "read" by our computer.</p>
 <p>Also notice the semi colon ";" at the end of the second line. For our purposes now, we can think of the semi colon as a period, marking the end of our line of code.</p>
 <h3 id="errors">Errors</h3>
-<p>If I forget to add a semicolon, my sketch won't run, and Processing will let me know I have an error.</p>
-<pre><code class="language-java">//Set our sketch to 800 by 800 pixels
-size(800,800)
+<p>If I spell 'createCanvas()' incorrectly, my sketch won't run, and p5 will let me know I have an error.</p>
+<pre><code class="language-js">function setup(){
+    //Set our sketch to 400 by 400 pixels
+    createCanva(400,400);
+}
 </code></pre>
-<figure> <img src = "../assets/images/code_01_error.jpg"><figcaption></figcaption> </figure>
+<figure> <img src = "../assets/images/code_01_errorp5.jpg"><figcaption>Error message</figcaption> </figure>
 
 <h3 id="background">background()</h3>
-<p><a href="https://processing.org/reference/background_.html">Reference</a></p>
+<p><a href="https://p5js.org/reference/p5/background/">Reference</a></p>
 <p><code>background()</code> is a function that sets the background for our sketch.</p>
 <p><code>background()</code> can take in many different types of parameters including color values and images. For now we'll focus on setting a gray scale value.</p>
 <hr />
@@ -328,12 +320,20 @@ size(800,800)
 </ul>
 <hr />
 <p>To draw a middle gray background on our sketch:</p>
-<pre><code class="language-java">//Draw a middle gray background
-background(127);
+<pre><code class="language-js">function setup(){
+    //Set our sketch to 400 by 400 pixels
+    createCanva(400,400);
+}
+
+function draw(){
+    background(127);
+}
 </code></pre>
+<h3 id="setup-and-draw">setup() and draw()</h3>
+<p>We'll get more into how <code>setup()</code> and <code>draw()</code> function in the next class. For now, we can think of <code>setup()</code> as where we set up our sketch by drawing our canvas, and <code>draw()</code> is where we can make our drawing. We want to make sure the our code is in between the <code>{ }</code> of the function.</p>
 <h3 id="circle">circle()</h3>
-<p><a href="https://processing.org/reference/circle_.html">Reference</a></p>
-<p><code>circle()</code> is a function that draws an circle to our screen.</p>
+<p><a href="https://p5js.org/reference/p5/circle/">Reference</a></p>
+<p><code>circle()</code> is a function that draws an circle to our canvas.</p>
 <hr />
 <p>Syntax: <code>circle(a, b, c)</code></p>
 <p>Parameters</p>
@@ -343,43 +343,49 @@ background(127);
 <li><strong>c</strong>     - width and height</li>
 </ul>
 <hr />
-<figure> <img src = "../assets/images/code_01_grid.jpg"><figcaption>Coordinate system of Processing</figcaption> </figure>
+<figure> <img src = "../assets/images/code_01_grid.jpg"><figcaption>Coordinate system of p5.js</figcaption> </figure>
 
-<figure> <img src = "../assets/images/code_01_sketchgrid.jpg" width = "400"; height = "400"><figcaption> Our current sketch with grid lines every 20 pixels</figcaption> </figure>
+<figure> <img src = "../assets/images/code_01_sketchgrid.jpg" width = "400"; height = "400"><figcaption> Our current sketch with grid lines every 10 pixels</figcaption> </figure>
 
 <p>To draw a circle with a diameter of 200 in the center our screen we would write:</p>
-<pre><code class="language-java">circle(400,400,200);
+<pre><code class="language-js">function draw(){
+    background(127);
+    circle(200,200,100);
+}
 </code></pre>
 <figure> <img src = "../assets/images/code_01_ellipse.jpg" width = "400"; height = "400"><figcaption> Our circle</figcaption> </figure>
 
 <figure> <img src = "../assets/images/code_01_ellipsegrid.jpg" width = "400"; height = "400"><figcaption> Our circle on a coordinate grid</figcaption> </figure>
 
 <h3 id="drawing-order">Drawing Order</h3>
-<p>The order that we write our code is important! The computer "reads" our code from the top to bottom, just like we do. The drawing order in Processing is the same. Each shape is drawn on top of the previous shape.</p>
-<p>Try adding a line of code to make a new circle in the center our our sketch with a diameter of 400 pixels.</p>
-<pre><code class="language-java">circle(400,400,400);
+<p>The order that we write our code is important! The computer "reads" our code from the top to bottom, just like we do. The drawing order in p5 is the same. Each shape is drawn on top of the previous shape.</p>
+<p>Try adding a line of code to make a new circle in the center our our sketch with a diameter of 200 pixels.</p>
+<pre><code class="language-js">circle(200,200,200);
 </code></pre>
 <p>Because our code now looks like this:</p>
-<pre><code class="language-java">//Set our sketch to 800 by 800 pixels
-size(800,800);
+<pre><code class="language-js">function setup(){
+    //Set our sketch to 400 by 400 pixels
+    createCanva(400,400);
+}
 
-//Draw a middle gray background
-background(127);
-circle(400,400,200);
-circle(400,400,400);
+function draw(){
+    background(127);
+    circle(200,200,100);
+    circle(200,200,200);
+}
 </code></pre>
 <p>We are first drawing our background, then drawing our smaller circle, and, finally, the larger circle on top.</p>
 <figure> <img src = "../assets/images/code_01_ellipse_04.jpg" width = "400"; height = "400"><figcaption> Our larger circle covering our smaller circle</figcaption> </figure>
 
 <p>If we change the ordering of our circles:</p>
-<pre><code class="language-java">circle(400,400,400);
-circle(400,400,200);
+<pre><code class="language-js">circle(400,400,200);
+circle(400,400,100);
 </code></pre>
 <p>We'll see the smaller circle drawn on top of the larger one:</p>
 <figure> <img src = "../assets/images/code_01_ellipse_05.jpg" width = "400"; height = "400"><figcaption> </figcaption> </figure>
 
 <h3 id="rect-and-square">rect() and square()</h3>
-<p><a href="https://processing.org/reference/rect_.html">Reference</a> </p>
+<p><a href="https://p5js.org/reference/p5/rect/">Reference</a> </p>
 <p><code>rect()</code> draws a rectangle to our screen.</p>
 <hr />
 <p>Syntax: <code>rect(a, b, c, d)</code>  </p>
@@ -401,44 +407,44 @@ circle(400,400,200);
 <li><strong>c</strong>     - width and height</li>
 </ul>
 <hr />
-<p>Try drawing a square at (400,400) with a size and width of 200.</p>
-<pre><code class="language-java">rect(400,400,200,200);
+<p>Try drawing a square at (200,200) with a size and width of 100.</p>
+<pre><code class="language-java">rect(400,400,100,100);
 </code></pre>
 <p>What do you notice?</p>
 <figure> <img src = "../assets/images/code_01_rect_01.jpg" width = "400"; height = "400"><figcaption> </figcaption> </figure>
 
 <p>Unlike <code>circle()</code> which places the circle's center at the given (x,y) parameter, <code>rect()</code> places the rectangle at its top left corner. We can think of this as similar to how you might draw out a rectangle on the desktop of your computer.</p>
 <h3 id="rectmode">rectMode()</h3>
-<p><a href="https://processing.org/reference/rectMode_.html">Reference</a></p>
+<p><a href="https://p5js.org/reference/p5/rectMode/">Reference</a></p>
 <p>We can modify how rectangles are drawn by using the function <code>rectMode()</code>.</p>
 <p><code>rectMode()</code> can take in a few parameters, but we will focus on <code>CENTER</code> and <code>CORNER</code></p>
 <p><code>rectMode(CORNER)</code> is the default behavior with our rectangle being draw from the upper left corner.</p>
 <p><code>rectMode(CENTER)</code> will draw our rectangle at the center of the given (x,y) coordinates.</p>
 <p>If we were to write:</p>
-<pre><code class="language-java">rect(400,400,200,200);
+<pre><code class="language-js">rect(200,200,100,100);
 rectMode(CENTER);
 </code></pre>
 <p>We would notice that nothing happens.</p>
 <p>For <code>rectMode()</code> to work properly, we need to tell our computer to draw our rectangles in the center <em>before</em> drawing our rectangle.</p>
 <p>If we write:</p>
-<pre><code class="language-java">rectMode(CENTER);
-rect(400,400,200,200);
+<pre><code class="language-js">rectMode(CENTER);
+rect(200,200,100,100);
 </code></pre>
 <p>We get this result:</p>
 <figure> <img src = "../assets/images/code_01_rectMode_01.jpg" width = "400"; height = "400"><figcaption> </figcaption> </figure>
 
 <p>In essence, <code>rectMode()</code> will effect any rectangle after it is called. With this in mind, we can call <code>rectMode()</code> multiple times in a sketch to change the behavior of different rectangles.</p>
 <p>Let's try writing:</p>
-<pre><code class="language-java">rectMode(CENTER);
-rect(400,400,200,200);
+<pre><code class="language-js">rectMode(CENTER);
+rect(200,200,100,100);
 rectMode(CORNER);
-rect(400,400,200,200);
+rect(200,200,100,100);
 </code></pre>
 <p>We can see out first rectangle remain in the center, while our second is drawn from the corner.</p>
 <figure> <img src = "../assets/images/code_01_rectMode_02.jpg" width = "400"; height = "400"><figcaption> </figcaption> </figure>
 
 <h3 id="fill">fill()</h3>
-<p><a href="https://processing.org/reference/fill_.html">Reference</a></p>
+<p><a href="https://p5js.org/reference/p5/fill/">Reference</a></p>
 <p><code>fill()</code> is similar to <code>rectMode()</code> in that it changes the behavior of our shapes. <code>fill()</code> sets the color that shapes are filled with.</p>
 <p>Before moving onto color, <code>fill()</code> can also take in a <code>gray</code> value between 0 - 255.</p>
 <hr />
@@ -449,68 +455,69 @@ rect(400,400,200,200);
 </ul>
 <hr />
 <p>Writing <code>fill()</code> before our most recent rectangle:</p>
-<pre><code class="language-java">rectMode(CORNER);
+<pre><code class="language-js">rectMode(CORNER);
 fill(127);
-rect(400,400,200,200);
+rect(200,200,100,100);
 </code></pre>
 <p>It changes the color of our rectangle to gray.</p>
 <figure> <img src = "../assets/images/code_01_fill_01.jpg" width = "400"; height = "400"><figcaption> </figcaption> </figure>
 
-<h2 id="saving">Saving</h2>
-<p>Let's save and name our sketch.</p>
-<p>We can press <strong>Ctrl + Shift + S</strong> or navigate to <strong>File</strong> -&gt; <strong>Save As</strong></p>
-<p>Your Processing sketch will save as a folder. Inside that folder will be your sketch, save as a .pde file.</p>
-<p>To save our file as we continue sketching, we can press <strong>Ctrl+S</strong>.</p>
 <h2 id="drawing-exercise">Drawing Exercise</h2>
 <p>Navigate to <strong>File</strong> -&gt; <strong>New</strong></p>
-<p>For this exercise, create the below 800 by 800 pixel drawing using the code we have learned so far.</p>
-<p>Additionally, to get comfortable looking at Processing's reference, to complete this exercise, you'll need to look into the following functions and figure out how to use them in your sketch.</p>
-<p><code>line()</code> <a href="https://processing.org/reference/line_.html">(Reference)</a> - Draws lines to screen</p>
-<p><code>stroke()</code> <a href="https://processing.org/reference/stroke_.html">(Reference)</a> - Sets line and border color</p>
-<p><code>noStroke()</code> <a href="https://processing.org/reference/noStroke_.html">(Reference)</a> - Turns off strokes</p>
-<p><code>strokeWeight()</code> <a href="https://processing.org/reference/strokeWeight_.html">(Reference)</a> - Changes the thickness of strokes</p>
+<p>For this exercise, create the below 400 by 400 pixel drawing using the code we have learned so far.</p>
+<p>Additionally, to get comfortable looking at p5's reference, to complete this exercise, you'll need to look into the following functions and figure out how to use them in your sketch.</p>
+<p><code>line()</code> <a href="https://p5js.org/reference/p5/line/">(Reference)</a> - Draws lines to screen</p>
+<p><code>stroke()</code> <a href="https://p5js.org/reference/p5/stroke/">(Reference)</a> - Sets line and border color</p>
+<p><code>noStroke()</code> <a href="https://p5js.org/reference/p5/noStroke/">(Reference)</a> - Turns off strokes</p>
+<p><code>strokeWeight()</code> <a href="https://p5js.org/reference/p5/strokeWeight/">(Reference)</a> - Changes the thickness of strokes</p>
 <p>Be sure to comment your code to keep track of what you are writing!</p>
 <p>Begin with:</p>
-<pre><code class="language-java">size(800,800);
-background(200);
+<pre><code class="language-js">function setup(){
+    //Set our sketch to 400 by 400 pixels
+    createCanva(400,400);
+}
+
+function draw(){
+    background(200);
+}
 </code></pre>
 <figure> <img src = "../assets/images/code_01_exercise.jpg" ><figcaption> </figcaption> </figure>
 
 <h2 id="color">Color</h2>
-<p><a href="https://processing.org/tutorials/color">Color Reference</a></p>
 <p><a href="https://www.albersfoundation.org/">Josef &amp; Anni Albers Foundation</a></p>
 <figure> <img src = "../assets/images/code_01_albers_00.jpg"width = "400";><figcaption>Anni Albers. Black White Yellow. 1926.</figcaption> </figure>
 
 <figure> <img src = "../assets/images/code_01_albers_02.jpeg"width = "400"; height = "400" ><figcaption>Josef Albers. Homage to the Square: "Ascending". 1953.</figcaption> </figure>
 
-<figure> <img src = "../assets/images/code_01_albers_01.jpg" width = "400"; height = "400"><figcaption>Recreation of Josef Albers' painting in Processing</figcaption> </figure>
+<figure> <img src = "../assets/images/code_01_albers_01.jpg" width = "400"; height = "400"><figcaption>Recreation of Josef Albers' painting in p5</figcaption> </figure>
 
 <p>Code:</p>
-<pre><code class="language-java">//Home to the Square: &quot;Ascending&quot;
+<pre><code class="language-js">function setup() {
+  createCanvas(400, 400);
+}
 
-size(800, 800);
+function draw() {
+  background(247, 238, 220);
+  noStroke();
+  rectMode(CENTER);
 
-background(247, 238, 220);
+  // Squares
+  fill(138, 200, 237);
+  rect(200, 200, 390, 390);
 
-//Attributes
-noStroke();
-rectMode(CENTER);
+  fill(196, 195, 194);
+  rect(200, 220, 315, 315);
 
-//Squares
-fill(138, 200, 237);
-rect(400, 400, 780, 780);
+  fill(255, 250, 244);
+  rect(200, 239, 235, 235);
 
-fill(196, 195, 194);
-rect(400, 440, 630, 630);
+  fill(254, 226, 21);
+  rect(200, 259, 156.5, 156.5);
+}
 
-fill(255, 250, 244);
-rect(400, 478, 470, 470);
-
-fill(254, 226, 21);
-rect(400, 517, 313, 313);
 </code></pre>
-<p>If we copy this sketch into processing, we notice our <code>fill()</code> looks quite different. Before we would write <code>fill(127);</code> and see our shapes turn gray.</p>
-<p>Now we can see the syntax is <code>fill(a, b, c)</code>. Processing by default represents colors in Red, Blue and Green values, or RGB for short.</p>
+<p>If we copy this sketch into p5, we notice our <code>fill()</code> looks quite different. Before we would write <code>fill(127);</code> and see our shapes turn gray.</p>
+<p>Now we can see the syntax is <code>fill(a, b, c)</code>. p5 by default represents colors in Red, Blue and Green values, or RGB for short.</p>
 <hr />
 <p>Syntax: <code>fill(a,b,c)</code></p>
 <ul>
@@ -549,13 +556,8 @@ fill(255,255,255);
 //black
 fill(0,0,0);
 </code></pre>
-<h3 id="color-selector">Color Selector</h3>
-<p>We can also see the RGB values of colors using Processing's built in color picker.</p>
-<p>Navigate to <strong>Tools</strong> -&gt; <strong>Color Selector</strong></p>
-<figure> <img src = "../assets/images/code_01_color_02.jpg" width = "400"; ><figcaption></figcaption> </figure>
-
 <h3 id="color-exercise">Color Exercise</h3>
-<p>Using the the <strong>Color Selector</strong> tool for reference, create and 800 x 800 image of three or more shapes that, next to each other, form a gradient. Choose a background color that compliments your gradient.</p>
+<p>Using Google's Color Picker tool for reference, create and 400 x 400 image of three or more shapes that, next to each other, form a gradient. Choose a background color that compliments your gradient.</p>
 <p>Example:</p>
 <figure> <img src = "../assets/images/code_01_color_03.jpg" width = "400"; ><figcaption>Three circles forming a color gradient</figcaption> </figure>
 
@@ -565,32 +567,36 @@ fill(0,0,0);
 <figure> <img src = "../assets/images/code_01_albers_04.jpg" width = "380"; height = "500"><figcaption>Recreation of Josef Albers' painting using opacity</figcaption> </figure>
 
 <p>Code:</p>
-<pre><code class="language-java">background(134, 119, 90);
+<pre><code class="language-js">function setup() {
+  createCanvas(400, 600);
+}
 
-noStroke();
-rectMode(CENTER);
+function draw() {
+  background(134, 119, 90);
+  noStroke();
+  rectMode(CENTER);
 
-fill(97, 88, 89);
+  fill(97, 88, 89);
 
-//Three rectangles behind
-rect(337.5, 500, 520, 170);
-rect(337.5, 750, 520, 170);
-rect(337.5, 250, 520, 170);
+  // Three rectangles behind
+  rect(200, 300, 308, 102);
+  rect(200, 450, 308, 102);
+  rect(200, 150, 308, 102);
 
-//Main Center rectangle
-fill(254, 255, 223);
-rect(337.5, 500, 350, 850);
+  // Main center rectangle
+  fill(254, 255, 223);
+  rect(200, 300, 207, 510);
 
+  // Center rectangles with opacity
+  fill(97, 88, 89, 230);
+  rect(200, 450, 207, 102);
 
-//Center Rectangles with Opacity
-fill(97, 88, 89, 230);
-rect(337.5, 750, 350, 170);
+  fill(97, 88, 89, 180);
+  rect(200, 300, 207, 102);
 
-fill(97, 88, 89, 180);
-rect(337.5, 500, 350, 170);
-
-fill(97, 88, 89, 100);
-rect(337.5, 250, 350, 170);
+  fill(97, 88, 89, 100);
+  rect(200, 150, 207, 102);
+}
 </code></pre>
 <p>With our colors for our <code>fill()</code>, there is a hidden fourth parameter, <strong>alpha</strong>, commonly known as opacity!</p>
 <hr />
@@ -602,8 +608,6 @@ rect(337.5, 250, 350, 170);
 <li><strong>d</strong>     - alpha (decimal number 0-255)</li>
 </ul>
 <hr />
-<p>We'll talk about this more next class, but for now note the while <strong>alpha</strong> can be a decimal number(e.g. 1.67, 3.14, 88.666), our RGB values can only be entered in as whole number (e.g. 0, 45, 73).</p>
-<p>In programming, a whole numbers is called an <strong>integer</strong> or <code>int</code>, for short. A decimal number is called <strong>floating-point number</strong>, or <code>float</code> for short. We will go into more detail on this next class.</p>
 <div class = "div-container">
     <div style = "width: 46%;">
         <figure> <img src = "../assets/images/code_01_opacity_01.jpg" width = "200px"><figcaption>Circle at full opacity</figcaption> </figure>
@@ -622,6 +626,7 @@ rect(337.5, 250, 350, 170);
 <figure> <img src = "../assets/images/code_01_opacity_04.jpg" width = "200px"><figcaption>Notice how the background color blends with my shape's fill color</figcaption> </figure>
 </div>
 </div>
+
 <h2 id="opacity-exercise">Opacity Exercise</h2>
 <p>Try creating an image similar to the one you created for the Color Exercise. Instead of using multiple colors, use one color and change the alpha parameter of the <code>fill()</code> function.</p>
 <h2 id="independent-exercise-drawing-in-color">Independent Exercise: Drawing in Color</h2>
@@ -634,48 +639,27 @@ rect(337.5, 250, 350, 170);
 <p><strong>Exercise:</strong> Write a poetic set of instructions for James Turrell's <em>Dividing the Light</em>. How would you describe the colors? What is the progression of the piece? Be as specific as possible. Next class we'll be talking about how we can change values within our code while our program is running. Consider what values are changing with the lights to given different results.</p>
 <h3 id="part-2-pusey">Part 2: Pusey</h3>
 <p>Read the article about the work of Mavis Pusey posted to discord.</p>
-<p>Using Processing, recreate the below portion of Pusey's painting <em>Personate</em> as an 800x800 sketch.</p>
-<p>To make this image, you'll need to look into the functions <code>quad()</code> <a href="https://processing.org/reference/quad_.html">(Reference)</a> and <code>triangle()</code><a href="https://processing.org/reference/triangle_.html">(Reference)</a>.</p>
-<p>As a hint you can drawing shapes beyond our 800 x 800 display!</p>
-<h4 id="saving_1">Saving</h4>
-<p>In order to save this image as a PNG, you can add the following line of code to the end of your sketch.</p>
-<p><code>save("mavis_pusey_exercise.png");</code></p>
-<p>Every time you run your sketch, this line of code will either save or overwrite a PNG image file in your Processing sketch folder.</p>
-<p>For this to work you will need to save your sketch first!</p>
-<p><code>save()</code> <a href="https://processing.org/reference/save_.html">reference</a></p>
+<p>Using p5.js, recreate the below portion of Pusey's painting <em>Personate</em> as an 400x400 sketch.</p>
+<p>To make this image, you'll need to look into the functions <code>quad()</code> <a href="https://p5js.org/reference/p5/quad/">(Reference)</a> and <code>triangle()</code><a href="https://p5js.org/reference/p5/triangle/">(Reference)</a>.</p>
+<p>As a hint you can drawing shapes beyond our 400 x 400 canvas!</p>
 <h4 id="mavis-puseys-personante">Mavis Pusey's <em>Personante</em></h4>
 <figure> <img src = "../assets/images/code_01_marvis_01.jpg" ><figcaption> Mavis Pusey. Personante. 1990.</figcaption> </figure>
-<figure> <img src = "../assets/images/code_01_marvis_02.jpg" ><figcaption> Portion of painting to recreate in Processing</figcaption></figure>
-<figure> <img src = "../assets/images/code_01_marvis_03.jpg" ><figcaption>Portion of painting with grid lines every 100 pixels</figcaption> </figure>
+<figure> <img src = "../assets/images/code_01_marvis_02.jpg" ><figcaption> Portion of painting to recreate in p5</figcaption></figure>
+<figure> <img src = "../assets/images/code_01_marvis_03.jpg" ><figcaption>Portion of painting with grid lines every 50 pixels</figcaption> </figure>
 
 <figure> <img src = "../assets/images/code_01_exercise_color.jpg" ><figcaption>Colors of painting with RGB values</figcaption> </figure>
 
 <h3 id="submit">Submit</h3>
-<p><a href="https://scrippscollege.app.box.com/f/ca85fc12477c43ddb0b54528ab1434be">Upload Link</a>;</p>
-<p>Use the box link in discord to submit the following:</p>
-<p>A zipped folder with:</p>
+<p>Submit to Canvas:</p>
 <ol>
-<li>
-<p>Your processing folder containing:</p>
-<blockquote>
-<p>a. Your Processing sketch</p>
-<p>b. Image of your Mavis Pusey sketch in PNG format</p>
-</blockquote>
-</li>
-<li>
-<p>A PDF of your <em>Dividing the Light</em> instructions</p>
-</li>
+<li>Share your p5 Edit link</li>
+<li>Text of your <em>Dividing the Light</em> instructions.</li>
 </ol>
-<p>Your Zipped folder should be named using the following format:</p>
-<p><code>Firstname_LastName_DrawingandColor</code></p>
-<p>If you make a mistake and need to upload another folder, append the zipped file name with a numerical value:</p>
-<p><code>Firstname_LastName_DrawingandColor_02</code></p>
-<p>Additionally, post your PNG image and <em>Dividing the Light</em> instructions to the assignments discord channel.</p>
-<blockquote>
-<p><strong>How to Zip a folder:</strong></p>
-<p><a href="https://support.microsoft.com/en-us/windows/zip-and-unzip-files-8d28fa72-f2f9-712f-67df-f80cf89fd4e5">Windows</a></p>
-<p><a href="https://support.apple.com/guide/mac-help/zip-and-unzip-files-and-folders-on-mac-mchlp2528/mac">MacOS</a></p>
-</blockquote></p>
+<p>Submit to Discord:</p>
+<ol>
+<li>Share your p5 Edit link</li>
+<li>Text of you <em>Dividing the Light</em> instructions.</li>
+</ol></p>
     </article>
 </section>
 <!-- endblock -->
