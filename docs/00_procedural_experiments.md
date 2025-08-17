@@ -3,13 +3,13 @@
 Code can be approached as a conceptual framework.
 We could also consider here substituting the word code for conditions or instructions.
 
-To make code, is to make the conditions for something to be generated.
+To make code is to make the conditions for something to be generated.
 
 In this class, we'll be considering code in a literal sense, as computer code. However, the history of code in art has been informed by a long relationship between instructions, art, and games.
 
 ## Rules as Code: Danish Clapping Game
 
-Play in a pair
+Play in pairs
 
 Instructions:
 
@@ -61,9 +61,9 @@ Write it on a piece of paper.
 
 <figure> <img src = "../assets/images/code_00.jpg" ><figcaption>Mel Bochner. Measurement Room: No Vantage Point. 2019–2020.</figcaption></figure>
 
-### Sol Lewitt
+### Sol LeWitt
 
-<figure> <img src = "../assets/images/code_00_lewitt_01.jpg" ><figcaption>Sol Lewitt. Wall Drawing #118. 1971 </figcaption></figure>
+<figure> <img src = "../assets/images/code_00_lewitt_01.jpg" ><figcaption>Sol LeWitt. Wall Drawing #118. 1971 </figcaption></figure>
 
 Instructions:
 
@@ -91,12 +91,12 @@ Instructions:
 ```
 Draw a three by three  grid of dots
 
-Each player takes turn drawing a horizontal
+Each player takes turns drawing a horizontal
 or vertical line that connects two dots
 
 The player who completes the fourth
 side of a 1×1 box earns one point 
-and takes another turn (initial the box)
+and takes another turn (mark initials in the box)
 
 The player with the most boxes at the end wins
 ```
@@ -111,11 +111,11 @@ Make one drawing with your conditions, then refine your *code*.
 
 After some time, we'll exchange our conditions and see what drawings emerge.
 
-## Independent Exercise: Install Processing
+## Independent Exercise: Sign up for p5.js
 
-Processing, the program we will be using for this class, is installed on all the lab computers. If you would like to work outside the lab on exercises and assignments, you can install processing on your personal laptop.
+We will be using p5.js for this class. To use p5.js you will need to make an account.
 
-[Download Processing](https://processing.org/download)
+[Sign Up](https://editor.p5js.org/signup)
 
 ## Independent Exercise: Pea Work
 

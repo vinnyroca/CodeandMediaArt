@@ -106,7 +106,7 @@ body{
 |W|Day|Class|Due|
 |---|---|---|---|
 |1|TUES<br>8/26|**- Introduction(s)**<br>**- [Playing with Code(s)](./00_procedural_experiments.md)**||
-||THUR<br>8/28|**- Tutorial:** [Processing, Shape, and Color](./01_Processing.md)|**Due:**<br>- [Install Processing](https://processing.org/download)|
+||THUR<br>8/28|**- Tutorial:** [p5.js, Shape, and Color](./01_Processing.md)|**Due:**<br>- [Sign up for p5.js](https://editor.p5js.org/signup)|
 |2|TUES<br>9/2|**- Tutorial:** [Variables](./02_variables.md)|**Due:**<br>- [Drawing In Color](./01_Processing.md/#independent-exercise-drawing-in-color)|
 ||THUR<br>9/4|**- Tutorial:** [Flow]|**Due:**<br>- [Face Generator](./02_variables.md/#independent-exercise-face-generator)|
 |3|TUES<br>9/9|**- Tutorial:** [Repeat]|**Due:**<br>|

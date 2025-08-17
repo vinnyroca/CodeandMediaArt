@@ -3,6 +3,7 @@ md-footer__inner { display: none !important; }
 .nav-link[rel="next"] {display: none;}
 .nav-link[rel="prev"] {display: none;}
 
+
 @media only screen and (max-width: 767.9px) {
 
     .site-name{
@@ -307,12 +308,12 @@ a.dropdown-item{
 }
 
 a{
-    color: #2c652e!important;
+    color: #8d2d44!important;
     font-size:100% !important;
 }
 
 a:hover{
-    color:#76cf79!important;
+    color: #e86785 !important;
 }
 
 mark>a{
@@ -330,10 +331,11 @@ hr{
 h1{
     font-size:2.75em;
     line-height:1.25em;
+    color:#da3b5f;
 }
 
 h2{
-    background-color: #4cae4f !important;
+    background-color: #da3b5f !important;
     color: rgb(255, 255, 255); 
     padding:0.3em 0.5em 0.275em;
     margin-bottom:2rem;
@@ -341,7 +343,7 @@ h2{
 }
 
 h3{
-    color: #4cae4f;
+    color: #da3b5f;
     padding-top:0.3em;
     padding-bottom: 0.275em;
     margin-bottom:2rem;
@@ -350,7 +352,7 @@ h3{
 }
 
 h4{
-    color: #4cae4f;
+    color: #da3b5f;
     padding-top:0.1em;
     line-height:1.5em;
 }
@@ -369,7 +371,7 @@ li{
 
 blockquote{
     padding-right:10px;
-    border-color:#4cae4f;
+    border-color:#da3b5f;
 }
 
 blockquote>p, blockquote>ol>li, blockquote>ul>li{
@@ -386,12 +388,14 @@ td{
 }
 
 code{
-    background-color: rgb(46, 46, 46) !important;
+
+    background-color: #1c1c1c !important;
 }
 
 pre{
-    font-size:1em;
-    background-color: rgb(46, 46, 46) !important;
+    font-size:1em !important;
+    line-height: 1em !important ;
+    background-color: #1c1c1c !important;
    
 }
 
@@ -399,11 +403,11 @@ pre{
 .hljs-selector-tag,
 .hljs-section,
 .hljs-link {
-  color: #8be9fd;
+  color: #f1dd52;
 }
 
 .hljs-keyword {
-    color: #2ae5ef;
+    color: #f1dd51;
 }
 
 .hljs,
@@ -415,7 +419,7 @@ pre{
 .hljs-attr,
 .hljs-meta-keyword {
   
-  color: #5c9feb;
+  color: #75fbfd;
 }
 
 .hljs-string,
@@ -427,7 +431,7 @@ pre{
 .hljs-variable,
 .hljs-template-tag,
 .hljs-template-variable {
-    color: #f2777a;
+    color: #f3add7;
 }
 
 .hljs-type{
@@ -452,10 +456,15 @@ color: #eb913d;
   font-weight: bold;
 }
 
-.hljs-literal,
+
 .hljs-number {
+    color: #f3add7;
+}
+
+.hljs-literal{
     color: #ffffff;
 }
+
 
 .hljs-emphasis {
   font-style: italic;

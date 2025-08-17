@@ -10,10 +10,10 @@ theme:
   navigation_depth: 2
 
   colors:
-    title: green
+    title: black
     text: black
     background: white
-    primary: green
+    primary: black
   components:
     footer: false
     title: false

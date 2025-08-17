@@ -91,25 +91,27 @@ For all exercises, late work will not be accepted. Completing exercises on time 
 
 Late projects not ready by their assigned crit day will automatically lose one letter grade. Each day the project is late, it will lose one more letter grade. After three days, the project will not be accepted.
 
+### Class Website
+
+Class website will serve as a the syllabus, schedule and living notes for this course. All exercises and assignments are described on the class website.
+
 ### Discord and Email
 
-For this class, we will be sharing our exercises, reading responses and project pieces through Discord. Students will be invited to join the class Discord server on the first day of class.
+For this class, we will be sharing our exercises, reading responses and projects through Discord. Students will be invited to join the class Discord server on the first day of class.
 
 I will respond to Discord messages and email within 24 hrs of receipt. I will respond to messages sent over the weekend on the following Monday.
 
-### Box Submissions
+### Canvas Submissions
 
-Submissions for the class will be made through Box links Links to Box submissions will be on the class website.
+Submissions for the class will be made through Canvas.
 
 ### Readings
 
-All readings are provided by the Instructor using this [link].
-
-Password for readings will be provided in the class Discord.
+All external readings will be provided on Box using this link.
 
 ## Course Materials
 
-Students are expected to work on exercises and assignments outside of class. To complete assignments students will need to have Processing installed on their computers.
+Students are expected to work on exercises and assignments outside of class. To complete assignments students will need to make use of their personal computer.
 
 ## Scripps College Land Acknowledgement
 
@@ -140,10 +142,13 @@ Statement adopted from voidLab at https://github.com/voidlab/diversity-statement
 
 ### Class Resources
 
-- [Processing](https://processing.org/)
-- [Processing Reference](https://processing.org/reference)
-- [Coding Train: Processing](https://thecodingtrain.com/tracks/learning-processing)
+- [p5.js Reference](https://p5js.org/reference/)
+- [p5.js](https://p5js.org/)
+- [Coding Train](https://thecodingtrain.com/tracks/code-programming-with-p5-js)
+- [JavaScript Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
+- More advanced: [The Nature of Code](https://natureofcode.com/)
+- Further Reading: [Aesthetic Programming](https://aesthetic-programming.net/)
 ### 7C Student Resources
 
 - [Campus Safety](https://services.claremont.edu/campus-safety/)
