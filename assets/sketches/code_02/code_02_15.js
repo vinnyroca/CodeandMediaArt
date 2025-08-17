@@ -4,12 +4,28 @@ let _15 = function(p) {
   p.setup = function() {
       
       p.createCanvas(400, 400);
-      p.background(0);
+      
+
+  p.background(p.random(100, 255), p.random(100, 255), p.random(60));
+
+  //face
+  faceSize = p.random(p.width*.25, p.width*.75);
+
+  //eyes
+  eyeSize = faceSize * p.random(.1, .7);
+  eyeX = p.random(faceSize/10, faceSize/2);
+  eyeY = p.random(faceSize/10, faceSize/5);
+
+  //mouth
+  mouthY = p.random(faceSize/10, faceSize/2);
+  mouthSizeX = faceSize*p.random(.1, .8);
+  mouthSizeY = mouthSizeX*p.random(.1, .2);
      
       
   }
 
   p.draw = function(){
+    p.noStroke();
      p.fill(147,41,214);
      p.circle(p.width/2, p.height/2, faceSize);
 
@@ -32,7 +48,7 @@ let _15 = function(p) {
 p.mousePressed = function() {
   if (p.mouseX >= 0 && p.mouseX <= p.width &&
       p.mouseY >= 0 && p.mouseY <= p.height) {
-   p.noStroke();
+
 
   p.background(p.random(100, 255), p.random(100, 255), p.random(60));
 

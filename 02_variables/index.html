@@ -30,8 +30,8 @@
             
                 
                      <style>:root {--text: var(--color-black);}</style> 
-                     <style>:root {--title: var(--color-green);}</style> 
-                     <style>:root {--primary: var(--color-green);}</style> 
+                     <style>:root {--title: var(--color-black);}</style> 
+                     <style>:root {--primary: var(--color-black);}</style> 
                      <style>:root {--background: var(--color-white);}</style> 
                 
             
@@ -288,7 +288,8 @@ document.querySelectorAll('a[href^="#"]')
 <div id="02"></div>
 <p><small>Draw condition of p5 sketch (Click to restart)</small></p>
 <h2 id="code-block">Code Block</h2>
-<p>To get this logic of setting up our sketch with <code>setup()</code> then continually drawing our sketch with <code>draw()</code> , we need to learn how to add these functions to our code. To do that we need to examine the code blocks. In short, a code block is a section of code that is grouped together.</p>
+<p>To understand the logic of setting up our sketch with <code>setup()</code> then continually drawing our sketch with <code>draw()</code> , we need to learn about the syntax of these functions. To do that we need to examine the code blocks.</p>
+<p>In short, a code block is a section of code that is grouped together.</p>
 <p>Example:</p>
 <pre><code class="language-js">function setup(){
     //some code
@@ -330,7 +331,7 @@ function draw(){
 </code></pre>
 <div id="03"></div>
 <p><small>Result of the above code</small></p>
-<p>Looking more closely at <code>draw()</code>, we can see that even though draw is happening over and over again, its drawing the same thing!</p>
+<p>Looking more closely at <code>draw()</code>, we can see that even though draw is happening over and over again, it's drawing the same thing!</p>
 <p>In order to make our sketch draw dynamically, we need to change the values of our sketch dynamically. We can do this with <strong>variables</strong></p>
 <h2 id="mousex-and-mousey">mouseX and mouseY</h2>
 <p>To start we'll use some of p5's built-in variables.</p>
@@ -362,7 +363,7 @@ function draw(){
 </code></pre>
 <div id="06"></div>
 <p><small>We made a painting program!</small></p>
-<p>Our sketch is not drawing our circle over and over again at our <code>mouseX</code> and <code>mouseY</code> position without redrawing the background.</p>
+<p>Our sketch is now drawing our circle over and over again at our <code>mouseX</code> and <code>mouseY</code> position without redrawing the background.</p>
 <h2 id="mousepressed">mousePressed()</h2>
 <p><code>mousePressed()</code> is a special function within p5 that is called every time we click our mouse. We can use this to clear our drawing to start on a fresh background.</p>
 <p>To use <code>mousePressed()</code> we need to make a new block of code. To clear our background when our mouse is pressed, we can add a new <code>background()</code> in our <code>mousePressed()</code> function.</p>
@@ -419,34 +420,34 @@ function draw(){
 </ul>
 <h2 id="what-is-a-variable">What is a Variable?</h2>
 <p>What is <code>mouseX</code> or <code>width</code>?</p>
-<p>Variables are named storage location in our computer's memory where we can store values.</p>
-<p><code>mouseX</code> and <code>width</code> are both named storage location where Processing is constantly updating their associated values.</p>
+<p>Variables are named storage locations in our computer's memory where we can store values.</p>
+<p><code>mouseX</code> and <code>width</code> are both named storage location where p5 is constantly updating their associated values.</p>
 <figure> <img src = "../assets/images/code_02_variable_01.png"width = "400px"><figcaption>Simplified drawing of variables in memory</figcaption></figure>
 
 <h2 id="making-our-own-variable">Making our Own Variable</h2>
 <div id="10"></div>
 
-<h3 id="steps-of-a-variable">Steps of a Variable</h3>
+<p>Let's work towards this example: our circle moves across our canvas and we can click to reset it's position to the start.</p>
+<p>Click the canvas to reset our Circle!</p>
+<h3 id="steps-to-making-a-variable">Steps to Making a Variable</h3>
 <ul>
 <li>Stating <code>let</code></li>
 <li>Name of variable</li>
 <li>Initialize variable</li>
 </ul>
-<h3 id="types">Types</h3>
-<p>System Variables</p>
+<h3 id="let">let</h3>
+<p>We can use the keyword <code>let</code> to begin declaring a variable.</p>
+<p>Example:</p>
+<pre><code class="language-js">let frog;
+let toad;
+let bird;
+</code></pre>
+<p>In JavaScript, we don't need to tell our editor what type of variable we are making. In other words, we don't need to let JavaScript know if our variable is a Number, a word, or something else. In part, it is up to the artist to keep track of what type of variable we want each new variable to be.</p>
+<p>Some variable types:</p>
+<p>JavaScript variables:</p>
 <ul>
-<li><code>int</code> - whole numbers</li>
-<li><code>float</code> - decimal numbers</li>
-<li>...and many more</li>
-</ul>
-<p>Processing Variables</p>
-<ul>
-<li><code>color</code> - type for holding a color value </li>
-<li>...and many more</li>
-</ul>
-<p>Ones we'll use later on </p>
-<ul>
-<li><code>String</code> - words and sentences</li>
+<li>Number: both decimal and whole numbers</li>
+<li>String: words or sentences</li>
 <li>...and many more</li>
 </ul>
 <h3 id="name">Name</h3>
@@ -457,20 +458,20 @@ function draw(){
 <li>No numbers as first character <code>1dog</code> vs. <code>dog1</code></li>
 <li>No spaces <code>black cat</code> vs. <code>blackCat</code></li>
 <li>use camelCase <code>blackcat</code> vs. <code>blackCat</code></li>
-<li>Don’t use reserved keywords or existing Processing variable names <code>int</code> vs. <code>numberOfCats</code></li>
+<li>Don’t use reserved keywords or existing p5 variable names.</li>
 </ul>
 <h3 id="initialize">Initialize</h3>
 <p>Give our variable an initial value to start with.</p>
 <p>We can do this within a block of code:</p>
-<pre><code class="language-java">float circleX;
+<pre><code class="language-js">let circleX;
 
-void setup(){
-    size(400,400);
+function setup(){
+    createCanvas(400,400);
     circleX = 40;
 }
 </code></pre>
 <p>Or, when we declare our variable:</p>
-<pre><code class="language-js">float circleX = 40;
+<pre><code class="language-js">let circleX = 40;
 
 function setup(){
     createCanvas(400,400);
@@ -525,39 +526,44 @@ function draw(){
   circleX += 1;
 }
 </code></pre>
-<figure> <img src = "../assets/images/code_02_10.gif"><figcaption>Our moving circle!</figcaption></figure>
+<div id="11"></div>
 
-<p>We can change how fast the circle is moving by changing the value <code>circleX</code> is changing by.</p>
-<pre><code class="language-java">  circleX += 20;
+<p><small>This example is repeating. Some extra code was added to make this example for the website. We'll learn more about this next class.</small></p>
+<p>We can change how fast the circle is moving by changing incrementation value.</p>
+<pre><code class="language-java">  circleX += 10;
 </code></pre>
-<figure> <img src = "../assets/images/code_02_11.gif"><figcaption></figcaption></figure>
+<div id="12"></div>
 
+<p><small>This example is repeating. Some extra code was added to make this example for the website. We'll learn more about this next class.</small></p>
 <h2 id="random">random()</h2>
-<p><a href="">Reference</a></p>
+<p><a href="https://p5js.org/reference/p5/random/">Reference</a></p>
 <p>Syntax: </p>
 <ul>
-<li><code>random(high)</code><ul>
-<li>returns a random value between <strong>0</strong> and <strong>high</strong></li>
+<li><code>random(max)</code><ul>
+<li>returns a random value between <strong>0</strong> and <strong>max</strong></li>
 </ul>
 </li>
-<li><code>random(low,high)</code> <ul>
-<li>returns a random value between <strong>low</strong> and <strong>high</strong></li>
+<li><code>random(min,max)</code> <ul>
+<li>returns a random value between <strong>min</strong> and <strong>max</strong></li>
 </ul>
 </li>
 </ul>
 <p>Parameters</p>
 <ul>
-<li><strong>low</strong>   - (float) lower limit</li>
-<li><strong>high</strong>  - (float) upper limit</li>
+<li><strong>min</strong>   - (Number) lower limit</li>
+<li><strong>max</strong>   - (Number) upper limit</li>
 </ul>
-<p>This is the first function we’ll be using that returns a value!</p>
+<p>This is the first function we’ve used that returns a value!</p>
 <h3 id="using-random">Using Random</h3>
-<p>We can use <code>random()</code> to give <code>circleX</code> a random value.</p>
-<pre><code class="language-java">float circleX = random(0,width);
+<p>We can use <code>random()</code> to give <code>circleX</code> a random value when we press our mouse!</p>
+<pre><code class="language-js">function mousePressed()
+{
+  circleX = random(0,width);
+}
 </code></pre>
-<figure> <img src = "../assets/images/code_02_12.gif"><figcaption></figcaption></figure>
+<div id="13"></div>
 
-<p>Or, by moving our <code>background()</code> and adding in some more variables, we can make many circles appear randomly on our screen.</p>
+<p>Or, by moving our <code>background()</code> and adding some more variables, we can make many circles appear randomly on our screen.</p>
 <p>Variables:</p>
 <ul>
 <li><code>x</code></li>
@@ -591,84 +597,30 @@ function draw(){
   b = random(100);
 
   fill(r, g, b,a);
-  circle(x, y,30);
+  circle(x, y,10);
 
 }
 </code></pre>
-<figure> <img src = "../assets/images/code_02_14.gif"><figcaption></figcaption></figure>
+<div id="14"></div>
 
 <h2 id="independent-exercise-face-generator">Independent Exercise: Face Generator</h2>
 <p><strong>DUE: By beginning of next class</strong></p>
-<figure> <img src = "../assets/images/code_02_face.png"><figcaption></figcaption></figure>
+<div id="15"></div>
 
-<p>Make a new Processing sketch and copy the example code below. Read this code and play around with it to figure out how it works - a large part of learning to program is by reading the code of others!</p>
-<pre><code class="language-js">let faceSize;
-let eyeSize;
-let eyeX;
-let eyeY;
-let mouthY;
-let mouthSizeX;
-let mouthSizeY;
-
-function setup() {
-  createCanvas(400, 400);
-}
-
-function draw() {
-  //face
-  fill(147, 41, 214);
-  circle(width/2, height/2, faceSize);
-
-  //eyes
-  fill(255);
-  circle(width/2+eyeX, height/2-eyeY, eyeSize);
-  circle(width/2-eyeX, height/2-eyeY, eyeSize);
-
-  //pupils
-  fill(0);
-  circle(width/2+eyeX, height/2-eyeY, eyeSize*.5);
-  circle(width/2-eyeX, height/2-eyeY, eyeSize*.5);
-
-  //mouth
-  fill(255, 0, 0);
-  rectMode(CENTER);
-  rect(width/2, height/2+mouthY, mouthSizeX, mouthSizeY);
-}
-
-function mousePressed() {
-  noStroke();
-
-  background(random(100, 255), random(100, 255), random(60));
-
-  //face
-  faceSize = random(width*.25, width*.75);
-
-  //eyes
-  eyeSize = faceSize * random(.1, .7);
-  eyeX = random(faceSize/10, faceSize/2);
-  eyeY = random(faceSize/10, faceSize/5);
-
-  //mouth
-  mouthY = random(faceSize/10, faceSize/2);
-  mouthSizeX = faceSize*random(.1, .8);
-  mouthSizeY = mouthSizeX*random(.1, .2);
-}
-</code></pre>
-<p>Use this code to make your own custom face generator! Maybe you add a nose, or hair! Or maybe you start from scratch and try to make your own custom generator. This is only an exercise, so play around and see what you can come up with! The only requirement of this exercise is that you add one more shape that has its size, position, or color, controlled by variables. See if you can see the relationships between the different shapes to add your own features.</p>
+<p><strong>Click on the above sketch to make a random face!</strong></p>
+<p>Open up the code template below and go to <strong>File</strong> -&gt; <strong>Duplicate</strong> Read this code and play around with it to figure out how it works - a large part of learning to program is by reading the code of others!</p>
+<p><a href="https://editor.p5js.org/pickpanpuck/sketches/I9p11QaWe">Code Template</a></p>
+<p>Use this code to make your own custom face generator! Maybe you add a nose, or hair! Or maybe you start from scratch and try to make your own custom generator. This is only an exercise, so play around and see what you can come up with! The only requirement of this exercise is that you add one more shapes that has its size, position, or color, controlled by a randomized variable. See if you can see the relationships between the different shapes to add your own features.</p>
 <h3 id="submit">Submit</h3>
-<p>In the class Discord, share 3 (or more) of your favorite faces your generator made. You can capture the images using screenshots or the <code>save()</code> function in Processing.</p>
-<p><a href="https://scrippscollege.app.box.com/f/2e0361aa9b4549c8b82c644533daad99">Upload Link</a></p>
-<p>Upload:</p>
-<p>A zipped folder containing your Processing sketch as well as the three of your favorite images from the generator.</p>
-<p>Your Zipped folder should be named using the following format:
-Firstname_LastName_FaceGenerator</p>
-<p>If you make a mistake and need to upload another folder, append the zipped file name with a numerical value:</p>
-<p>i.e. Firstname_LastName_FaceGenerator_02</p>
-<blockquote>
-<p><strong>How to Zip a folder:</strong></p>
-<p><a href="https://support.microsoft.com/en-us/windows/zip-and-unzip-files-8d28fa72-f2f9-712f-67df-f80cf89fd4e5">Windows</a></p>
-<p><a href="https://support.apple.com/guide/mac-help/zip-and-unzip-files-and-folders-on-mac-mchlp2528/mac">MacOS</a></p>
-</blockquote></p>
+<p><strong>To Canvas:</strong></p>
+<ol>
+<li>Your p5 edit link</li>
+</ol>
+<p><strong>To Discord:</strong></p>
+<ol>
+<li>Your p5 edit link</li>
+<li>Three of your favorite faces captured as screenshots.</li>
+</ol></p>
     </article>
 </section>
 <!-- endblock -->
