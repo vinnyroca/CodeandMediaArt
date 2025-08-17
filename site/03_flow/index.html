@@ -1,0 +1,472 @@
+<!doctype html>
+<html data-bs-theme="">
+    <head>
+                <title>03 flow - Code and Media Art</title>
+
+            <meta charset="utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+            
+            
+            
+
+            
+                <link  rel="icon" type="image/x-icon" href="../assets/img/favicon.ico">
+            
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Mono:400,700">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+            <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+            <link rel="stylesheet" href="../assets/css/root.min.css">
+            <link rel="stylesheet" href="../assets/css/main.min.css">
+            <link rel="stylesheet" href="../assets/css/media.min.css">
+            <link rel="stylesheet" href="../assets/css/mkdocstrings.min.css">
+                <link href="../extra.css" rel="stylesheet">
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js""></script>
+                <script src="../search/main.js"></script>
+
+            
+                
+                     <style>:root {--text: var(--color-black);}</style> 
+                     <style>:root {--title: var(--color-black);}</style> 
+                     <style>:root {--primary: var(--color-black);}</style> 
+                     <style>:root {--background: var(--color-white);}</style> 
+                
+            
+    </head>
+
+    <body>
+        <div class="container py-3">
+            <header>
+                    <!-- block header -->
+<nav class="navbar navbar-expand-xl border-bottom">
+    <div class="container-fluid">
+        
+
+        
+            <span class=" fs-4 title-color site-name" id="component-site-name" style="text-transform: uppercase;">Code and Media Art</span>
+        
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsMenu"
+            aria-controls="navbarsMenu" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse flex-column ml-auto" id="navbarsMenu">
+            <ul class="navbar-nav">
+
+                <!-- block menu -->
+                <li class="nav-item">
+                    <!-- block menu -->
+    
+        <li class="nav-item" id="component-menu">
+            <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="
+                            nav-link text-gray text-decoration-none" href="..">[Syllabus]</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="
+                            nav-link text-gray text-decoration-none" href="../schedule/">[Schedule]</a>
+                        </li>
+            </ul>
+        </li>
+<!-- endblock -->
+                </li>
+                <!-- endblock -->
+
+                <!-- block search -->
+                <li class="nav-item">
+                    <a class="collapsed" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                        <div class="md-search-icon">
+                            <i class="fa fa-search" aria-hidden="true"></i>
+                        </div>
+                    </a>
+                </li>
+                <!--  endblock -->
+
+                <!-- block source -->
+                <li class="nav-item">
+                    
+                </li>
+                <!--  endblock -->
+            </ul>
+        </div>
+    </div>
+</nav>
+<!--  endblock -->
+            </header>
+
+            <main><!-- block search -->
+<div class="collapse" id="collapseExample">
+    <div role="search" class="search-box">
+        <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+            <input type="text" name="q" class="search-query"
+            placeholder="Search docs" title="Type search term here" />
+        </form>
+    </div>
+</div>
+<!-- endblock -->
+
+                
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-3 d-none d-md-block" id="component-sidebar">
+                                    <!-- block sidebar -->
+<div class="navbar-expand-md" role="complementary">
+    
+    <div class="sidebar navbar-collapse collapse card">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-bs-level="1"><a href="#flow" class="nav-link">Flow</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-bs-level="2"><a href="#conditional-if" class="nav-link">Conditional: if</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#relational-operators" class="nav-link">Relational Operators</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#conditional-else" class="nav-link">Conditional: else</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#conditional-else-if" class="nav-link">Conditional: else if</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#class-exercise-conditional" class="nav-link">Class Exercise: Conditional</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#logical-operators" class="nav-link">Logical Operators</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div>
+<!-- endblock -->
+                            </div>
+                            <div class="col-md-9 col-12" id="component-content">
+                                    <!-- block content -->
+<section class="container post" id="component-content">
+    <article>
+        <header>
+            
+            
+        </header>
+        <p><script>hljs.highlightAll();</script>
+
+<script>
+// Get the header element
+let header = document.querySelector('header');
+
+// Get the height of the header
+document.querySelectorAll('a[href^="#"]')
+.forEach(function (anchor) {
+    anchor.addEventListener('click', 
+    function (event) {
+        event.preventDefault();
+
+        // Get the target element that 
+        // the anchor link points to
+        let target = document.querySelector(
+            this.getAttribute('href')
+        );
+
+        let headerHeight = header.offsetHeight*2;
+
+        let targetPosition = target
+            .getBoundingClientRect().top - headerHeight;
+
+        window.scrollTo({
+            top: targetPosition + window.scrollY,
+            behavior: 'smooth'
+        });
+    });
+});
+
+
+<script src="../assets/sketches/p5.js"></script>
+<script src="../assets/sketches/code_03/code_03_pong.js"></script>
+<script src="../assets/sketches/code_03/code_03_01.js"></script>
+<script src="../assets/sketches/code_03/code_03_02.js"></script>
+<script src="../assets/sketches/code_03/code_03_03.js"></script>
+<script src="../assets/sketches/code_03/code_03_04.js"></script>
+<script src="../assets/sketches/code_03/code_03_05.js"></script>
+<div id ="pong"></div>
+
+<h1 id="flow">Flow</h1>
+<blockquote>
+<p><code>RECAP:</code> What we learned last class:</p>
+<ul>
+<li><code>setup()</code> and <code>draw()</code></li>
+<li>How to write blocks of code</li>
+<li><code>mouseX</code> and <code>mouseY</code></li>
+<li><code>mousePressed()</code></li>
+<li><code>width</code> and <code>height</code></li>
+<li>Basic math in p5.js</li>
+<li>How to make our own variables</li>
+<li>How to use incrementation operators</li>
+<li><code>random()</code></li>
+</ul>
+<p><code>PLAN:</code></p>
+<ul>
+<li><code>if</code></li>
+<li>boolean expressions</li>
+<li>relational operators</li>
+<li><code>else</code> and <code>else if</code></li>
+<li>logical operators</li>
+<li>boolean data type</li>
+</ul>
+</blockquote>
+<p>Conditional Statement</p>
+<h2 id="conditional-if">Conditional: if</h2>
+<p>A conditional statement, often called an "if statement", is a block of code that only runs if a certain <em>condition</em> is met. We can think of conditions as statements that start with "if".</p>
+<p>Thinking back to our exercise on James Turrell. We could say:</p>
+<pre><code>If the sky is light blue, the lights turn orange.
+
+If the sky is black, the light turn white.
+</code></pre>
+<p>Or, as an example relevant to our moving ball from last class:</p>
+<pre><code>If the circle reaches the edge of the sketch,
+move in the opposite direction.
+</code></pre>
+<p>We'll slowly work towards this example, but first we need to know what an <code>if</code> statement looks like in code.</p>
+<pre><code class="language-js">if(...some condition...){
+    //run this code
+}
+</code></pre>
+<p>With the parentheses of our <code>if</code> statement, we are looking to see if some condition is true. If it is true, the block of code will run. If it is not true, p5 will skip over the block of code and move on.</p>
+<p>We call the condition the if statement is checking a <strong>boolean expression</strong>.</p>
+<p>One way to create boolean expression is by using <strong>relational operators</strong>.</p>
+<h2 id="relational-operators">Relational Operators</h2>
+<p>Relational operators compare the values of two numbers and returns a value of true or false.</p>
+<ul>
+<li><code>&gt;</code> - greater than</li>
+<li><code>&lt;</code> - less than</li>
+<li><code>&gt;=</code> - greater than or equal to</li>
+<li><code>&lt;=</code> - less than or equal to</li>
+<li><code>==</code> - equal to</li>
+<li><code>!=</code> - not equal to</li>
+</ul>
+<p>For example:</p>
+<p>0 &gt; 255 = true
+54.5 &lt; 54.4 = false</p>
+<p>Relational operators work best when we use them with variables.</p>
+<p>Let's use an <code>if</code> statement and a <strong>relational operator</strong> in our code to change the color of our sketch when our mouse is on the right side of our canvas.</p>
+<div id ="01"></div>
+
+<pre><code class="language-js">function setup() {
+  createCanvas(400, 400);
+}
+
+function draw() {
+    background(255, 255, 0);
+  if (mouseX &gt; width / 2) {
+    background(255, 0, 0);
+  }
+
+  stroke(0, 0, 255);
+  strokeWeight(4);
+  line(width / 2, 0, width / 2, height);
+}
+</code></pre>
+<h2 id="conditional-else">Conditional: else</h2>
+<p>We can use an <code>else</code> statement in conjunction with an <code>if</code> statement. And <code>else</code> statement is a block of code that will only run if the condition within our if statement is <em>not</em> met.</p>
+<p>A pseudo code example might look like:</p>
+<pre><code class="language-js">if(my birthday){
+    //Sing Happy Birthday!
+} else{
+    //Wait for my Birthday
+}
+</code></pre>
+<p>We can use else in our screen color example to check when our mouse is on the right side of the screen.</p>
+<div id ="02"></div>
+
+<pre><code class="language-js">function setup() {
+  createCanvas(400, 400);
+}
+
+function draw() {
+  if (mouseX &gt; width / 2) {
+    background(255, 0, 0);
+  } else {
+    background(255, 255, 0);
+  }
+
+  stroke(0, 0, 255);
+  strokeWeight(4);
+  line(width / 2, 0, width / 2, height);
+}
+</code></pre>
+<h2 id="conditional-else-if">Conditional: else if</h2>
+<p>In addition to else, we can use an <code>else if</code> statement after our <code>if</code> statement to check for specific conditions. <code>else if</code>, like <code>if</code>, checks to see if a boolean expression is true.</p>
+<p>If we change the size of our canvas to 300 by 300 or 600 by 600, we can easily divide our canvas into thirds. From there we can use an <code>if</code>, <code>else if</code>, and <code>if</code> statement to change the color of our canvas when our mouse is in the left, right, and center.</p>
+<div id ="03"></div>
+
+<pre><code class="language-js">function setup() {
+  createCanvas(300, 300);
+}
+
+function draw() {
+  if (mouseX &lt; 100) {
+    background(0, 0, 255);
+  } else if (mouseX &lt; 200) {
+    background(0, 255, 0);
+  } else {
+    background(255, 0, 0);
+  }
+
+  stroke(0);
+  line(100, 0, 100, height);
+  line(200, 0, 200, height);
+}
+</code></pre>
+<h2 id="class-exercise-conditional">Class Exercise: Conditional</h2>
+<p>Use what we have learned thus far to make the below example. Start with a 400 by 200 canvas.
+As a hint, you'll need to use two <code>else if</code> statements! No need to include the "HOVER TO START" message. That is just to keep the class website tidy!</p>
+<div id ="04"></div>
+
+<h2 id="logical-operators">Logical Operators</h2>
+<p>Logical Operators:</p>
+<ul>
+<li><code>&amp;&amp;</code> - And</li>
+<li><code>||</code> - Or</li>
+<li><code>!</code> - Not</li>
+</ul>
+<p>We can use logical operators to check for multiple boolean expressions.</p>
+<p>Let's work towards making this hover effect!</p>
+<div id ="05"></div>
+
+<p>To begin, we could start by detecting in our mouse passes over the left side of our square.</p>
+<pre><code class="language-js">function setup() {
+  createCanvas(400, 400);
+}
+
+function draw() {
+  background(200);
+
+  if (mouseX &gt; 100) {
+    fill(255);
+  } else {
+    fill(0);
+  }
+
+  noStroke();
+  rectMode(CENTER);
+  square(200, 200, 200);
+}
+</code></pre>
+<p>We can use the logical operator <code>&amp;&amp;</code> to check if our <code>mouseX</code> and <code>mouseY</code> are within our circle.</p>
+<pre><code class="language-js">function setup() {
+  createCanvas(400, 400);
+}
+
+function draw() {
+  background(200);
+
+  if (mouseX &gt; 100 &amp;&amp; mouseX &lt; 300 &amp;&amp; mouseY &gt; 100 &amp;&amp; mouseY &lt; 300) {
+    fill(255);
+  } else {
+    fill(0);
+  }
+
+  noStroke();
+  rectMode(CENTER);
+  square(200, 200, 200);
+}
+</code></pre>
+<p>We can also simply this code by replacing the x , y and width of our square with variables. If I keep my rectMode using CENTER, I can check my mouse position at the relationship between my x or y variable and half my width. This allows our code to work when our square is at any location and has any size.</p>
+<pre><code class="language-js">let x = 200;
+let y = 200;
+let w = 200;
+
+function setup() {
+  createCanvas(400, 400);
+}
+
+function draw() {
+  background(200);
+
+  if (mouseX &gt; x-w/2 &amp;&amp; mouseX &lt;x+w/2 &amp;&amp; mouseY &gt; y-w/2 &amp;&amp; mouseY&lt;y+w/2 ) {
+    fill(255);
+  } else {
+    fill(0);
+  }
+
+  noStroke();
+  rectMode(CENTER);
+  square(x, y, w);
+  fill(255)
+  circle(x,y,10);
+}
+</code></pre>
+<p>if
+it is a new block of code
+only executed if a certain condition is what 
+what goes inside our parantheses
+boolean expression
+relational operators
+compares two values
+use relation operators with variable
+change color based on side of mouse</p>
+<p>else
+when there is a relationshp between different things</p>
+<p>else if</p>
+<p>exercise</p>
+<p>logical operators
+and , or and not</p>
+<p>roller over</p>
+<p>exercise fadded circle - dist();</p>
+<p>bouncing ball</p>
+<p>==</p>
+<p>show mistake
+x = x-7;
+x = x+7;</p>
+<p>show print</p>
+<p>variable for speed</p>
+<p>multiply -1</p>
+<p>or statement</p>
+<p>Y</p>
+<p>gravity</p>
+<p>mousePressed</p>
+<p>another variable, mouse pressed </p>
+<p>boolean = !boolean.</p>
+<p>indpendent exercise</p></p>
+    </article>
+</section>
+<!-- endblock -->
+                            </div>
+                        </div>
+                    </div>
+                
+                
+            </main>
+
+            
+                    <!-- block preview -->
+<!-- endblock -->
+            
+
+            
+            
+        </div>
+
+            <script>var base_url = '..';</script>
+            <script src="../assets/js/jquery-3.3.1.slim.min.js""></script>
+            <script src="../assets/js/bootstrap.bundle.min.js""></script>
+            <script src="../assets/js/main.min.js""></script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js" defer></script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"" defer></script>
+                <script src="../search/main.js" defer></script>
+
+    </body>
+
+</html>
