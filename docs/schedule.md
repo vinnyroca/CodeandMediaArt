@@ -113,27 +113,27 @@ body{
 ||THUR<br>9/11|**- Tutorial:** [Math && Time]<br>|**Due:**<br>|
 |4|TUES<br>9/16|<span style="background-color: lightskyblue;">**- Discussion**</span><br>**- Studio Time:** Time|**Due:**<br>|
 ||THUR<br>9/18|<p style="background-color: lightgreen;">CRIT: Time</p>|**Due:**<br>|
-|5|TUES<br>9/23|**- Tutorial:** [Interactivity]|**Due:**<br>|
+|5|TUES<br>9/23|**- Tutorial:** [Interactivity && Transforms]|**Due:**<br>|
 ||THUR<br>9/25|**- Tutorial:** [Text && Arrays] Project|**Due:**<br>|
-|6|TUES<br>9/30|**- Tutorial:** [Image && Transform]|**Due:**<br>|
+|6|TUES<br>9/30|**- Tutorial:** [Image && Algorithms]|**Due:**<br>|
 ||THUR<br>10/2|**- Tutorial** [Functions]|**Due:**<br>|
-|7|TUES<br>10/7|**- Studio Time:** Interactive|**Due:**<br>|
-||THUR<br>10/9|<span style="background-color: lightskyblue;">**- Discussion**</span><br>**- Studio Time:** Interactive|**Due:**<br>|
+|7|TUES<br>10/7|<span style="background-color: lightskyblue;">**- Discussion**</span><br>**- Studio Time:** Interactive|**Due:**<br>|
+||THUR<br>10/9|<p style="background-color: lightgreen;">CRIT: Interactive</p>|**Due:**<br>|
 |8|TUES<br>10/14|<p style="background-color: pink;">No Class: Break</p>|**Due:**<br>|
-||THUR<br>10/16|<p style="background-color: lightgreen;">CRIT: Interactive</p>|**Due:**<br>|
-|9|TUES<br>10/21|**- Tutorial:** [Sound In && Sound Out]|**Due:**<br>|
-||THUR<br>10/23|**- Tutorial:** [Procedural Program Structure]|**Due:**<br>|
-|10|TUES<br>10/28|<span style="background-color: lightskyblue;">**- Discussion**</span><br>**- Studio Time:** Performance|**Due:**<br>|
-||THUR<br>10/30|**- Studio Time:** Performance|**Due:**<br>|
-|11|TUES<br>11/4|<p style="background-color: lightgreen;">CRIT: Performance</p>|**Due:**<br>|
+||THUR<br>10/16|**- Tutorial:** [Sound In && Sound Out]|**Due:**<br>|
+|9|TUES<br>10/21|**- Tutorial:** [Capture]|**Due:**<br>|
+||THUR<br>10/23|<span style="background-color: lightskyblue;">**- Discussion**</span><br>**- Studio Time:** Performance|**Due:**<br>|
+|10|TUES<br>10/28|**- Studio Time:** Performance|**Due:**<br>|
+||THUR<br>10/30|<p style="background-color: lightgreen;">CRIT: Performance</p>|**Due:**<br>|
+|11|TUES<br>11/4|**- Tutorial:** [Classes && Objects]|**Due:**<br>|
 ||THUR<br>11/6|**- Tutorial:** [Classes && Objects]|**Due:**<br>|
-|12|TUES<br>11/11|**- Tutorial:** [ArrayLists]|**Due:**<br>|
-||THUR<br>11/13|**- Tutorial:** [PVectors]|**Due:**<br>|
-|13|TUES<br>11/18|**- Tutorial:** [Game Logic]|**Due:**<br>|
-||THUR<br>11/20|**- Studio Time:** Game|**Due:**<br>|
-|14|TUES<br>11/25|**- Studio Time:** Game|**Due:**<br>|
+|12|TUES<br>11/11|**- Tutorial:** [VS Code && HTML]||**Due:**<br>|
+||THUR<br>11/13|**- Tutorial:** [CSS + Github]|**Due:**<br>|
+|13|TUES<br>11/18|**- Studio Time:** Game Ring|**Due:**<br>|
+||THUR<br>11/20|<span style="background-color: lightskyblue;">**- Discussion**</span>**<br>- Studio Time:** Game Ring|**Due:**<br>|
+|14|TUES<br>11/25|**- Studio Time:** Game Ring|**Due:**<br>|
 ||THUR<br>11/27|<p style="background-color: pink;">No Class: Break</p>|**Due:**<br>|
-|15|TUES<br>12/2|<p style="background-color: lightgreen;">CRIT: Game</p>|**Due:**<br>|
+|15|TUES<br>12/2|<p style="background-color: lightgreen;">CRIT: Game Ring</p>|**Due:**<br>|
 
 
 

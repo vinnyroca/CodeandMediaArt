@@ -46,10 +46,10 @@ The objective of this course is to introduce the fundamental skills of programmi
 
 |%||
 |:---:|---|
-|15|Time|
+|10|Time|
 |15|Interactive|
 |15|Performance|
-|15|Game|
+|20|Game Ring|
 |10|Participation|
 |10|Reading Responses|
 |40|Exercises|
@@ -79,7 +79,7 @@ All critique classes are mandatory. If you anticipate missing a critique class o
 
 #### Reading Responses
 
-Reading responses are due by 5 p.m. the day before discussions. Reading responses should be posted in proper Discord channel.
+Reading responses are due by 5 p.m. the day before discussions. Reading responses should be posted in the proper Discord channel.
 
 Reading responses will be graded on the level of engagement the student has with the text. Is the student connecting the text to other readings or experiences? Is the student engaging with the text through questions, disagreements, or new lines of thought?
 
@@ -93,7 +93,7 @@ Late projects not ready by their assigned crit day will automatically lose one l
 
 ### Class Website
 
-Class website will serve as a the syllabus, schedule and living notes for this course. All exercises and assignments are described on the class website.
+Class website will serve a a live syllabus, schedule, and notes for this course. All exercises and assignments are described on the class website.
 
 ### Discord and Email
 
@@ -109,9 +109,42 @@ Submissions for the class will be made through Canvas.
 
 All external readings will be provided on Box using this link.
 
-## Course Materials
+## Lab Hours && Course Materials
 
-Students are expected to work on exercises and assignments outside of class. To complete assignments students will need to make use of their personal computer.
+Students are expected to work on exercises and assignments outside of class. To complete some assignments, students will need to make use of their personal computer.
+
+Students enrolled in this course will have 24/hr access to this computer lab. If you have any issues accessing the lab outside of the course hours, please contact me.
+
+## Use of Generative AI
+
+ChatGPT and many other models, including Claude or CoPilot, can write code. As new programmers, this will be very helpful for you. However, it can also be detrimental. 
+
+The goal of this course is to teach you the fundamentals of programming and to explore how these fundamentals have drastically changed how one might approach being an artist. ChatGPT or other models can allow us to skip over these fundamentals, moving us to an endless cycle of copy, paste, test, copy, paste, test, and so on… 
+
+Coding, or the act of writing code, is always the last step. Before comes an intensive process of thinking, testing on paper, sketching, diagramming, or whatever approach you choose. Programming is not about writing code; it is about thinking and creating with our computers, knowing how changing variables or creating objects can give us both the results we aimed for, but also unexpected results.
+
+In this way, ChatGPT can be harmful to the beginner programmer. It removes the need for a fundamental understanding and replaces it with the illusion of knowledge. I strongly suggest that over this course, ChatGPT becomes a last resort. There are many other resources available to you: In-class help, Discord messages, your peers, office hours, p5 examples, online videos, and much more. If you find yourself moving to type in a prompt, I suggest first asking yourself, “Is there more I can do to work towards this problem?”
+
+### Class Policy
+ 
+Any code found to be copied and pasted from ChatGPT will be considered plagiarism.
+
+### Examples
+
+Some bad uses of prompt-based AI: 
+
+- Write a p5 sketch to do x.
+- Make this p5 sketch look more interesting.
+
+Some good uses:
+
+- How do I calculate points across the circumference of a circle?
+- How do I find the distance between two vectors?
+- How does a computer change the value of a variable in memory?
+
+What these examples above tend to demonstrate is that good uses of ChatGPT assist us in our learning process as we write our programs. 
+
+There will be a temptation to make more complex projects with the use of ChatGPT. I urge you all to acknowledge your level of knowledge and abilities, and to trust that as you continue to make more art with code, as you write more and more complex programs, your knowledge of programming will grow, and so will your ability to know when ChatGPT and similar tools are supporting your learning.
 
 ## Scripps College Land Acknowledgement
 
@@ -145,6 +178,7 @@ Statement adopted from voidLab at https://github.com/voidlab/diversity-statement
 - [p5.js Reference](https://p5js.org/reference/)
 - [p5.js](https://p5js.org/)
 - [Coding Train](https://thecodingtrain.com/tracks/code-programming-with-p5-js)
+- [Patt Vira](https://www.youtube.com/@pattvira)
 - [JavaScript Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
 - More advanced: [The Nature of Code](https://natureofcode.com/)
