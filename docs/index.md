@@ -3,7 +3,6 @@
  
 # Syllabus
 
-
 ---
 **SEMESTER:** Fall 2025
 
