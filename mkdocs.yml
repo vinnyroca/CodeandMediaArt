@@ -1,4 +1,5 @@
 site_name: Code && Media Art
+site_url: code.vinnyroca.info
 nav:
   - Syllabus: index.md
   - Schedule/Tutorials: schedule.md
