@@ -1,247 +1,736 @@
+
 <!doctype html>
-<html data-bs-theme="">
-    <head>
-                <title>02 variables - Code and Media Art</title>
-
-            <meta charset="utf-8">
-            <meta http-equiv="X-UA-Compatible" content="IE=edge">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-            
-            
-            
-
-            
-                <link  rel="icon" type="image/x-icon" href="../assets/img/favicon.ico">
-            
-            <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Mono:400,700">
-            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-            <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
-            <link rel="stylesheet" href="../assets/css/root.min.css">
-            <link rel="stylesheet" href="../assets/css/main.min.css">
-            <link rel="stylesheet" href="../assets/css/media.min.css">
-            <link rel="stylesheet" href="../assets/css/mkdocstrings.min.css">
-                <link href="../extra.css" rel="stylesheet">
-                <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
-                <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js""></script>
-                <script src="../search/main.js"></script>
-
-            
-                
-                     <style>:root {--text: var(--color-black);}</style> 
-                     <style>:root {--title: var(--color-black);}</style> 
-                     <style>:root {--primary: var(--color-black);}</style> 
-                     <style>:root {--background: var(--color-white);}</style> 
-                
-            
-    </head>
-
-    <body>
-        <div class="container py-3">
-            <header>
-                    <!-- block header -->
-<nav class="navbar navbar-expand-xl border-bottom">
-    <div class="container-fluid">
-        
-
-        
-            <span class=" fs-4 title-color site-name" id="component-site-name" style="text-transform: uppercase;">Code and Media Art</span>
-        
-
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsMenu"
-            aria-controls="navbarsMenu" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse flex-column ml-auto" id="navbarsMenu">
-            <ul class="navbar-nav">
-
-                <!-- block menu -->
-                <li class="nav-item">
-                    <!-- block menu -->
+<html lang="en" class="no-js">
+  <head>
     
-        <li class="nav-item" id="component-menu">
-            <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="
-                            nav-link text-gray text-decoration-none" href="..">[Syllabus]</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="
-                            nav-link text-gray text-decoration-none" href="../schedule/">[Schedule]</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="
-                            nav-link dropdown-toggle text-decoration-none" href="#" data-bs-toggle="dropdown">[Projects]</a>
-                            <ul class="dropdown-menu">
-                                    <!-- block dropdown-menu -->
-    <li>
-        <a href="../time/" class="dropdown-item text-decoration-none ">Time</a>
-    </li>
-<!-- endblock -->
-                                    <!-- block dropdown-menu -->
-    <li>
-        <a href="../narrative/" class="dropdown-item text-decoration-none ">Narrative</a>
-    </li>
-<!-- endblock -->
-                                    <!-- block dropdown-menu -->
-    <li>
-        <a href="../performance/" class="dropdown-item text-decoration-none ">Performance</a>
-    </li>
-<!-- endblock -->
-                                    <!-- block dropdown-menu -->
-    <li>
-        <a href="../game/" class="dropdown-item text-decoration-none ">Game Ring</a>
-    </li>
-<!-- endblock -->
-                            </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="
-                            nav-link dropdown-toggle text-decoration-none" href="#" data-bs-toggle="dropdown">[Responses]</a>
-                            <ul class="dropdown-menu">
-                                    <!-- block dropdown-menu -->
-    <li>
-        <a href="../art/" class="dropdown-item text-decoration-none ">Art && Technology</a>
-    </li>
-<!-- endblock -->
-                                    <!-- block dropdown-menu -->
-    <li>
-        <a href="../culture/" class="dropdown-item text-decoration-none ">Culture && Ideology</a>
-    </li>
-<!-- endblock -->
-                                    <!-- block dropdown-menu -->
-    <li>
-        <a href="../power/" class="dropdown-item text-decoration-none ">Power && Surveillance</a>
-    </li>
-<!-- endblock -->
-                                    <!-- block dropdown-menu -->
-    <li>
-        <a href="../play/" class="dropdown-item text-decoration-none ">Play && Internet</a>
-    </li>
-<!-- endblock -->
-                            </ul>
-                        </li>
-            </ul>
-        </li>
-<!-- endblock -->
-                </li>
-                <!-- endblock -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.18">
+    
+    
+      
+        <title>02 variables - Code && Media Art</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.7e37652d.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
 
-                <!-- block search -->
-                <li class="nav-item">
-                    <a class="collapsed" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-                        <div class="md-search-icon">
-                            <i class="fa fa-search" aria-hidden="true"></i>
-                        </div>
-                    </a>
-                </li>
-                <!--  endblock -->
 
-                <!-- block source -->
-                <li class="nav-item">
-                    
-                </li>
-                <!--  endblock -->
-            </ul>
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Noto Sans";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="white" data-md-color-accent="black">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#variables" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Code &amp;&amp; Media Art" class="md-header__button md-logo" aria-label="Code && Media Art" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4.4 16.5c0-.9.3-1.8.8-2.6q.75-1.2 3-2.7c-.9-1.1-1.4-1.9-1.7-2.5-.4-.7-.5-1.3-.5-2 0-1.5.4-2.6 1.3-3.5S9.4 2 10.9 2q1.95 0 3.3 1.2c.9.8 1.3 1.8 1.3 2.9 0 .8-.2 1.5-.6 2.2q-.6 1.05-2.1 2.1l-1.4 1.1 4.3 5.2c.6-1.2.9-2.4.9-3.9h2.2c0 2.3-.5 4.2-1.6 5.7l2.8 3.3h-3l-1.3-1.5c-.7.6-1.4 1-2.3 1.3s-1.8.5-2.7.5c-1.9 0-3.4-.5-4.6-1.5-1.1-1.1-1.7-2.4-1.7-4.1m6.3 3.5q1.95 0 3.6-1.5l-4.7-5.7-.4.3C7.7 14.2 7 15.3 7 16.5c0 1.1.3 1.9 1 2.5s1.5 1 2.7 1M8.5 6.7c0 .9.5 1.9 1.6 3.2l1.6-1.1q.9-.6 1.2-1.2c.2-.4.3-.9.3-1.4 0-.6-.2-1.1-.7-1.5-.4-.4-1-.6-1.7-.6s-1.3.2-1.7.7-.6 1.1-.6 1.9"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Code && Media Art
+          </span>
         </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              02 variables
+            
+          </span>
+        </div>
+      </div>
     </div>
-</nav>
-<!--  endblock -->
-            </header>
-
-            <main><!-- block search -->
-<div class="collapse" id="collapseExample">
-    <div role="search" class="search-box">
-        <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
-            <input type="text" name="q" class="search-query"
-            placeholder="Search docs" title="Type search term here" />
-        </form>
-    </div>
-</div>
-<!-- endblock -->
-
-                
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-3 d-none d-md-block" id="component-sidebar">
-                                    <!-- block sidebar -->
-<div class="navbar-expand-md" role="complementary">
     
-    <div class="sidebar navbar-collapse collapse card">
-        <ul class="nav flex-column">
+      
+    
+    
+    
+    
+      
+      
+    
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Syllabus
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../schedule/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Schedule/Tutorials
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../time/" class="md-tabs__link">
+          
+  
+  
+  Projects
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../art/" class="md-tabs__link">
+          
+  
+  
+  Responses
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
             
-            <li class="nav-item" data-bs-level="1"><a href="#variables" class="nav-link">Variables</a>
-              <ul class="nav flex-column">
-            <li class="nav-item" data-bs-level="2"><a href="#setup-and-draw" class="nav-link">setup() and draw()</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-bs-level="2"><a href="#code-block" class="nav-link">Code Block</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-bs-level="2"><a href="#drawing-with-variables" class="nav-link">Drawing with Variables</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-bs-level="2"><a href="#mousex-and-mousey" class="nav-link">mouseX and mouseY</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-bs-level="2"><a href="#mousepressed" class="nav-link">mousePressed()</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-bs-level="2"><a href="#in-class-exercise-painting-program" class="nav-link">In-class Exercise: Painting Program</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-bs-level="2"><a href="#width-and-height" class="nav-link">width and height</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-bs-level="2"><a href="#arithmetic-operators" class="nav-link">Arithmetic Operators</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-bs-level="2"><a href="#what-is-a-variable" class="nav-link">What is a Variable?</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-bs-level="2"><a href="#making-our-own-variable" class="nav-link">Making our Own Variable</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-bs-level="2"><a href="#incrementation-operators" class="nav-link">Incrementation Operators</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-bs-level="2"><a href="#random" class="nav-link">random()</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-bs-level="2"><a href="#independent-exercise-face-generator" class="nav-link">Independent Exercise: Face Generator</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-              </ul>
-            </li>
-        </ul>
-    </div>
-</div>
-<!-- endblock -->
-                            </div>
-                            <div class="col-md-9 col-12" id="component-content">
-                                    <!-- block content -->
-<section class="container post" id="component-content">
-    <article>
-        <header>
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Code &amp;&amp; Media Art" class="md-nav__button md-logo" aria-label="Code && Media Art" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4.4 16.5c0-.9.3-1.8.8-2.6q.75-1.2 3-2.7c-.9-1.1-1.4-1.9-1.7-2.5-.4-.7-.5-1.3-.5-2 0-1.5.4-2.6 1.3-3.5S9.4 2 10.9 2q1.95 0 3.3 1.2c.9.8 1.3 1.8 1.3 2.9 0 .8-.2 1.5-.6 2.2q-.6 1.05-2.1 2.1l-1.4 1.1 4.3 5.2c.6-1.2.9-2.4.9-3.9h2.2c0 2.3-.5 4.2-1.6 5.7l2.8 3.3h-3l-1.3-1.5c-.7.6-1.4 1-2.3 1.3s-1.8.5-2.7.5c-1.9 0-3.4-.5-4.6-1.5-1.1-1.1-1.7-2.4-1.7-4.1m6.3 3.5q1.95 0 3.6-1.5l-4.7-5.7-.4.3C7.7 14.2 7 15.3 7 16.5c0 1.1.3 1.9 1 2.5s1.5 1 2.7 1M8.5 6.7c0 .9.5 1.9 1.6 3.2l1.6-1.1q.9-.6 1.2-1.2c.2-.4.3-.9.3-1.4 0-.6-.2-1.1-.7-1.5-.4-.4-1-.6-1.7-.6s-1.3.2-1.7.7-.6 1.1-.6 1.9"/></svg>
+
+    </a>
+    Code && Media Art
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Syllabus
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../schedule/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Schedule/Tutorials
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Projects
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Projects
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../time/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Time
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../narrative/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Narrative
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../performance/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Performance
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../game/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Game Ring
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Responses
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Responses
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../art/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Art && Technology
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../culture/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Culture && Ideology
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../power/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Power && Surveillance
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../play/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Play && Internet
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
             
             
-        </header>
-        <p><script>hljs.highlightAll();</script>
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+<nav class="md-nav md-nav--secondary" aria-label="On this page">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      On this page
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#setup-and-draw" class="md-nav__link">
+    <span class="md-ellipsis">
+      setup() and draw()
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#code-block" class="md-nav__link">
+    <span class="md-ellipsis">
+      Code Block
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#drawing-with-variables" class="md-nav__link">
+    <span class="md-ellipsis">
+      Drawing with Variables
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mousex-and-mousey" class="md-nav__link">
+    <span class="md-ellipsis">
+      mouseX and mouseY
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mousepressed" class="md-nav__link">
+    <span class="md-ellipsis">
+      mousePressed()
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#in-class-exercise-painting-program" class="md-nav__link">
+    <span class="md-ellipsis">
+      In-class Exercise: Painting Program
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#width-and-height" class="md-nav__link">
+    <span class="md-ellipsis">
+      width and height
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#arithmetic-operators" class="md-nav__link">
+    <span class="md-ellipsis">
+      Arithmetic Operators
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-is-a-variable" class="md-nav__link">
+    <span class="md-ellipsis">
+      What is a Variable?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#making-our-own-variable" class="md-nav__link">
+    <span class="md-ellipsis">
+      Making our Own Variable
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#incrementation-operators" class="md-nav__link">
+    <span class="md-ellipsis">
+      Incrementation Operators
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#random" class="md-nav__link">
+    <span class="md-ellipsis">
+      random()
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#independent-exercise-face-generator" class="md-nav__link">
+    <span class="md-ellipsis">
+      Independent Exercise: Face Generator
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<script>hljs.highlightAll();</script>
 
 <script>
 // Get the header element
@@ -343,12 +832,12 @@ document.querySelectorAll('a[href^="#"]')
 <p>To understand the logic of setting up our sketch with <code>setup()</code> then continually drawing our sketch with <code>draw()</code> , we need to learn about the syntax of these functions. To do that we need to examine the code blocks.</p>
 <p>In short, a code block is a section of code that is grouped together.</p>
 <p>Example:</p>
-<pre><code class="language-js">function setup(){
-    //some code
-    //some more code
-    //even more code
-}
-</code></pre>
+<div class="language-js highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="kd">function</span><span class="w"> </span><span class="nx">setup</span><span class="p">(){</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="w">    </span><span class="c1">//some code</span>
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="w">    </span><span class="c1">//some more code</span>
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="w">    </span><span class="c1">//even more code</span>
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="p">}</span>
+</span></code></pre></div>
 <p>This code block above consists of a few elements:</p>
 <ol>
 <li><code>function</code> - This designates our code block as a function.</li>
@@ -368,19 +857,17 @@ document.querySelectorAll('a[href^="#"]')
 <li><code>fill()</code></li>
 <li><code>circle()</code></li>
 </ul>
-<pre><code class="language-js">function setup(){
-  createCanvas(400,400);
-}
-
-function draw(){
-  background(12,123,220);
-  noStroke();
-  fill(255,194,10);
-  circle(200,200,80);
-}
-
-
-</code></pre>
+<div class="language-js highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="kd">function</span><span class="w"> </span><span class="nx">setup</span><span class="p">(){</span>
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="w">  </span><span class="nx">createCanvas</span><span class="p">(</span><span class="mf">400</span><span class="p">,</span><span class="mf">400</span><span class="p">);</span>
+</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="p">}</span>
+</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a>
+</span><span id="__span-1-5"><a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a><span class="kd">function</span><span class="w"> </span><span class="nx">draw</span><span class="p">(){</span>
+</span><span id="__span-1-6"><a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a><span class="w">  </span><span class="nx">background</span><span class="p">(</span><span class="mf">12</span><span class="p">,</span><span class="mf">123</span><span class="p">,</span><span class="mf">220</span><span class="p">);</span>
+</span><span id="__span-1-7"><a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a><span class="w">  </span><span class="nx">noStroke</span><span class="p">();</span>
+</span><span id="__span-1-8"><a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a><span class="w">  </span><span class="nx">fill</span><span class="p">(</span><span class="mf">255</span><span class="p">,</span><span class="mf">194</span><span class="p">,</span><span class="mf">10</span><span class="p">);</span>
+</span><span id="__span-1-9"><a id="__codelineno-1-9" name="__codelineno-1-9" href="#__codelineno-1-9"></a><span class="w">  </span><span class="nx">circle</span><span class="p">(</span><span class="mf">200</span><span class="p">,</span><span class="mf">200</span><span class="p">,</span><span class="mf">80</span><span class="p">);</span>
+</span><span id="__span-1-10"><a id="__codelineno-1-10" name="__codelineno-1-10" href="#__codelineno-1-10"></a><span class="p">}</span>
+</span></code></pre></div>
 <div id="03"></div>
 <p><small>Result of the above code</small></p>
 <p>Looking more closely at <code>draw()</code>, we can see that even though draw is happening over and over again, it's drawing the same thing!</p>
@@ -392,55 +879,55 @@ function draw(){
 <code>mouseY</code> is a variable that always stores our mouse's vertical position.</p>
 <p>These values update as we move our mouse!</p>
 <p>As an experiment, let's replace our <code>circle()</code> x value with <code>mouseX</code></p>
-<pre><code class="language-js">    circle(mouseX,200,80);
-</code></pre>
+<div class="language-js highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="w">    </span><span class="nx">circle</span><span class="p">(</span><span class="nx">mouseX</span><span class="p">,</span><span class="mf">200</span><span class="p">,</span><span class="mf">80</span><span class="p">);</span>
+</span></code></pre></div>
 <div id="04"></div>
 
 <p>If we change the y value to <code>mouseY</code>, our circle will follow our mouse:</p>
-<pre><code class="language-java">    circle(mouseX,mouseY,80);
-</code></pre>
+<div class="language-java highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="w">    </span><span class="n">circle</span><span class="p">(</span><span class="n">mouseX</span><span class="p">,</span><span class="n">mouseY</span><span class="p">,</span><span class="mi">80</span><span class="p">);</span>
+</span></code></pre></div>
 <div id="05"></div>
 
 <p>Let's see what happens if we move our <code>background()</code> to the top of our <code>setup()</code> and change the size of our circle to 10. Remember, this will cause <code>background()</code> to only run once.</p>
-<pre><code class="language-js">function setup(){
-    createCanvas(400,400);
-    background(12,123,220);
-}
-
-function draw(){
-    noStroke();
-    fill(255,194,10);
-    circle(mouseX,mouseY,10);
-}
-</code></pre>
+<div class="language-js highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="kd">function</span><span class="w"> </span><span class="nx">setup</span><span class="p">(){</span>
+</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a><span class="w">    </span><span class="nx">createCanvas</span><span class="p">(</span><span class="mf">400</span><span class="p">,</span><span class="mf">400</span><span class="p">);</span>
+</span><span id="__span-4-3"><a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a><span class="w">    </span><span class="nx">background</span><span class="p">(</span><span class="mf">12</span><span class="p">,</span><span class="mf">123</span><span class="p">,</span><span class="mf">220</span><span class="p">);</span>
+</span><span id="__span-4-4"><a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a><span class="p">}</span>
+</span><span id="__span-4-5"><a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a>
+</span><span id="__span-4-6"><a id="__codelineno-4-6" name="__codelineno-4-6" href="#__codelineno-4-6"></a><span class="kd">function</span><span class="w"> </span><span class="nx">draw</span><span class="p">(){</span>
+</span><span id="__span-4-7"><a id="__codelineno-4-7" name="__codelineno-4-7" href="#__codelineno-4-7"></a><span class="w">    </span><span class="nx">noStroke</span><span class="p">();</span>
+</span><span id="__span-4-8"><a id="__codelineno-4-8" name="__codelineno-4-8" href="#__codelineno-4-8"></a><span class="w">    </span><span class="nx">fill</span><span class="p">(</span><span class="mf">255</span><span class="p">,</span><span class="mf">194</span><span class="p">,</span><span class="mf">10</span><span class="p">);</span>
+</span><span id="__span-4-9"><a id="__codelineno-4-9" name="__codelineno-4-9" href="#__codelineno-4-9"></a><span class="w">    </span><span class="nx">circle</span><span class="p">(</span><span class="nx">mouseX</span><span class="p">,</span><span class="nx">mouseY</span><span class="p">,</span><span class="mf">10</span><span class="p">);</span>
+</span><span id="__span-4-10"><a id="__codelineno-4-10" name="__codelineno-4-10" href="#__codelineno-4-10"></a><span class="p">}</span>
+</span></code></pre></div>
 <div id="06"></div>
 <p><small>We made a painting program!</small></p>
 <p>Our sketch is now drawing our circle over and over again at our <code>mouseX</code> and <code>mouseY</code> position without redrawing the background.</p>
 <h2 id="mousepressed">mousePressed()</h2>
 <p><code>mousePressed()</code> is a special function within p5 that is called every time we click our mouse. We can use this to clear our drawing to start on a fresh background.</p>
 <p>To use <code>mousePressed()</code> we need to make a new block of code. To clear our background when our mouse is pressed, we can add a new <code>background()</code> in our <code>mousePressed()</code> function.</p>
-<pre><code class="language-js">function setup(){
-    size(400,400);
-    background(12,123,220);
-}
-
-function draw(){
-    noStroke();
-    fill(255,194,10);
-    circle(mouseX,mouseY,10);
-}
-
-function mousePressed(){
-    background(12,123,220);
-}
-</code></pre>
+<div class="language-js highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="kd">function</span><span class="w"> </span><span class="nx">setup</span><span class="p">(){</span>
+</span><span id="__span-5-2"><a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a><span class="w">    </span><span class="nx">size</span><span class="p">(</span><span class="mf">400</span><span class="p">,</span><span class="mf">400</span><span class="p">);</span>
+</span><span id="__span-5-3"><a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a><span class="w">    </span><span class="nx">background</span><span class="p">(</span><span class="mf">12</span><span class="p">,</span><span class="mf">123</span><span class="p">,</span><span class="mf">220</span><span class="p">);</span>
+</span><span id="__span-5-4"><a id="__codelineno-5-4" name="__codelineno-5-4" href="#__codelineno-5-4"></a><span class="p">}</span>
+</span><span id="__span-5-5"><a id="__codelineno-5-5" name="__codelineno-5-5" href="#__codelineno-5-5"></a>
+</span><span id="__span-5-6"><a id="__codelineno-5-6" name="__codelineno-5-6" href="#__codelineno-5-6"></a><span class="kd">function</span><span class="w"> </span><span class="nx">draw</span><span class="p">(){</span>
+</span><span id="__span-5-7"><a id="__codelineno-5-7" name="__codelineno-5-7" href="#__codelineno-5-7"></a><span class="w">    </span><span class="nx">noStroke</span><span class="p">();</span>
+</span><span id="__span-5-8"><a id="__codelineno-5-8" name="__codelineno-5-8" href="#__codelineno-5-8"></a><span class="w">    </span><span class="nx">fill</span><span class="p">(</span><span class="mf">255</span><span class="p">,</span><span class="mf">194</span><span class="p">,</span><span class="mf">10</span><span class="p">);</span>
+</span><span id="__span-5-9"><a id="__codelineno-5-9" name="__codelineno-5-9" href="#__codelineno-5-9"></a><span class="w">    </span><span class="nx">circle</span><span class="p">(</span><span class="nx">mouseX</span><span class="p">,</span><span class="nx">mouseY</span><span class="p">,</span><span class="mf">10</span><span class="p">);</span>
+</span><span id="__span-5-10"><a id="__codelineno-5-10" name="__codelineno-5-10" href="#__codelineno-5-10"></a><span class="p">}</span>
+</span><span id="__span-5-11"><a id="__codelineno-5-11" name="__codelineno-5-11" href="#__codelineno-5-11"></a>
+</span><span id="__span-5-12"><a id="__codelineno-5-12" name="__codelineno-5-12" href="#__codelineno-5-12"></a><span class="kd">function</span><span class="w"> </span><span class="nx">mousePressed</span><span class="p">(){</span>
+</span><span id="__span-5-13"><a id="__codelineno-5-13" name="__codelineno-5-13" href="#__codelineno-5-13"></a><span class="w">    </span><span class="nx">background</span><span class="p">(</span><span class="mf">12</span><span class="p">,</span><span class="mf">123</span><span class="p">,</span><span class="mf">220</span><span class="p">);</span>
+</span><span id="__span-5-14"><a id="__codelineno-5-14" name="__codelineno-5-14" href="#__codelineno-5-14"></a><span class="p">}</span>
+</span></code></pre></div>
 <div id="07"></div>
 <p><small>We made resetting painting program!</small></p>
 <p>As a note, <code>mouseX</code> and <code>mouseY</code> can replace any value in our sketch.</p>
 <p>If I move my <code>background()</code> from <code>setup()</code> to <code>draw()</code> and replace my circle diameter with <code>mouseX</code>.</p>
-<pre><code class="language-js">    circle(200, 200, mouseX);
-</code></pre>
-<p>Our <code>mouseX</code> variable now changes the size of our circle!</p>
+<p><div class="language-js highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a><span class="w">    </span><span class="nx">circle</span><span class="p">(</span><span class="mf">200</span><span class="p">,</span><span class="w"> </span><span class="mf">200</span><span class="p">,</span><span class="w"> </span><span class="nx">mouseX</span><span class="p">);</span>
+</span></code></pre></div>
+Our <code>mouseX</code> variable now changes the size of our circle!</p>
 <div id="08"></div>
 <p><small>The size of our circle controlled by the position of our mouse!</small></p>
 <h2 id="in-class-exercise-painting-program">In-class Exercise: Painting Program</h2>
@@ -449,17 +936,17 @@ function mousePressed(){
 <h2 id="width-and-height">width and height</h2>
 <p>Some other built in p5 variables include <code>width</code> and <code>height</code>.</p>
 <p>These variables always store the width and height of my sketch.</p>
-<pre><code class="language-js">function setup(){
-    createCanvas(400,400);
-}
-
-function draw(){
-    background(12,123,220);
-    noStroke();
-    fill(255,194,10);
-    circle(width/2,height/2,80);
-}
-</code></pre>
+<div class="language-js highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a><span class="kd">function</span><span class="w"> </span><span class="nx">setup</span><span class="p">(){</span>
+</span><span id="__span-7-2"><a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a><span class="w">    </span><span class="nx">createCanvas</span><span class="p">(</span><span class="mf">400</span><span class="p">,</span><span class="mf">400</span><span class="p">);</span>
+</span><span id="__span-7-3"><a id="__codelineno-7-3" name="__codelineno-7-3" href="#__codelineno-7-3"></a><span class="p">}</span>
+</span><span id="__span-7-4"><a id="__codelineno-7-4" name="__codelineno-7-4" href="#__codelineno-7-4"></a>
+</span><span id="__span-7-5"><a id="__codelineno-7-5" name="__codelineno-7-5" href="#__codelineno-7-5"></a><span class="kd">function</span><span class="w"> </span><span class="nx">draw</span><span class="p">(){</span>
+</span><span id="__span-7-6"><a id="__codelineno-7-6" name="__codelineno-7-6" href="#__codelineno-7-6"></a><span class="w">    </span><span class="nx">background</span><span class="p">(</span><span class="mf">12</span><span class="p">,</span><span class="mf">123</span><span class="p">,</span><span class="mf">220</span><span class="p">);</span>
+</span><span id="__span-7-7"><a id="__codelineno-7-7" name="__codelineno-7-7" href="#__codelineno-7-7"></a><span class="w">    </span><span class="nx">noStroke</span><span class="p">();</span>
+</span><span id="__span-7-8"><a id="__codelineno-7-8" name="__codelineno-7-8" href="#__codelineno-7-8"></a><span class="w">    </span><span class="nx">fill</span><span class="p">(</span><span class="mf">255</span><span class="p">,</span><span class="mf">194</span><span class="p">,</span><span class="mf">10</span><span class="p">);</span>
+</span><span id="__span-7-9"><a id="__codelineno-7-9" name="__codelineno-7-9" href="#__codelineno-7-9"></a><span class="w">    </span><span class="nx">circle</span><span class="p">(</span><span class="nx">width</span><span class="o">/</span><span class="mf">2</span><span class="p">,</span><span class="nx">height</span><span class="o">/</span><span class="mf">2</span><span class="p">,</span><span class="mf">80</span><span class="p">);</span>
+</span><span id="__span-7-10"><a id="__codelineno-7-10" name="__codelineno-7-10" href="#__codelineno-7-10"></a><span class="p">}</span>
+</span></code></pre></div>
 <div id="09"></div>
 
 <h2 id="arithmetic-operators">Arithmetic Operators</h2>
@@ -490,11 +977,11 @@ function draw(){
 <h3 id="let">let</h3>
 <p>We can use the keyword <code>let</code> to begin declaring a variable.</p>
 <p>Example:</p>
-<pre><code class="language-js">let frog;
-let toad;
-let bird;
-</code></pre>
-<p>In JavaScript, we don't need to tell our editor what type of variable we are making. In other words, we don't need to let JavaScript know if our variable is a Number, a word, or something else. In part, it is up to the artist to keep track of what type of variable we want each new variable to be.</p>
+<p><div class="language-js highlight"><pre><span></span><code><span id="__span-8-1"><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a><span class="kd">let</span><span class="w"> </span><span class="nx">frog</span><span class="p">;</span>
+</span><span id="__span-8-2"><a id="__codelineno-8-2" name="__codelineno-8-2" href="#__codelineno-8-2"></a><span class="kd">let</span><span class="w"> </span><span class="nx">toad</span><span class="p">;</span>
+</span><span id="__span-8-3"><a id="__codelineno-8-3" name="__codelineno-8-3" href="#__codelineno-8-3"></a><span class="kd">let</span><span class="w"> </span><span class="nx">bird</span><span class="p">;</span>
+</span></code></pre></div>
+In JavaScript, we don't need to tell our editor what type of variable we are making. In other words, we don't need to let JavaScript know if our variable is a Number, a word, or something else. In part, it is up to the artist to keep track of what type of variable we want each new variable to be.</p>
 <p>Some variable types:</p>
 <p>JavaScript variables:</p>
 <ul>
@@ -515,20 +1002,20 @@ let bird;
 <h3 id="initialize">Initialize</h3>
 <p>Give our variable an initial value to start with.</p>
 <p>We can do this within a block of code:</p>
-<pre><code class="language-js">let circleX;
-
-function setup(){
-    createCanvas(400,400);
-    circleX = 40;
-}
-</code></pre>
-<p>Or, when we declare our variable:</p>
-<pre><code class="language-js">let circleX = 40;
-
-function setup(){
-    createCanvas(400,400);
-}
-</code></pre>
+<p><div class="language-js highlight"><pre><span></span><code><span id="__span-9-1"><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a><span class="kd">let</span><span class="w"> </span><span class="nx">circleX</span><span class="p">;</span>
+</span><span id="__span-9-2"><a id="__codelineno-9-2" name="__codelineno-9-2" href="#__codelineno-9-2"></a>
+</span><span id="__span-9-3"><a id="__codelineno-9-3" name="__codelineno-9-3" href="#__codelineno-9-3"></a><span class="kd">function</span><span class="w"> </span><span class="nx">setup</span><span class="p">(){</span>
+</span><span id="__span-9-4"><a id="__codelineno-9-4" name="__codelineno-9-4" href="#__codelineno-9-4"></a><span class="w">    </span><span class="nx">createCanvas</span><span class="p">(</span><span class="mf">400</span><span class="p">,</span><span class="mf">400</span><span class="p">);</span>
+</span><span id="__span-9-5"><a id="__codelineno-9-5" name="__codelineno-9-5" href="#__codelineno-9-5"></a><span class="w">    </span><span class="nx">circleX</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">40</span><span class="p">;</span>
+</span><span id="__span-9-6"><a id="__codelineno-9-6" name="__codelineno-9-6" href="#__codelineno-9-6"></a><span class="p">}</span>
+</span></code></pre></div>
+Or, when we declare our variable:</p>
+<div class="language-js highlight"><pre><span></span><code><span id="__span-10-1"><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a><span class="kd">let</span><span class="w"> </span><span class="nx">circleX</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">40</span><span class="p">;</span>
+</span><span id="__span-10-2"><a id="__codelineno-10-2" name="__codelineno-10-2" href="#__codelineno-10-2"></a>
+</span><span id="__span-10-3"><a id="__codelineno-10-3" name="__codelineno-10-3" href="#__codelineno-10-3"></a><span class="kd">function</span><span class="w"> </span><span class="nx">setup</span><span class="p">(){</span>
+</span><span id="__span-10-4"><a id="__codelineno-10-4" name="__codelineno-10-4" href="#__codelineno-10-4"></a><span class="w">    </span><span class="nx">createCanvas</span><span class="p">(</span><span class="mf">400</span><span class="p">,</span><span class="mf">400</span><span class="p">);</span>
+</span><span id="__span-10-5"><a id="__codelineno-10-5" name="__codelineno-10-5" href="#__codelineno-10-5"></a><span class="p">}</span>
+</span></code></pre></div>
 <h3 id="variable-scope">Variable Scope</h3>
 <p>Variables have two levels of scope, <strong>global</strong> and <strong>local</strong>.</p>
 <p>We won't go into too much detail about this now, but in short:</p>
@@ -536,23 +1023,23 @@ function setup(){
 <p><strong>Local</strong> variables are declared within a function and can only be used within that function.</p>
 <h3 id="making-our-circle-move">Making our Circle Move</h3>
 <p>After we declare the type and name of our variable and initialize its value, we should have this sketch:</p>
-<pre><code class="language-js">let circleX = 0;
-
-function setup(){
-  createCanvas(400,400);
-
-}
-
-function draw(){
-  background(12,123,220);
-  noStroke();
-  fill(255,194,10);
-  circle(200,200,80);
-}
-</code></pre>
+<div class="language-js highlight"><pre><span></span><code><span id="__span-11-1"><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a><span class="kd">let</span><span class="w"> </span><span class="nx">circleX</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">0</span><span class="p">;</span>
+</span><span id="__span-11-2"><a id="__codelineno-11-2" name="__codelineno-11-2" href="#__codelineno-11-2"></a>
+</span><span id="__span-11-3"><a id="__codelineno-11-3" name="__codelineno-11-3" href="#__codelineno-11-3"></a><span class="kd">function</span><span class="w"> </span><span class="nx">setup</span><span class="p">(){</span>
+</span><span id="__span-11-4"><a id="__codelineno-11-4" name="__codelineno-11-4" href="#__codelineno-11-4"></a><span class="w">  </span><span class="nx">createCanvas</span><span class="p">(</span><span class="mf">400</span><span class="p">,</span><span class="mf">400</span><span class="p">);</span>
+</span><span id="__span-11-5"><a id="__codelineno-11-5" name="__codelineno-11-5" href="#__codelineno-11-5"></a>
+</span><span id="__span-11-6"><a id="__codelineno-11-6" name="__codelineno-11-6" href="#__codelineno-11-6"></a><span class="p">}</span>
+</span><span id="__span-11-7"><a id="__codelineno-11-7" name="__codelineno-11-7" href="#__codelineno-11-7"></a>
+</span><span id="__span-11-8"><a id="__codelineno-11-8" name="__codelineno-11-8" href="#__codelineno-11-8"></a><span class="kd">function</span><span class="w"> </span><span class="nx">draw</span><span class="p">(){</span>
+</span><span id="__span-11-9"><a id="__codelineno-11-9" name="__codelineno-11-9" href="#__codelineno-11-9"></a><span class="w">  </span><span class="nx">background</span><span class="p">(</span><span class="mf">12</span><span class="p">,</span><span class="mf">123</span><span class="p">,</span><span class="mf">220</span><span class="p">);</span>
+</span><span id="__span-11-10"><a id="__codelineno-11-10" name="__codelineno-11-10" href="#__codelineno-11-10"></a><span class="w">  </span><span class="nx">noStroke</span><span class="p">();</span>
+</span><span id="__span-11-11"><a id="__codelineno-11-11" name="__codelineno-11-11" href="#__codelineno-11-11"></a><span class="w">  </span><span class="nx">fill</span><span class="p">(</span><span class="mf">255</span><span class="p">,</span><span class="mf">194</span><span class="p">,</span><span class="mf">10</span><span class="p">);</span>
+</span><span id="__span-11-12"><a id="__codelineno-11-12" name="__codelineno-11-12" href="#__codelineno-11-12"></a><span class="w">  </span><span class="nx">circle</span><span class="p">(</span><span class="mf">200</span><span class="p">,</span><span class="mf">200</span><span class="p">,</span><span class="mf">80</span><span class="p">);</span>
+</span><span id="__span-11-13"><a id="__codelineno-11-13" name="__codelineno-11-13" href="#__codelineno-11-13"></a><span class="p">}</span>
+</span></code></pre></div>
 <p>Then we need to replace our circle's X value with our new variable:</p>
-<pre><code class="language-java">circle(circleX,200,80);
-</code></pre>
+<div class="language-java highlight"><pre><span></span><code><span id="__span-12-1"><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a><span class="n">circle</span><span class="p">(</span><span class="n">circleX</span><span class="p">,</span><span class="mi">200</span><span class="p">,</span><span class="mi">80</span><span class="p">);</span>
+</span></code></pre></div>
 <p>Lastly, we need a way to increase our variable over time. For this, we can use an incrementation operator.</p>
 <h2 id="incrementation-operators">Incrementation Operators</h2>
 <p>We need to increase our variable by a certain value, then assign that new value back to our variable.</p>
@@ -563,27 +1050,27 @@ function draw(){
 <li>Division - <code>ourVariable/=2</code></li>
 </ul>
 <p>To move our circle, we can increment our variable <code>circleX</code> by <code>1</code> each time <code>draw()</code> is called.</p>
-<pre><code class="language-js">let circleX = 0;
-
-function setup(){
-  createCanvas(400, 400);
-
-}
-
-function draw(){
-  background(12, 123, 220);
-  noStroke();
-  fill(255, 194, 10);
-  circle(circleX, 200, 80);
-  circleX += 1;
-}
-</code></pre>
+<div class="language-js highlight"><pre><span></span><code><span id="__span-13-1"><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a><span class="kd">let</span><span class="w"> </span><span class="nx">circleX</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">0</span><span class="p">;</span>
+</span><span id="__span-13-2"><a id="__codelineno-13-2" name="__codelineno-13-2" href="#__codelineno-13-2"></a>
+</span><span id="__span-13-3"><a id="__codelineno-13-3" name="__codelineno-13-3" href="#__codelineno-13-3"></a><span class="kd">function</span><span class="w"> </span><span class="nx">setup</span><span class="p">(){</span>
+</span><span id="__span-13-4"><a id="__codelineno-13-4" name="__codelineno-13-4" href="#__codelineno-13-4"></a><span class="w">  </span><span class="nx">createCanvas</span><span class="p">(</span><span class="mf">400</span><span class="p">,</span><span class="w"> </span><span class="mf">400</span><span class="p">);</span>
+</span><span id="__span-13-5"><a id="__codelineno-13-5" name="__codelineno-13-5" href="#__codelineno-13-5"></a>
+</span><span id="__span-13-6"><a id="__codelineno-13-6" name="__codelineno-13-6" href="#__codelineno-13-6"></a><span class="p">}</span>
+</span><span id="__span-13-7"><a id="__codelineno-13-7" name="__codelineno-13-7" href="#__codelineno-13-7"></a>
+</span><span id="__span-13-8"><a id="__codelineno-13-8" name="__codelineno-13-8" href="#__codelineno-13-8"></a><span class="kd">function</span><span class="w"> </span><span class="nx">draw</span><span class="p">(){</span>
+</span><span id="__span-13-9"><a id="__codelineno-13-9" name="__codelineno-13-9" href="#__codelineno-13-9"></a><span class="w">  </span><span class="nx">background</span><span class="p">(</span><span class="mf">12</span><span class="p">,</span><span class="w"> </span><span class="mf">123</span><span class="p">,</span><span class="w"> </span><span class="mf">220</span><span class="p">);</span>
+</span><span id="__span-13-10"><a id="__codelineno-13-10" name="__codelineno-13-10" href="#__codelineno-13-10"></a><span class="w">  </span><span class="nx">noStroke</span><span class="p">();</span>
+</span><span id="__span-13-11"><a id="__codelineno-13-11" name="__codelineno-13-11" href="#__codelineno-13-11"></a><span class="w">  </span><span class="nx">fill</span><span class="p">(</span><span class="mf">255</span><span class="p">,</span><span class="w"> </span><span class="mf">194</span><span class="p">,</span><span class="w"> </span><span class="mf">10</span><span class="p">);</span>
+</span><span id="__span-13-12"><a id="__codelineno-13-12" name="__codelineno-13-12" href="#__codelineno-13-12"></a><span class="w">  </span><span class="nx">circle</span><span class="p">(</span><span class="nx">circleX</span><span class="p">,</span><span class="w"> </span><span class="mf">200</span><span class="p">,</span><span class="w"> </span><span class="mf">80</span><span class="p">);</span>
+</span><span id="__span-13-13"><a id="__codelineno-13-13" name="__codelineno-13-13" href="#__codelineno-13-13"></a><span class="w">  </span><span class="nx">circleX</span><span class="w"> </span><span class="o">+=</span><span class="w"> </span><span class="mf">1</span><span class="p">;</span>
+</span><span id="__span-13-14"><a id="__codelineno-13-14" name="__codelineno-13-14" href="#__codelineno-13-14"></a><span class="p">}</span>
+</span></code></pre></div>
 <div id="11"></div>
 
 <p><small>This example is repeating. Some extra code was added to make this example for the website. We'll learn more about this next class.</small></p>
 <p>We can change how fast the circle is moving by changing incrementation value.</p>
-<pre><code class="language-java">  circleX += 10;
-</code></pre>
+<div class="language-java highlight"><pre><span></span><code><span id="__span-14-1"><a id="__codelineno-14-1" name="__codelineno-14-1" href="#__codelineno-14-1"></a><span class="w">  </span><span class="n">circleX</span><span class="w"> </span><span class="o">+=</span><span class="w"> </span><span class="mi">10</span><span class="p">;</span>
+</span></code></pre></div>
 <div id="12"></div>
 
 <p><small>This example is repeating. Some extra code was added to make this example for the website. We'll learn more about this next class.</small></p>
@@ -608,11 +1095,11 @@ function draw(){
 <p>This is the first function we’ve used that returns a value!</p>
 <h3 id="using-random">Using Random</h3>
 <p>We can use <code>random()</code> to give <code>circleX</code> a random value when we press our mouse!</p>
-<pre><code class="language-js">function mousePressed()
-{
-  circleX = random(0,width);
-}
-</code></pre>
+<div class="language-js highlight"><pre><span></span><code><span id="__span-15-1"><a id="__codelineno-15-1" name="__codelineno-15-1" href="#__codelineno-15-1"></a><span class="kd">function</span><span class="w"> </span><span class="nx">mousePressed</span><span class="p">()</span>
+</span><span id="__span-15-2"><a id="__codelineno-15-2" name="__codelineno-15-2" href="#__codelineno-15-2"></a><span class="p">{</span>
+</span><span id="__span-15-3"><a id="__codelineno-15-3" name="__codelineno-15-3" href="#__codelineno-15-3"></a><span class="w">  </span><span class="nx">circleX</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">random</span><span class="p">(</span><span class="mf">0</span><span class="p">,</span><span class="nx">width</span><span class="p">);</span>
+</span><span id="__span-15-4"><a id="__codelineno-15-4" name="__codelineno-15-4" href="#__codelineno-15-4"></a><span class="p">}</span>
+</span></code></pre></div>
 <div id="13"></div>
 
 <p>Or, by moving our <code>background()</code> and adding some more variables, we can make many circles appear randomly on our screen.</p>
@@ -625,34 +1112,34 @@ function draw(){
 <li><code>b</code></li>
 <li><code>g</code> </li>
 </ul>
-<pre><code class="language-js">let x;
-let y; 
-let a;
-let r;
-let g;
-let b;
-
-function setup(){
-  createCanvas(400, 400);
-  background(12, 123, 220);
-}
-
-function draw(){
-
-  noStroke();
-
-  y = random(height);
-  x = random(width);
-  a = random(60,200);
-  r = random(200,255);
-  g = random(200,255);
-  b = random(100);
-
-  fill(r, g, b,a);
-  circle(x, y,10);
-
-}
-</code></pre>
+<div class="language-js highlight"><pre><span></span><code><span id="__span-16-1"><a id="__codelineno-16-1" name="__codelineno-16-1" href="#__codelineno-16-1"></a><span class="kd">let</span><span class="w"> </span><span class="nx">x</span><span class="p">;</span>
+</span><span id="__span-16-2"><a id="__codelineno-16-2" name="__codelineno-16-2" href="#__codelineno-16-2"></a><span class="kd">let</span><span class="w"> </span><span class="nx">y</span><span class="p">;</span><span class="w"> </span>
+</span><span id="__span-16-3"><a id="__codelineno-16-3" name="__codelineno-16-3" href="#__codelineno-16-3"></a><span class="kd">let</span><span class="w"> </span><span class="nx">a</span><span class="p">;</span>
+</span><span id="__span-16-4"><a id="__codelineno-16-4" name="__codelineno-16-4" href="#__codelineno-16-4"></a><span class="kd">let</span><span class="w"> </span><span class="nx">r</span><span class="p">;</span>
+</span><span id="__span-16-5"><a id="__codelineno-16-5" name="__codelineno-16-5" href="#__codelineno-16-5"></a><span class="kd">let</span><span class="w"> </span><span class="nx">g</span><span class="p">;</span>
+</span><span id="__span-16-6"><a id="__codelineno-16-6" name="__codelineno-16-6" href="#__codelineno-16-6"></a><span class="kd">let</span><span class="w"> </span><span class="nx">b</span><span class="p">;</span>
+</span><span id="__span-16-7"><a id="__codelineno-16-7" name="__codelineno-16-7" href="#__codelineno-16-7"></a>
+</span><span id="__span-16-8"><a id="__codelineno-16-8" name="__codelineno-16-8" href="#__codelineno-16-8"></a><span class="kd">function</span><span class="w"> </span><span class="nx">setup</span><span class="p">(){</span>
+</span><span id="__span-16-9"><a id="__codelineno-16-9" name="__codelineno-16-9" href="#__codelineno-16-9"></a><span class="w">  </span><span class="nx">createCanvas</span><span class="p">(</span><span class="mf">400</span><span class="p">,</span><span class="w"> </span><span class="mf">400</span><span class="p">);</span>
+</span><span id="__span-16-10"><a id="__codelineno-16-10" name="__codelineno-16-10" href="#__codelineno-16-10"></a><span class="w">  </span><span class="nx">background</span><span class="p">(</span><span class="mf">12</span><span class="p">,</span><span class="w"> </span><span class="mf">123</span><span class="p">,</span><span class="w"> </span><span class="mf">220</span><span class="p">);</span>
+</span><span id="__span-16-11"><a id="__codelineno-16-11" name="__codelineno-16-11" href="#__codelineno-16-11"></a><span class="p">}</span>
+</span><span id="__span-16-12"><a id="__codelineno-16-12" name="__codelineno-16-12" href="#__codelineno-16-12"></a>
+</span><span id="__span-16-13"><a id="__codelineno-16-13" name="__codelineno-16-13" href="#__codelineno-16-13"></a><span class="kd">function</span><span class="w"> </span><span class="nx">draw</span><span class="p">(){</span>
+</span><span id="__span-16-14"><a id="__codelineno-16-14" name="__codelineno-16-14" href="#__codelineno-16-14"></a>
+</span><span id="__span-16-15"><a id="__codelineno-16-15" name="__codelineno-16-15" href="#__codelineno-16-15"></a><span class="w">  </span><span class="nx">noStroke</span><span class="p">();</span>
+</span><span id="__span-16-16"><a id="__codelineno-16-16" name="__codelineno-16-16" href="#__codelineno-16-16"></a>
+</span><span id="__span-16-17"><a id="__codelineno-16-17" name="__codelineno-16-17" href="#__codelineno-16-17"></a><span class="w">  </span><span class="nx">y</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">random</span><span class="p">(</span><span class="nx">height</span><span class="p">);</span>
+</span><span id="__span-16-18"><a id="__codelineno-16-18" name="__codelineno-16-18" href="#__codelineno-16-18"></a><span class="w">  </span><span class="nx">x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">random</span><span class="p">(</span><span class="nx">width</span><span class="p">);</span>
+</span><span id="__span-16-19"><a id="__codelineno-16-19" name="__codelineno-16-19" href="#__codelineno-16-19"></a><span class="w">  </span><span class="nx">a</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">random</span><span class="p">(</span><span class="mf">60</span><span class="p">,</span><span class="mf">200</span><span class="p">);</span>
+</span><span id="__span-16-20"><a id="__codelineno-16-20" name="__codelineno-16-20" href="#__codelineno-16-20"></a><span class="w">  </span><span class="nx">r</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">random</span><span class="p">(</span><span class="mf">200</span><span class="p">,</span><span class="mf">255</span><span class="p">);</span>
+</span><span id="__span-16-21"><a id="__codelineno-16-21" name="__codelineno-16-21" href="#__codelineno-16-21"></a><span class="w">  </span><span class="nx">g</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">random</span><span class="p">(</span><span class="mf">200</span><span class="p">,</span><span class="mf">255</span><span class="p">);</span>
+</span><span id="__span-16-22"><a id="__codelineno-16-22" name="__codelineno-16-22" href="#__codelineno-16-22"></a><span class="w">  </span><span class="nx">b</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">random</span><span class="p">(</span><span class="mf">100</span><span class="p">);</span>
+</span><span id="__span-16-23"><a id="__codelineno-16-23" name="__codelineno-16-23" href="#__codelineno-16-23"></a>
+</span><span id="__span-16-24"><a id="__codelineno-16-24" name="__codelineno-16-24" href="#__codelineno-16-24"></a><span class="w">  </span><span class="nx">fill</span><span class="p">(</span><span class="nx">r</span><span class="p">,</span><span class="w"> </span><span class="nx">g</span><span class="p">,</span><span class="w"> </span><span class="nx">b</span><span class="p">,</span><span class="nx">a</span><span class="p">);</span>
+</span><span id="__span-16-25"><a id="__codelineno-16-25" name="__codelineno-16-25" href="#__codelineno-16-25"></a><span class="w">  </span><span class="nx">circle</span><span class="p">(</span><span class="nx">x</span><span class="p">,</span><span class="w"> </span><span class="nx">y</span><span class="p">,</span><span class="mf">10</span><span class="p">);</span>
+</span><span id="__span-16-26"><a id="__codelineno-16-26" name="__codelineno-16-26" href="#__codelineno-16-26"></a>
+</span><span id="__span-16-27"><a id="__codelineno-16-27" name="__codelineno-16-27" href="#__codelineno-16-27"></a><span class="p">}</span>
+</span></code></pre></div>
 <div id="14"></div>
 
 <h2 id="independent-exercise-face-generator">Independent Exercise: Face Generator</h2>
@@ -672,34 +1159,64 @@ function draw(){
 <ol>
 <li>Your p5 edit link</li>
 <li>Three of your favorite faces captured as screenshots.</li>
-</ol></p>
-    </article>
-</section>
-<!-- endblock -->
-                            </div>
-                        </div>
-                    </div>
-                
-                
-            </main>
+</ol>
 
-            
-                    <!-- block preview -->
-<!-- endblock -->
-            
 
-            
-            
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
         </div>
-
-            <script>var base_url = '..';</script>
-            <script src="../assets/js/jquery-3.3.1.slim.min.js""></script>
-            <script src="../assets/js/bootstrap.bundle.min.js""></script>
-            <script src="../assets/js/main.min.js""></script>
-                <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js" defer></script>
-                <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"" defer></script>
-                <script src="../search/main.js" defer></script>
-
-    </body>
-
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.tabs.sticky"], "search": "../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.92b07e13.min.js"></script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js&#34;"></script>
+      
+    
+  </body>
 </html>
