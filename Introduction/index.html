@@ -1,7 +1,7 @@
 <!doctype html>
 <html data-bs-theme="">
     <head>
-                <title>Playing with Code(s) - Code and Media Art</title>
+                <title>Introduction - Code and Media Art</title>
 
             <meta charset="utf-8">
             <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -172,37 +172,45 @@
     <div class="sidebar navbar-collapse collapse card">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-bs-level="1"><a href="#playing-with-codes" class="nav-link">Playing with Code(s)</a>
+            <li class="nav-item" data-bs-level="1"><a href="#hello" class="nav-link">HELLO!</a>
               <ul class="nav flex-column">
-            <li class="nav-item" data-bs-level="2"><a href="#rules-as-code-danish-clapping-game" class="nav-link">Rules as Code: Danish Clapping Game</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-bs-level="2"><a href="#code-and-art" class="nav-link">Code and Art</a>
+            <li class="nav-item" data-bs-level="2"><a href="#plan-for-today" class="nav-link">Plan For Today</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-bs-level="2"><a href="#loose-codes-of-art" class="nav-link">Loose Codes of Art</a>
+            <li class="nav-item" data-bs-level="2"><a href="#introductions" class="nav-link">Introductions</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-bs-level="2"><a href="#strict-codes-of-art" class="nav-link">Strict Codes of Art</a>
+            <li class="nav-item" data-bs-level="2"><a href="#about-me" class="nav-link">About Me</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-bs-level="2"><a href="#game-codes-dots-boxes" class="nav-link">Game Codes: Dots &amp; Boxes</a>
+            <li class="nav-item" data-bs-level="2"><a href="#syllabus" class="nav-link">Syllabus</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-bs-level="2"><a href="#in-class-exercise-conditional-drawing" class="nav-link">In-class exercise: Conditional Drawing</a>
+            <li class="nav-item" data-bs-level="2"><a href="#class-website-and-schedule" class="nav-link">Class Website and Schedule</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-bs-level="2"><a href="#independent-exercise-sign-up-for-p5js" class="nav-link">Independent Exercise: Sign up for p5.js</a>
+            <li class="nav-item" data-bs-level="2"><a href="#class-discord" class="nav-link">Class Discord</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-bs-level="2"><a href="#independent-exercise-pea-work" class="nav-link">Independent Exercise: Pea Work</a>
+            <li class="nav-item" data-bs-level="2"><a href="#course-goals" class="nav-link">Course Goals</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#practice" class="nav-link">Practice</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#projects" class="nav-link">Projects</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#thinking-reading-watching" class="nav-link">Thinking, Reading, Watching</a>
               <ul class="nav flex-column">
               </ul>
             </li>
@@ -221,112 +229,201 @@
             
             
         </header>
-        <p><h1 id="playing-with-codes">Playing with Code(s)</h1>
-<p>Code can be approached as a conceptual framework.
-We could also consider here substituting the word code for conditions or instructions.</p>
-<p>To make code is to make the conditions for something to be generated.</p>
-<p>In this class, we'll be considering code in a literal sense, as computer code. However, the history of code in art has been informed by a long relationship between instructions, art, and games.</p>
-<h2 id="rules-as-code-danish-clapping-game">Rules as Code: Danish Clapping Game</h2>
-<p>Play in pairs</p>
-<p>Instructions:</p>
+        <p><style>
+/* Button styling */
+#focusToggle {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+  padding: 0.2em .5em;
+  background: #333;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  opacity: .5;
+}
+
+/* Hide button on small screens */
+@media (max-width: 767.9px) {
+  #focusToggle {
+    display: none;
+  }
+}
+
+/* Focus mode styles */
+.focus-mode .section-content,
+.focus-mode h2 {
+  display: none; /* hide all by default in focus mode */
+}
+
+.focus-mode .section-content.active,
+.focus-mode h2.active {
+  display: block; /* show only active section */
+}
+</style>
+
+<p><button id="focusToggle">Focus</button></p>
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const button = document.getElementById("focusToggle");
+  let focusEnabled = false;
+
+  // Wrap content after each h2
+  const headings = document.querySelectorAll("h2");
+  headings.forEach(h2 => {
+    const wrapper = document.createElement("div");
+    wrapper.classList.add("section-content");
+
+    let sibling = h2.nextElementSibling;
+    while (sibling && sibling.tagName !== "H2") {
+      const next = sibling.nextElementSibling;
+      wrapper.appendChild(sibling);
+      sibling = next;
+    }
+    h2.insertAdjacentElement("afterend", wrapper);
+  });
+
+  const sections = document.querySelectorAll(".section-content");
+
+  function showSectionById(id) {
+    sections.forEach(wrapper => {
+      const h2 = wrapper.previousElementSibling;
+      if (h2.id === id) {
+        wrapper.classList.add("active");
+        h2.classList.add("active");
+      } else {
+        wrapper.classList.remove("active");
+        h2.classList.remove("active");
+      }
+    });
+  }
+
+  // Default section
+  if (location.hash) {
+    showSectionById(location.hash.substring(1));
+  } else if (headings.length) {
+    showSectionById(headings[0].id);
+  }
+
+  window.addEventListener("hashchange", () => {
+    showSectionById(location.hash.substring(1));
+  });
+
+  // Toggle focus mode
+  function toggleFocusMode(enable) {
+    focusEnabled = enable;
+    document.body.classList.toggle("focus-mode", focusEnabled);
+    button.textContent = focusEnabled ? "Exit Focus" : "Focus";
+  }
+
+  button.addEventListener("click", () => {
+    toggleFocusMode(!focusEnabled);
+  });
+
+  // Disable focus mode on small screens
+  function checkScreenWidth() {
+    if (window.innerWidth <= 767.9) {
+      toggleFocusMode(false); // automatically turn off
+      button.style.display = "none"; // hide button
+    } else {
+      button.style.display = "block"; // show button
+    }
+  }
+
+  window.addEventListener("resize", checkScreenWidth);
+  checkScreenWidth(); // initial check
+});
+</script>
+
+<h1 id="hello">HELLO!</h1>
+<h2 id="plan-for-today">Plan For Today</h2>
+<p>2 Hours 30 min</p>
 <ul>
-<li>
-<p>Face your partner and clap your thighs at the same time.</p>
-</li>
-<li>
-<p>Choose an arm position randomly: Both arms up, both arms to the left, both arms to the right.</p>
-</li>
-<li>
-<p>If you choose the same position, clap hands and repeat from the top. If you choose different positions, repeat from the top.</p>
-</li>
+<li>Introductions - 15 min</li>
+<li>About Me - 5 min</li>
+<li>Syllabus Review - 10 min</li>
+<li>Schedule and Class Website - 5 min</li>
+<li>Class Discord - 10 min</li>
+<li>Break - 10 min</li>
+<li>Course Goals - 10 min</li>
+<li>Playing With Code(s)</li>
 </ul>
-<h2 id="code-and-art">Code and Art</h2>
-<h3 id="vera-molnar">Vera Molnar</h3>
-<figure> <img src = "../assets/images/code_00_molar.jpg" ><figcaption>Vera Molnar. Lettres de ma Mère (“Letter from my Mother”). 1987. Courtesy of The Anne and Michael Spalter Digital Art Collection</figcaption></figure>
-
-<h2 id="loose-codes-of-art">Loose Codes of Art</h2>
-<h3 id="robert-barry">Robert Barry</h3>
-<figure> <img src = "../assets/images/code_00_barry.jpg" ><figcaption>Robert Barry. ART WORK. 1970.</figcaption></figure>
-
-<h3 id="yoko-ono">Yoko Ono</h3>
-<figure> <img src = "../assets/images/code_00_ono_00.jpg" ><figcaption>Yoko Ono. Cut Piece. 1964.</figcaption></figure>
-
-<figure> <img src = "../assets/images/code_00_ono_02.jpg" ><figcaption>Yoko Ono. Grapefruit. 1964. </figcaption></figure>
-
-<figure> <img src = "../assets/images/code_00_ono_01.jpg" ><figcaption>Yoko Ono. DOLLAR PIECE. 1963. </figcaption></figure>
-
-<p>Instructions:</p>
-<pre><code>DOLLAR PIECE
-
-Select an amount of dollar.
-Imagine all the things that
-you can buy with that amount.(a)
-Imagine all the things that
-you cannot buy with that amount.(b)
-Write it on a piece of paper.
-
-
-1963 spring
-</code></pre>
-<h2 id="strict-codes-of-art">Strict Codes of Art</h2>
-<h3 id="mel-bochner">Mel Bochner</h3>
-<figure> <img src = "../assets/images/code_00.jpg" ><figcaption>Mel Bochner. Measurement Room: No Vantage Point. 2019–2020.</figcaption></figure>
-
-<h3 id="sol-lewitt">Sol LeWitt</h3>
-<figure> <img src = "../assets/images/code_00_lewitt_01.jpg" ><figcaption>Sol LeWitt. Wall Drawing #118. 1971 </figcaption></figure>
-
-<p>Instructions:</p>
-<p>“On a wall surface, any continuous stretch of
-wall, using a hard pencil, place fifty points at
-random. The points should be evenly distributed
-over the area of the wall. All of the points should
-be connected by straight lines.”</p>
-<p><a href="https://www.youtube.com/embed/c4cgB4vJ2XY?si=qiUEQj92Rs8d8plU">Sol LeWitt: A Wall Drawing Retrospective - MASS MoCA</a></p>
-<p>Modified version of #118 for paper:</p>
-<pre><code>On a pieces of paper, using a pencil,
-place twenty points evenly distributed
-over the area of one of the paper's sides.
-All of the points should be connected
-with straight lines.
-</code></pre>
-<h2 id="game-codes-dots-boxes">Game Codes: Dots &amp; Boxes</h2>
-<p>Instructions:</p>
-<pre><code>Draw a three by three  grid of dots
-
-Each player takes turns drawing a horizontal
-or vertical line that connects two dots
-
-The player who completes the fourth
-side of a 1×1 box earns one point 
-and takes another turn (mark initials in the box)
-
-The player with the most boxes at the end wins
-</code></pre>
-<h2 id="in-class-exercise-conditional-drawing">In-class exercise: Conditional Drawing</h2>
-<p>Using Sol LeWitt as a starting point, design your own set of conditions that produce a drawing.</p>
-<p>In this exercise, try to be as percise as possible with your instructions, while still leaving room for generative variation.</p>
-<p>Make one drawing with your conditions, then refine your <em>code</em>.</p>
-<p>After some time, we'll exchange our conditions and see what drawings emerge.</p>
-<h2 id="independent-exercise-sign-up-for-p5js">Independent Exercise: Sign up for p5.js</h2>
-<p>We will be using p5.js for this class. To use p5.js you will need to make an account.</p>
-<p><a href="https://editor.p5js.org/signup">Sign Up</a></p>
-<h2 id="independent-exercise-pea-work">Independent Exercise: Pea Work</h2>
-<p>Original:</p>
-<p><strong>Due: end of the semester or anytime in between</strong></p>
-<p>Yoko Ono. <em>Pea Piece</em>. 1960.</p>
-<pre><code>PEA PIECE
-
-Carry a bag of peas.
-Leave a pea wherever you go.
-
-1960 winter
-</code></pre>
-<p>A modified version to complete for your exercise:</p>
-<pre><code>Carry your bag of five beads.
-Leave a bead where it 
-makes sense to do so.
-</code></pre>
-<p>Share an image of a place you left a bead within the class Discord.</p></p>
+<h2 id="introductions">Introductions</h2>
+<ul>
+<li>Name</li>
+<li>Pronouns</li>
+<li>Home college/Major/Year</li>
+<li>Any experience you have had with Code or Programming?</li>
+<li>Why were you interested in signing up for this course and what is one thing you are looking to take away from this class?</li>
+<li>If you have one, favorite art work that combines art and technology?</li>
+</ul>
+<h2 id="about-me">About Me</h2>
+<ul>
+<li>Vincent Roca, Assistant Professor of Media Studies (you can call me Vinny)</li>
+<li>He/Him</li>
+<li>Media Art/Games/Animation/Sculpture</li>
+</ul>
+<h2 id="syllabus">Syllabus</h2>
+<p><a href="../">Class Syllabus</a></p>
+<h2 id="class-website-and-schedule">Class Website and Schedule</h2>
+<p>Class Website: code.vinnyroca.info</p>
+<p>If you see an error or typo, please send me an email or Discord message.</p>
+<p><a href="../schedule/">Schedule</a></p>
+<h2 id="class-discord">Class Discord</h2>
+<p><a href="https://discord.gg/RcBPBnxu">Join the Class Discord</a></p>
+<p>Please change your nickname on the server to match your name in the classroom.</p>
+<p><a href="https://support.discord.com/hc/en-us/articles/219070107-Server-Nicknames">How to change your server nickname</a></p>
+<h2 id="course-goals">Course Goals</h2>
+<p>To learn the fundamentals of the programming for artistic practice.
+To examine the relationship between code, art and technology critically in a variety of contexts.</p>
+<h2 id="practice">Practice</h2>
+<h3 id="p5js-and-javascript">p5.js and JavaScript</h3>
+<ul>
+<li>Learn the foundations of programming from variables to objects</li>
+<li>Learn how to create visual, sonic and interactive media artworks</li>
+</ul>
+<h3 id="basics-of-html-and-css">Basics of HTML and CSS</h3>
+<ul>
+<li>Learn how to put on p5.js projects on the internet on our own websites!</li>
+</ul>
+<h2 id="projects">Projects</h2>
+<h3 id="time">Time</h3>
+<p>An experimental clock that provides a different relationship to time,</p>
+<h3 id="narrative">Narrative</h3>
+<p>Blend text, functions and algorithms together to reveal a narrative or experience through the manipulation of images.</p>
+<h3 id="performance-group-project-of-3-4">Performance (Group Project of 3-4)</h3>
+<p>Use sound, camera, and interactive inputs and outputs to generate a projected performance.</p>
+<h3 id="game-ring">Game Ring</h3>
+<p>Use new knowledge in object oriented program to create a game that emerges from your lived experience of the world. The class will create a series of websites for our games that are all interconnected through a web ring.</p>
+<h2 id="thinking-reading-watching">Thinking, Reading, Watching</h2>
+<p>In this course, we will be studying the cultural, artistic, and political impacts of programming.</p>
+<p>To facilitate this study, we will hold four critical discussions throughout the quarter, each covering a different topic.</p>
+<h3 id="art-technology">Art &amp;&amp; Technology</h3>
+<ul>
+<li><em>History of the Future</em>, Casey Raes</li>
+<li><em>Glitch Feminism</em>, Legacy Russell</li>
+<li><em>Cyberfeminist Index</em>, Mindy Seu</li>
+</ul>
+<h3 id="culture-ideology">Culture &amp;&amp; Ideology</h3>
+<ul>
+<li><em>Algorithms of Oppression</em>, Safiya Noble</li>
+<li><em>Indigenous Circuits: Navajo Women and the Racialization of Early Electronic Manufacture</em>, Lisa Nakamura</li>
+<li><em>It’s In the Game’17</em> - Sondra Perry</li>
+</ul>
+<h3 id="surveillance-power">Surveillance &amp;&amp; Power</h3>
+<ul>
+<li><em>Citizenfour</em>, Laura Poitras</li>
+<li><em>Helga Tawil-Souri</em>, Digital Occupation</li>
+<li><em>Facial Weaponization Suite</em>, Zach Blas</li>
+</ul>
+<h3 id="internet-play">Internet &amp;&amp; Play</h3>
+<ul>
+<li><em>Making Space for A Handmade Web</em>, Chia Amisola</li>
+<li><em>A Handmade Web</em>, J. R. Carpenter</li>
+<li><em>Against the Dark Forest</em>, Erin Kissane</li>
+</ul></p>
     </article>
 </section>
 <!-- endblock -->
