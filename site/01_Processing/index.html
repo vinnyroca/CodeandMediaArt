@@ -1,265 +1,709 @@
+
 <!doctype html>
-<html data-bs-theme="">
-    <head>
-                <title>01 Processing - Code and Media Art</title>
-
-            <meta charset="utf-8">
-            <meta http-equiv="X-UA-Compatible" content="IE=edge">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-            
-            
-            
-
-            
-                <link  rel="icon" type="image/x-icon" href="../assets/img/favicon.ico">
-            
-            <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Mono:400,700">
-            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-            <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
-            <link rel="stylesheet" href="../assets/css/root.min.css">
-            <link rel="stylesheet" href="../assets/css/main.min.css">
-            <link rel="stylesheet" href="../assets/css/media.min.css">
-            <link rel="stylesheet" href="../assets/css/mkdocstrings.min.css">
-                <link href="../extra.css" rel="stylesheet">
-                <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
-                <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js""></script>
-                <script src="../search/main.js"></script>
-
-            
-                
-                     <style>:root {--text: var(--color-black);}</style> 
-                     <style>:root {--title: var(--color-black);}</style> 
-                     <style>:root {--primary: var(--color-black);}</style> 
-                     <style>:root {--background: var(--color-white);}</style> 
-                
-            
-    </head>
-
-    <body>
-        <div class="container py-3">
-            <header>
-                    <!-- block header -->
-<nav class="navbar navbar-expand-xl border-bottom">
-    <div class="container-fluid">
-        
-
-        
-            <span class=" fs-4 title-color site-name" id="component-site-name" style="text-transform: uppercase;">Code and Media Art</span>
-        
-
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsMenu"
-            aria-controls="navbarsMenu" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse flex-column ml-auto" id="navbarsMenu">
-            <ul class="navbar-nav">
-
-                <!-- block menu -->
-                <li class="nav-item">
-                    <!-- block menu -->
+<html lang="en" class="no-js">
+  <head>
     
-        <li class="nav-item" id="component-menu">
-            <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="
-                            nav-link text-gray text-decoration-none" href="..">[Syllabus]</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="
-                            nav-link text-gray text-decoration-none" href="../schedule/">[Schedule]</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="
-                            nav-link dropdown-toggle text-decoration-none" href="#" data-bs-toggle="dropdown">[Projects]</a>
-                            <ul class="dropdown-menu">
-                                    <!-- block dropdown-menu -->
-    <li>
-        <a href="../time/" class="dropdown-item text-decoration-none ">Time</a>
-    </li>
-<!-- endblock -->
-                                    <!-- block dropdown-menu -->
-    <li>
-        <a href="../narrative/" class="dropdown-item text-decoration-none ">Narrative</a>
-    </li>
-<!-- endblock -->
-                                    <!-- block dropdown-menu -->
-    <li>
-        <a href="../performance/" class="dropdown-item text-decoration-none ">Performance</a>
-    </li>
-<!-- endblock -->
-                                    <!-- block dropdown-menu -->
-    <li>
-        <a href="../game/" class="dropdown-item text-decoration-none ">Game Ring</a>
-    </li>
-<!-- endblock -->
-                            </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="
-                            nav-link dropdown-toggle text-decoration-none" href="#" data-bs-toggle="dropdown">[Responses]</a>
-                            <ul class="dropdown-menu">
-                                    <!-- block dropdown-menu -->
-    <li>
-        <a href="../art/" class="dropdown-item text-decoration-none ">Art && Technology</a>
-    </li>
-<!-- endblock -->
-                                    <!-- block dropdown-menu -->
-    <li>
-        <a href="../culture/" class="dropdown-item text-decoration-none ">Culture && Ideology</a>
-    </li>
-<!-- endblock -->
-                                    <!-- block dropdown-menu -->
-    <li>
-        <a href="../power/" class="dropdown-item text-decoration-none ">Power && Surveillance</a>
-    </li>
-<!-- endblock -->
-                                    <!-- block dropdown-menu -->
-    <li>
-        <a href="../play/" class="dropdown-item text-decoration-none ">Play && Internet</a>
-    </li>
-<!-- endblock -->
-                            </ul>
-                        </li>
-            </ul>
-        </li>
-<!-- endblock -->
-                </li>
-                <!-- endblock -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.18">
+    
+    
+      
+        <title>01 Processing - Code && Media Art</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.7e37652d.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
 
-                <!-- block search -->
-                <li class="nav-item">
-                    <a class="collapsed" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-                        <div class="md-search-icon">
-                            <i class="fa fa-search" aria-hidden="true"></i>
-                        </div>
-                    </a>
-                </li>
-                <!--  endblock -->
 
-                <!-- block source -->
-                <li class="nav-item">
-                    
-                </li>
-                <!--  endblock -->
-            </ul>
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Noto Sans";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="white" data-md-color-accent="black">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#p5js-shapes-and-color" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Code &amp;&amp; Media Art" class="md-header__button md-logo" aria-label="Code && Media Art" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4.4 16.5c0-.9.3-1.8.8-2.6q.75-1.2 3-2.7c-.9-1.1-1.4-1.9-1.7-2.5-.4-.7-.5-1.3-.5-2 0-1.5.4-2.6 1.3-3.5S9.4 2 10.9 2q1.95 0 3.3 1.2c.9.8 1.3 1.8 1.3 2.9 0 .8-.2 1.5-.6 2.2q-.6 1.05-2.1 2.1l-1.4 1.1 4.3 5.2c.6-1.2.9-2.4.9-3.9h2.2c0 2.3-.5 4.2-1.6 5.7l2.8 3.3h-3l-1.3-1.5c-.7.6-1.4 1-2.3 1.3s-1.8.5-2.7.5c-1.9 0-3.4-.5-4.6-1.5-1.1-1.1-1.7-2.4-1.7-4.1m6.3 3.5q1.95 0 3.6-1.5l-4.7-5.7-.4.3C7.7 14.2 7 15.3 7 16.5c0 1.1.3 1.9 1 2.5s1.5 1 2.7 1M8.5 6.7c0 .9.5 1.9 1.6 3.2l1.6-1.1q.9-.6 1.2-1.2c.2-.4.3-.9.3-1.4 0-.6-.2-1.1-.7-1.5-.4-.4-1-.6-1.7-.6s-1.3.2-1.7.7-.6 1.1-.6 1.9"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Code && Media Art
+          </span>
         </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              01 Processing
+            
+          </span>
+        </div>
+      </div>
     </div>
-</nav>
-<!--  endblock -->
-            </header>
-
-            <main><!-- block search -->
-<div class="collapse" id="collapseExample">
-    <div role="search" class="search-box">
-        <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
-            <input type="text" name="q" class="search-query"
-            placeholder="Search docs" title="Type search term here" />
-        </form>
-    </div>
-</div>
-<!-- endblock -->
-
-                
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-3 d-none d-md-block" id="component-sidebar">
-                                    <!-- block sidebar -->
-<div class="navbar-expand-md" role="complementary">
     
-    <div class="sidebar navbar-collapse collapse card">
-        <ul class="nav flex-column">
+      
+    
+    
+    
+    
+      
+      
+    
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Syllabus
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../schedule/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Schedule/Tutorials
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../time/" class="md-tabs__link">
+          
+  
+  
+  Projects
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../art/" class="md-tabs__link">
+          
+  
+  
+  Responses
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
             
-            <li class="nav-item" data-bs-level="1"><a href="#p5js-shapes-and-color" class="nav-link">p5.js, Shapes and Color</a>
-              <ul class="nav flex-column">
-            <li class="nav-item" data-bs-level="2"><a href="#about-p5js" class="nav-link">About p5.js</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-bs-level="2"><a href="#artist-spotlight" class="nav-link">Artist Spotlight</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-bs-level="2"><a href="#what-is-p5js" class="nav-link">What is p5.js?</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-bs-level="2"><a href="#drawing-with-code" class="nav-link">Drawing with Code</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-bs-level="2"><a href="#drawing-exercise" class="nav-link">Drawing Exercise</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-bs-level="2"><a href="#color" class="nav-link">Color</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-bs-level="2"><a href="#opacity" class="nav-link">Opacity</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-bs-level="2"><a href="#opacity-exercise" class="nav-link">Opacity Exercise</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-bs-level="2"><a href="#sharing-your-sketch" class="nav-link">Sharing your Sketch</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-bs-level="2"><a href="#independent-exercise-drawing-in-color" class="nav-link">Independent Exercise: Drawing in Color</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-              </ul>
-            </li>
-        </ul>
-    </div>
-</div>
-<!-- endblock -->
-                            </div>
-                            <div class="col-md-9 col-12" id="component-content">
-                                    <!-- block content -->
-<section class="container post" id="component-content">
-    <article>
-        <header>
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Code &amp;&amp; Media Art" class="md-nav__button md-logo" aria-label="Code && Media Art" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4.4 16.5c0-.9.3-1.8.8-2.6q.75-1.2 3-2.7c-.9-1.1-1.4-1.9-1.7-2.5-.4-.7-.5-1.3-.5-2 0-1.5.4-2.6 1.3-3.5S9.4 2 10.9 2q1.95 0 3.3 1.2c.9.8 1.3 1.8 1.3 2.9 0 .8-.2 1.5-.6 2.2q-.6 1.05-2.1 2.1l-1.4 1.1 4.3 5.2c.6-1.2.9-2.4.9-3.9h2.2c0 2.3-.5 4.2-1.6 5.7l2.8 3.3h-3l-1.3-1.5c-.7.6-1.4 1-2.3 1.3s-1.8.5-2.7.5c-1.9 0-3.4-.5-4.6-1.5-1.1-1.1-1.7-2.4-1.7-4.1m6.3 3.5q1.95 0 3.6-1.5l-4.7-5.7-.4.3C7.7 14.2 7 15.3 7 16.5c0 1.1.3 1.9 1 2.5s1.5 1 2.7 1M8.5 6.7c0 .9.5 1.9 1.6 3.2l1.6-1.1q.9-.6 1.2-1.2c.2-.4.3-.9.3-1.4 0-.6-.2-1.1-.7-1.5-.4-.4-1-.6-1.7-.6s-1.3.2-1.7.7-.6 1.1-.6 1.9"/></svg>
+
+    </a>
+    Code && Media Art
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Syllabus
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../schedule/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Schedule/Tutorials
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Projects
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Projects
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../time/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Time
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../narrative/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Narrative
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../performance/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Performance
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../game/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Game Ring
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Responses
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Responses
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../art/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Art && Technology
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../culture/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Culture && Ideology
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../power/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Power && Surveillance
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../play/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Play && Internet
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
             
             
-        </header>
-        <p><script>hljs.highlightAll();</script>
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
 
-<script>
-// Get the header element
-let header = document.querySelector('header');
+  
 
-// Get the height of the header
-document.querySelectorAll('a[href^="#"]')
-.forEach(function (anchor) {
-    anchor.addEventListener('click', 
-    function (event) {
-        event.preventDefault();
+<nav class="md-nav md-nav--secondary" aria-label="On this page">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      On this page
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#about-p5js" class="md-nav__link">
+    <span class="md-ellipsis">
+      About p5.js
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#artist-spotlight" class="md-nav__link">
+    <span class="md-ellipsis">
+      Artist Spotlight
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-is-p5js" class="md-nav__link">
+    <span class="md-ellipsis">
+      What is p5.js?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#drawing-with-code" class="md-nav__link">
+    <span class="md-ellipsis">
+      Drawing with Code
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#drawing-exercise" class="md-nav__link">
+    <span class="md-ellipsis">
+      Drawing Exercise
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#color" class="md-nav__link">
+    <span class="md-ellipsis">
+      Color
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#opacity" class="md-nav__link">
+    <span class="md-ellipsis">
+      Opacity
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#opacity-exercise" class="md-nav__link">
+    <span class="md-ellipsis">
+      Opacity Exercise
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sharing-your-sketch" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sharing your Sketch
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#independent-exercise-drawing-in-color" class="md-nav__link">
+    <span class="md-ellipsis">
+      Independent Exercise: Drawing in Color
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
 
-        // Get the target element that 
-        // the anchor link points to
-        let target = document.querySelector(
-            this.getAttribute('href')
-        );
 
-        let headerHeight = header.offsetHeight*2;
 
-        let targetPosition = target
-            .getBoundingClientRect().top - headerHeight;
-
-        window.scrollTo({
-            top: targetPosition + window.scrollY,
-            behavior: 'smooth'
-        });
-    });
-});
-</script>
+<script>hljs.highlightAll();</script>
 
 <h1 id="p5js-shapes-and-color">p5.js, Shapes and Color</h1>
 <p>Get started by going to the <a href="https://editor.p5js.org/">p5.js editor website</a>.</p>
@@ -347,21 +791,20 @@ document.querySelectorAll('a[href^="#"]')
 <p>The syntax for creatCanvas is that it takes in and a and b parameter.</p>
 <p>a is equal to the width of our sketch and b is equal to our height.</p>
 <p>If we want our sketch to be 400 pixels by 400 pixels we could write;</p>
-<pre><code class="language-js">function setup(){
-    //Set our sketch to 800 by 800 pixels
-    createCanvas(400,400);
-}
-
-</code></pre>
+<div class="language-js highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="kd">function</span><span class="w"> </span><span class="nx">setup</span><span class="p">(){</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="w">    </span><span class="c1">//Set our sketch to 800 by 800 pixels</span>
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="w">    </span><span class="nx">createCanvas</span><span class="p">(</span><span class="mf">400</span><span class="p">,</span><span class="mf">400</span><span class="p">);</span>
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="p">}</span>
+</span></code></pre></div>
 <p>Notice the "//" on the first line. This marks a comment. A comment is meant for human programmers and is not "read" by our computer.</p>
 <p>Also notice the semi colon ";" at the end of the second line. For our purposes now, we can think of the semi colon as a period, marking the end of our line of code.</p>
 <h3 id="errors">Errors</h3>
 <p>If I spell 'createCanvas()' incorrectly, my sketch won't run, and p5 will let me know I have an error.</p>
-<pre><code class="language-js">function setup(){
-    //Set our sketch to 400 by 400 pixels
-    createCanva(400,400);
-}
-</code></pre>
+<div class="language-js highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="kd">function</span><span class="w"> </span><span class="nx">setup</span><span class="p">(){</span>
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="w">    </span><span class="c1">//Set our sketch to 400 by 400 pixels</span>
+</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="w">    </span><span class="nx">createCanva</span><span class="p">(</span><span class="mf">400</span><span class="p">,</span><span class="mf">400</span><span class="p">);</span>
+</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a><span class="p">}</span>
+</span></code></pre></div>
 <figure> <img src = "../assets/images/code_01_errorp5.jpg"><figcaption>Error message</figcaption> </figure>
 
 <h3 id="background">background()</h3>
@@ -376,15 +819,15 @@ document.querySelectorAll('a[href^="#"]')
 </ul>
 <hr />
 <p>To draw a middle gray background on our sketch:</p>
-<pre><code class="language-js">function setup(){
-    //Set our sketch to 400 by 400 pixels
-    createCanvas(400,400);
-}
-
-function draw(){
-    background(127);
-}
-</code></pre>
+<div class="language-js highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="kd">function</span><span class="w"> </span><span class="nx">setup</span><span class="p">(){</span>
+</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="w">    </span><span class="c1">//Set our sketch to 400 by 400 pixels</span>
+</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="w">    </span><span class="nx">createCanvas</span><span class="p">(</span><span class="mf">400</span><span class="p">,</span><span class="mf">400</span><span class="p">);</span>
+</span><span id="__span-2-4"><a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a><span class="p">}</span>
+</span><span id="__span-2-5"><a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a>
+</span><span id="__span-2-6"><a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a><span class="kd">function</span><span class="w"> </span><span class="nx">draw</span><span class="p">(){</span>
+</span><span id="__span-2-7"><a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a><span class="w">    </span><span class="nx">background</span><span class="p">(</span><span class="mf">127</span><span class="p">);</span>
+</span><span id="__span-2-8"><a id="__codelineno-2-8" name="__codelineno-2-8" href="#__codelineno-2-8"></a><span class="p">}</span>
+</span></code></pre></div>
 <h3 id="setup-and-draw">setup() and draw()</h3>
 <p>We'll get more into how <code>setup()</code> and <code>draw()</code> function in the next class. For now, we can think of <code>setup()</code> as where we set up our sketch by drawing our canvas, and <code>draw()</code> is where we can make our drawing. We want to make sure that our code is in between the <code>{ }</code> of the function.</p>
 <h3 id="circle">circle()</h3>
@@ -404,11 +847,11 @@ function draw(){
 <figure> <img src = "../assets/images/code_01_sketchgrid.jpg" width = "400"; height = "400"><figcaption> Our current sketch with grid lines every 10 pixels</figcaption> </figure>
 
 <p>To draw a circle with a diameter of 200 in the center of our screen we would write:</p>
-<pre><code class="language-js">function draw(){
-    background(127);
-    circle(200,200,100);
-}
-</code></pre>
+<div class="language-js highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="kd">function</span><span class="w"> </span><span class="nx">draw</span><span class="p">(){</span>
+</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="w">    </span><span class="nx">background</span><span class="p">(</span><span class="mf">127</span><span class="p">);</span>
+</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a><span class="w">    </span><span class="nx">circle</span><span class="p">(</span><span class="mf">200</span><span class="p">,</span><span class="mf">200</span><span class="p">,</span><span class="mf">100</span><span class="p">);</span>
+</span><span id="__span-3-4"><a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a><span class="p">}</span>
+</span></code></pre></div>
 <figure> <img src = "../assets/images/code_01_ellipse.jpg" width = "400"; height = "400"><figcaption> Our circle</figcaption> </figure>
 
 <figure> <img src = "../assets/images/code_01_ellipsegrid.jpg" width = "400"; height = "400"><figcaption> Our circle on a coordinate grid</figcaption> </figure>
@@ -416,28 +859,28 @@ function draw(){
 <h3 id="drawing-order">Drawing Order</h3>
 <p>The order that we write our code is important! The computer "reads" our code from the top to bottom, just like we do. The drawing order in p5 is the same. Each shape is drawn on top of the previous shape.</p>
 <p>Try adding a line of code to make a new circle in the center of our our sketch with a diameter of 200 pixels.</p>
-<pre><code class="language-js">circle(200,200,200);
-</code></pre>
+<div class="language-js highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="nx">circle</span><span class="p">(</span><span class="mf">200</span><span class="p">,</span><span class="mf">200</span><span class="p">,</span><span class="mf">200</span><span class="p">);</span>
+</span></code></pre></div>
 <p>Because our code now looks like this:</p>
-<pre><code class="language-js">function setup(){
-    //Set our sketch to 400 by 400 pixels
-    createCanvas(400,400);
-}
-
-function draw(){
-    background(127);
-    circle(200,200,100);
-    circle(200,200,200);
-}
-</code></pre>
-<p>We are first drawing our background, then drawing our smaller circle, and, finally, the larger circle on top.</p>
+<p><div class="language-js highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="kd">function</span><span class="w"> </span><span class="nx">setup</span><span class="p">(){</span>
+</span><span id="__span-5-2"><a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a><span class="w">    </span><span class="c1">//Set our sketch to 400 by 400 pixels</span>
+</span><span id="__span-5-3"><a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a><span class="w">    </span><span class="nx">createCanvas</span><span class="p">(</span><span class="mf">400</span><span class="p">,</span><span class="mf">400</span><span class="p">);</span>
+</span><span id="__span-5-4"><a id="__codelineno-5-4" name="__codelineno-5-4" href="#__codelineno-5-4"></a><span class="p">}</span>
+</span><span id="__span-5-5"><a id="__codelineno-5-5" name="__codelineno-5-5" href="#__codelineno-5-5"></a>
+</span><span id="__span-5-6"><a id="__codelineno-5-6" name="__codelineno-5-6" href="#__codelineno-5-6"></a><span class="kd">function</span><span class="w"> </span><span class="nx">draw</span><span class="p">(){</span>
+</span><span id="__span-5-7"><a id="__codelineno-5-7" name="__codelineno-5-7" href="#__codelineno-5-7"></a><span class="w">    </span><span class="nx">background</span><span class="p">(</span><span class="mf">127</span><span class="p">);</span>
+</span><span id="__span-5-8"><a id="__codelineno-5-8" name="__codelineno-5-8" href="#__codelineno-5-8"></a><span class="w">    </span><span class="nx">circle</span><span class="p">(</span><span class="mf">200</span><span class="p">,</span><span class="mf">200</span><span class="p">,</span><span class="mf">100</span><span class="p">);</span>
+</span><span id="__span-5-9"><a id="__codelineno-5-9" name="__codelineno-5-9" href="#__codelineno-5-9"></a><span class="w">    </span><span class="nx">circle</span><span class="p">(</span><span class="mf">200</span><span class="p">,</span><span class="mf">200</span><span class="p">,</span><span class="mf">200</span><span class="p">);</span>
+</span><span id="__span-5-10"><a id="__codelineno-5-10" name="__codelineno-5-10" href="#__codelineno-5-10"></a><span class="p">}</span>
+</span></code></pre></div>
+We are first drawing our background, then drawing our smaller circle, and, finally, the larger circle on top.</p>
 <figure> <img src = "../assets/images/code_01_ellipse_04.jpg" width = "400"; height = "400"><figcaption> Our larger circle covering our smaller circle</figcaption> </figure>
 
-<p>If we change the ordering of our circles:</p>
-<pre><code class="language-js">circle(400,400,200);
-circle(400,400,100);
-</code></pre>
-<p>We'll see the smaller circle drawn on top of the larger one:</p>
+<p>If we change the ordering of our circles:
+<div class="language-js highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a><span class="nx">circle</span><span class="p">(</span><span class="mf">400</span><span class="p">,</span><span class="mf">400</span><span class="p">,</span><span class="mf">200</span><span class="p">);</span>
+</span><span id="__span-6-2"><a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a><span class="nx">circle</span><span class="p">(</span><span class="mf">400</span><span class="p">,</span><span class="mf">400</span><span class="p">,</span><span class="mf">100</span><span class="p">);</span>
+</span></code></pre></div>
+We'll see the smaller circle drawn on top of the larger one:</p>
 <figure> <img src = "../assets/images/code_01_ellipse_05.jpg" width = "400"; height = "400"><figcaption> </figcaption> </figure>
 
 <h3 id="rect-and-square">rect() and square()</h3>
@@ -464,8 +907,8 @@ circle(400,400,100);
 </ul>
 <hr />
 <p>Try drawing a square at (200,200) with a size and width of 100.</p>
-<pre><code class="language-java">rect(400,400,100,100);
-</code></pre>
+<div class="language-java highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a><span class="n">rect</span><span class="p">(</span><span class="mi">400</span><span class="p">,</span><span class="mi">400</span><span class="p">,</span><span class="mi">100</span><span class="p">,</span><span class="mi">100</span><span class="p">);</span>
+</span></code></pre></div>
 <p>What do you notice?</p>
 <figure> <img src = "../assets/images/code_01_rect_01.jpg" width = "400"; height = "400"><figcaption> </figcaption> </figure>
 
@@ -477,26 +920,26 @@ circle(400,400,100);
 <p><code>rectMode(CORNER)</code> is the default behavior with our rectangle being drawn from the upper left corner.</p>
 <p><code>rectMode(CENTER)</code> will draw our rectangle at the center of the given (x,y) coordinates.</p>
 <p>If we were to write:</p>
-<pre><code class="language-js">rect(200,200,100,100);
-rectMode(CENTER);
-</code></pre>
+<div class="language-js highlight"><pre><span></span><code><span id="__span-8-1"><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a><span class="nx">rect</span><span class="p">(</span><span class="mf">200</span><span class="p">,</span><span class="mf">200</span><span class="p">,</span><span class="mf">100</span><span class="p">,</span><span class="mf">100</span><span class="p">);</span>
+</span><span id="__span-8-2"><a id="__codelineno-8-2" name="__codelineno-8-2" href="#__codelineno-8-2"></a><span class="nx">rectMode</span><span class="p">(</span><span class="nx">CENTER</span><span class="p">);</span>
+</span></code></pre></div>
 <p>We would notice that nothing happens.</p>
 <p>For <code>rectMode()</code> to work properly, we need to tell our computer to draw our rectangles in the center <em>before</em> drawing our rectangle.</p>
-<p>If we write:</p>
-<pre><code class="language-js">rectMode(CENTER);
-rect(200,200,100,100);
-</code></pre>
-<p>We get this result:</p>
+<p>If we write:
+<div class="language-js highlight"><pre><span></span><code><span id="__span-9-1"><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a><span class="nx">rectMode</span><span class="p">(</span><span class="nx">CENTER</span><span class="p">);</span>
+</span><span id="__span-9-2"><a id="__codelineno-9-2" name="__codelineno-9-2" href="#__codelineno-9-2"></a><span class="nx">rect</span><span class="p">(</span><span class="mf">200</span><span class="p">,</span><span class="mf">200</span><span class="p">,</span><span class="mf">100</span><span class="p">,</span><span class="mf">100</span><span class="p">);</span>
+</span></code></pre></div>
+We get this result:</p>
 <figure> <img src = "../assets/images/code_01_rectMode_01.jpg" width = "400"; height = "400"><figcaption> </figcaption> </figure>
 
 <p>In essence, <code>rectMode()</code> will affect any rectangle after it is called. With this in mind, we can call <code>rectMode()</code> multiple times in a sketch to change the behavior of different rectangles.</p>
 <p>Let's try writing:</p>
-<pre><code class="language-js">rectMode(CENTER);
-rect(200,200,100,100);
-rectMode(CORNER);
-rect(200,200,100,100);
-</code></pre>
-<p>We can see our first rectangle remain in the center, while our second is drawn from the corner.</p>
+<p><div class="language-js highlight"><pre><span></span><code><span id="__span-10-1"><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a><span class="nx">rectMode</span><span class="p">(</span><span class="nx">CENTER</span><span class="p">);</span>
+</span><span id="__span-10-2"><a id="__codelineno-10-2" name="__codelineno-10-2" href="#__codelineno-10-2"></a><span class="nx">rect</span><span class="p">(</span><span class="mf">200</span><span class="p">,</span><span class="mf">200</span><span class="p">,</span><span class="mf">100</span><span class="p">,</span><span class="mf">100</span><span class="p">);</span>
+</span><span id="__span-10-3"><a id="__codelineno-10-3" name="__codelineno-10-3" href="#__codelineno-10-3"></a><span class="nx">rectMode</span><span class="p">(</span><span class="nx">CORNER</span><span class="p">);</span>
+</span><span id="__span-10-4"><a id="__codelineno-10-4" name="__codelineno-10-4" href="#__codelineno-10-4"></a><span class="nx">rect</span><span class="p">(</span><span class="mf">200</span><span class="p">,</span><span class="mf">200</span><span class="p">,</span><span class="mf">100</span><span class="p">,</span><span class="mf">100</span><span class="p">);</span>
+</span></code></pre></div>
+We can see our first rectangle remain in the center, while our second is drawn from the corner.</p>
 <figure> <img src = "../assets/images/code_01_rectMode_02.jpg" width = "400"; height = "400"><figcaption> </figcaption> </figure>
 
 <h3 id="fill">fill()</h3>
@@ -511,10 +954,10 @@ rect(200,200,100,100);
 </ul>
 <hr />
 <p>Writing <code>fill()</code> before our most recent rectangle:</p>
-<pre><code class="language-js">rectMode(CORNER);
-fill(127);
-rect(200,200,100,100);
-</code></pre>
+<div class="language-js highlight"><pre><span></span><code><span id="__span-11-1"><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a><span class="nx">rectMode</span><span class="p">(</span><span class="nx">CORNER</span><span class="p">);</span>
+</span><span id="__span-11-2"><a id="__codelineno-11-2" name="__codelineno-11-2" href="#__codelineno-11-2"></a><span class="nx">fill</span><span class="p">(</span><span class="mf">127</span><span class="p">);</span>
+</span><span id="__span-11-3"><a id="__codelineno-11-3" name="__codelineno-11-3" href="#__codelineno-11-3"></a><span class="nx">rect</span><span class="p">(</span><span class="mf">200</span><span class="p">,</span><span class="mf">200</span><span class="p">,</span><span class="mf">100</span><span class="p">,</span><span class="mf">100</span><span class="p">);</span>
+</span></code></pre></div>
 <p>It changes the color of our rectangle to gray.</p>
 <figure> <img src = "../assets/images/code_01_fill_01.jpg" width = "400"; height = "400"><figcaption> </figcaption> </figure>
 
@@ -528,15 +971,15 @@ rect(200,200,100,100);
 <p><code>strokeWeight()</code> <a href="https://p5js.org/reference/p5/strokeWeight/">(Reference)</a> - Changes the thickness of strokes</p>
 <p>Be sure add comments to your code to keep track of what you are writing!</p>
 <p>Begin with:</p>
-<pre><code class="language-js">function setup(){
-    //Set our sketch to 400 by 400 pixels
-    createCanvas(400,400);
-}
-
-function draw(){
-    background(200);
-}
-</code></pre>
+<div class="language-js highlight"><pre><span></span><code><span id="__span-12-1"><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a><span class="kd">function</span><span class="w"> </span><span class="nx">setup</span><span class="p">(){</span>
+</span><span id="__span-12-2"><a id="__codelineno-12-2" name="__codelineno-12-2" href="#__codelineno-12-2"></a><span class="w">    </span><span class="c1">//Set our sketch to 400 by 400 pixels</span>
+</span><span id="__span-12-3"><a id="__codelineno-12-3" name="__codelineno-12-3" href="#__codelineno-12-3"></a><span class="w">    </span><span class="nx">createCanvas</span><span class="p">(</span><span class="mf">400</span><span class="p">,</span><span class="mf">400</span><span class="p">);</span>
+</span><span id="__span-12-4"><a id="__codelineno-12-4" name="__codelineno-12-4" href="#__codelineno-12-4"></a><span class="p">}</span>
+</span><span id="__span-12-5"><a id="__codelineno-12-5" name="__codelineno-12-5" href="#__codelineno-12-5"></a>
+</span><span id="__span-12-6"><a id="__codelineno-12-6" name="__codelineno-12-6" href="#__codelineno-12-6"></a><span class="kd">function</span><span class="w"> </span><span class="nx">draw</span><span class="p">(){</span>
+</span><span id="__span-12-7"><a id="__codelineno-12-7" name="__codelineno-12-7" href="#__codelineno-12-7"></a><span class="w">    </span><span class="nx">background</span><span class="p">(</span><span class="mf">200</span><span class="p">);</span>
+</span><span id="__span-12-8"><a id="__codelineno-12-8" name="__codelineno-12-8" href="#__codelineno-12-8"></a><span class="p">}</span>
+</span></code></pre></div>
 <figure> <img src = "../assets/images/code_01_exercise.jpg" ><figcaption> </figcaption> </figure>
 
 <h2 id="color">Color</h2>
@@ -570,24 +1013,24 @@ function draw(){
 <p>Try changing some of the colors in the Albers' sketch to see the effects.</p>
 <p>With RGB, we "mix" red, green, and blue together to get different results.</p>
 <p>For example if we wanted to fill our shapes with yellow, we would write:</p>
-<pre><code class="language-js">//Yellow in RGB
-fill(255,255,0);
-</code></pre>
+<div class="language-js highlight"><pre><span></span><code><span id="__span-13-1"><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a><span class="c1">//Yellow in RGB</span>
+</span><span id="__span-13-2"><a id="__codelineno-13-2" name="__codelineno-13-2" href="#__codelineno-13-2"></a><span class="nx">fill</span><span class="p">(</span><span class="mf">255</span><span class="p">,</span><span class="mf">255</span><span class="p">,</span><span class="mf">0</span><span class="p">);</span>
+</span></code></pre></div>
 <figure> <img src = "../assets/images/code_01_color_01.jpg" width = "400"; height = "400"><figcaption>A yellow circle</figcaption> </figure>
 
 <p>Mixing RGB values leads to a variety of colors:</p>
-<pre><code class="language-js">//purple
-fill(255,0,255);
-
-//cyan
-fill(0,255,255);
-
-//white
-fill(255,255,255);
-
-//black
-fill(0,0,0);
-</code></pre>
+<div class="language-js highlight"><pre><span></span><code><span id="__span-14-1"><a id="__codelineno-14-1" name="__codelineno-14-1" href="#__codelineno-14-1"></a><span class="c1">//purple</span>
+</span><span id="__span-14-2"><a id="__codelineno-14-2" name="__codelineno-14-2" href="#__codelineno-14-2"></a><span class="nx">fill</span><span class="p">(</span><span class="mf">255</span><span class="p">,</span><span class="mf">0</span><span class="p">,</span><span class="mf">255</span><span class="p">);</span>
+</span><span id="__span-14-3"><a id="__codelineno-14-3" name="__codelineno-14-3" href="#__codelineno-14-3"></a>
+</span><span id="__span-14-4"><a id="__codelineno-14-4" name="__codelineno-14-4" href="#__codelineno-14-4"></a><span class="c1">//cyan</span>
+</span><span id="__span-14-5"><a id="__codelineno-14-5" name="__codelineno-14-5" href="#__codelineno-14-5"></a><span class="nx">fill</span><span class="p">(</span><span class="mf">0</span><span class="p">,</span><span class="mf">255</span><span class="p">,</span><span class="mf">255</span><span class="p">);</span>
+</span><span id="__span-14-6"><a id="__codelineno-14-6" name="__codelineno-14-6" href="#__codelineno-14-6"></a>
+</span><span id="__span-14-7"><a id="__codelineno-14-7" name="__codelineno-14-7" href="#__codelineno-14-7"></a><span class="c1">//white</span>
+</span><span id="__span-14-8"><a id="__codelineno-14-8" name="__codelineno-14-8" href="#__codelineno-14-8"></a><span class="nx">fill</span><span class="p">(</span><span class="mf">255</span><span class="p">,</span><span class="mf">255</span><span class="p">,</span><span class="mf">255</span><span class="p">);</span>
+</span><span id="__span-14-9"><a id="__codelineno-14-9" name="__codelineno-14-9" href="#__codelineno-14-9"></a>
+</span><span id="__span-14-10"><a id="__codelineno-14-10" name="__codelineno-14-10" href="#__codelineno-14-10"></a><span class="c1">//black</span>
+</span><span id="__span-14-11"><a id="__codelineno-14-11" name="__codelineno-14-11" href="#__codelineno-14-11"></a><span class="nx">fill</span><span class="p">(</span><span class="mf">0</span><span class="p">,</span><span class="mf">0</span><span class="p">,</span><span class="mf">0</span><span class="p">);</span>
+</span></code></pre></div>
 <h3 id="color-exercise">Color Exercise</h3>
 <p>Using Google's Color Picker tool for reference, create and 400 x 400 image of three or more shapes that, next to each other, form a gradient. Choose a background color that complements your gradient.</p>
 <p>Example:</p>
@@ -667,34 +1110,64 @@ fill(0,0,0);
 <ol>
 <li>Share your p5 Edit link</li>
 <li>Text of your <em>Dividing the Light</em> instructions.</li>
-</ol></p>
-    </article>
-</section>
-<!-- endblock -->
-                            </div>
-                        </div>
-                    </div>
-                
-                
-            </main>
+</ol>
 
-            
-                    <!-- block preview -->
-<!-- endblock -->
-            
 
-            
-            
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
         </div>
-
-            <script>var base_url = '..';</script>
-            <script src="../assets/js/jquery-3.3.1.slim.min.js""></script>
-            <script src="../assets/js/bootstrap.bundle.min.js""></script>
-            <script src="../assets/js/main.min.js""></script>
-                <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js" defer></script>
-                <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"" defer></script>
-                <script src="../search/main.js" defer></script>
-
-    </body>
-
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.tabs.sticky"], "search": "../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.92b07e13.min.js"></script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js&#34;"></script>
+      
+    
+  </body>
 </html>
