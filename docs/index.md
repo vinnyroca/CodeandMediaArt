@@ -47,12 +47,12 @@ The objective of this course is to introduce the fundamental skills of programmi
 |%||
 |:---:|---|
 |10|Time|
-|15|Interactive|
+|15|Narrative|
 |15|Performance|
 |20|Game Ring|
 |10|Participation|
-|10|Reading Responses|
-|40|Exercises|
+|20|Reading Responses|
+|30|Exercises|
 
 #### **Evaluation Criteria**
 #### Projects
@@ -107,7 +107,7 @@ Submissions for the class will be made through Canvas.
 
 ### Readings
 
-All external readings will be provided on Box using this link.
+All external readings and videos will be provided using Box.
 
 ## Lab Hours && Course Materials
 
@@ -169,6 +169,22 @@ that something said in discussion or included in a piece of work is harmful, you
 to speak with the Instructor.
 
 Statement adopted from voidLab at https://github.com/voidlab/diversity-statement.
+
+## Accommodations
+
+The instructor will work individually with each student on reasonable accommodations.
+
+If you have questions about accommodations for the course, please do not hesitate to contact me.
+
+Campus Disability Coordinators
+
+- [Pomona](http://www.pomona.edu/administration/dean-of-students/disability-accommodations/)
+- [Claremont Graduate University](http://www.cgu.edu/disabilityservices)
+- [Scripps College](http://www.scrippscollege.edu/academics/students-with-disabilities)
+- [Claremont McKenna College](http://www.claremontmckenna.edu/dos/DSS/)
+- [Harvey Mudd College](https://www.hmc.edu/student-life/health-wellness/disability-services/)
+- [Pitzer College](http://pitweb.pitzer.edu/student-life/academic-support-services/)
+- [Keck Graduate Institute](http://www.kgi.edu/current-students/student-services/disabilities-accommodations.html)
 
 
 ## Resources

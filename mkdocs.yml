@@ -2,6 +2,16 @@ site_name: Code and Media Art
 nav:
   - Syllabus: index.md
   - Schedule: schedule.md
+  - Projects:
+    - Time: time.md
+    - Narrative: narrative.md
+    - Performance: performance.md
+    - Game Ring: game.md
+  - Responses:
+    - Art && Technology: art.md
+    - Culture && Ideology: culture.md
+    - Power && Surveillance: power.md
+    - Play && Internet: play.md
 
 theme:
 
