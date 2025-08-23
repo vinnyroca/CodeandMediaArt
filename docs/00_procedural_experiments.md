@@ -117,31 +117,4 @@ We will be using p5.js for this class. To use p5.js you will need to make an acc
 
 [Sign Up](https://editor.p5js.org/signup)
 
-## Independent Exercise: Pea Work
-
-Original:
-
-**Due: end of the semester or anytime in between**
-
-Yoko Ono. *Pea Piece*. 1960.
-
-```
-PEA PIECE
-
-Carry a bag of peas.
-Leave a pea wherever you go.
-
-1960 winter
-```
-
-A modified version to complete for your exercise:
-
-```
-Carry your bag of five beads.
-Leave a bead where it 
-makes sense to do so.
-```
-
-Share an image of a place you left a bead within the class Discord.
-
 

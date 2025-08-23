@@ -1,0 +1,110 @@
+
+
+<style>
+/* Button styling */
+#focusToggle {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+  padding: 0.2em .5em;
+  background: #333;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  opacity: .5;
+}
+
+/* Hide button on small screens */
+@media (max-width: 767.9px) {
+  #focusToggle {
+    display: none;
+  }
+}
+
+/* Focus mode styles */
+.focus-mode .section-content,
+.focus-mode h2 {
+  display: none; /* hide all by default in focus mode */
+}
+
+.focus-mode .section-content.active,
+.focus-mode h2.active {
+  display: block; /* show only active section */
+}
+</style>
+
+<button id="focusToggle">Focus</button>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const button = document.getElementById("focusToggle");
+  let focusEnabled = false;
+
+  // Wrap content after each h2
+  const headings = document.querySelectorAll("h2");
+  headings.forEach(h2 => {
+    const wrapper = document.createElement("div");
+    wrapper.classList.add("section-content");
+
+    let sibling = h2.nextElementSibling;
+    while (sibling && sibling.tagName !== "H2") {
+      const next = sibling.nextElementSibling;
+      wrapper.appendChild(sibling);
+      sibling = next;
+    }
+    h2.insertAdjacentElement("afterend", wrapper);
+  });
+
+  const sections = document.querySelectorAll(".section-content");
+
+  function showSectionById(id) {
+    sections.forEach(wrapper => {
+      const h2 = wrapper.previousElementSibling;
+      if (h2.id === id) {
+        wrapper.classList.add("active");
+        h2.classList.add("active");
+      } else {
+        wrapper.classList.remove("active");
+        h2.classList.remove("active");
+      }
+    });
+  }
+
+  // Default section
+  if (location.hash) {
+    showSectionById(location.hash.substring(1));
+  } else if (headings.length) {
+    showSectionById(headings[0].id);
+  }
+
+  window.addEventListener("hashchange", () => {
+    showSectionById(location.hash.substring(1));
+  });
+
+  // Toggle focus mode
+  function toggleFocusMode(enable) {
+    focusEnabled = enable;
+    document.body.classList.toggle("focus-mode", focusEnabled);
+    button.textContent = focusEnabled ? "Exit Focus" : "Focus";
+  }
+
+  button.addEventListener("click", () => {
+    toggleFocusMode(!focusEnabled);
+  });
+
+  // Disable focus mode on small screens
+  function checkScreenWidth() {
+    if (window.innerWidth <= 767.9) {
+      toggleFocusMode(false); // automatically turn off
+      button.style.display = "none"; // hide button
+    } else {
+      button.style.display = "block"; // show button
+    }
+  }
+
+  window.addEventListener("resize", checkScreenWidth);
+  checkScreenWidth(); // initial check
+});
+</script>

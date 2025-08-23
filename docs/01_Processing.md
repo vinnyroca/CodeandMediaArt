@@ -1,7 +1,3 @@
-
-
-<script>hljs.highlightAll();</script>
-
 # p5.js, Shapes and Color
 
 Get started by going to the [p5.js editor website](https://editor.p5js.org/).

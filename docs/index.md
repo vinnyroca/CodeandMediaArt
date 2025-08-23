@@ -3,7 +3,8 @@
  
 # Syllabus
 
----
+## Course Information
+
 **SEMESTER:** Fall 2025
 
 **LOCATION:** Scripps College, Steele 229  
@@ -41,7 +42,7 @@ The objective of this course is to introduce the fundamental skills of programmi
 ---
 ## Grading, Assignments, Course Policy
 ---
-#### **Course Breakdown**
+### **Course Breakdown**
 
 |%||
 |:---:|---|
@@ -53,7 +54,7 @@ The objective of this course is to introduce the fundamental skills of programmi
 |20|Reading Responses|
 |30|Exercises|
 
-#### **Evaluation Criteria**
+### **Evaluation Criteria**
 #### Projects
 
 Completed projects will be graded using the following criteria:
@@ -98,7 +99,9 @@ Class website will serve a a live syllabus, schedule, and notes for this course.
 
 For this class, we will be sharing our exercises, reading responses and projects through Discord. Students will be invited to join the class Discord server on the first day of class.
 
-I will respond to Discord messages and email within 24 hrs of receipt. I will respond to messages sent over the weekend on the following Monday.
+I will respond to community Discord messages and email within 24 hrs of receipt. I will respond to messages sent over the weekend on the following Monday.
+
+For course communication, please send me an email rather than a DM on Discord.
 
 ### Canvas Submissions
 
