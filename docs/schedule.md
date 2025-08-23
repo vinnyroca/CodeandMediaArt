@@ -23,7 +23,7 @@
 |Day|Class|Due|
 |---|---|---|
 |TUES<br>8/26|- [Introduction(s)](./Introduction.md)<br>- [Playing with Code(s)](./00_procedural_experiments.md)||
-|THUR<br>8/28|**- Tutorial:** [p5.js, Shape, and Color](./01_Processing.md)|**Due:**<br>- [Sign up for p5.js](https://editor.p5js.org/signup)|
+|THUR<br>8/28|**- Tutorial:** [p5.js, Shape, and Color](./01_p5.md)|**Due:**<br>- [Sign up for p5.js](https://editor.p5js.org/signup)|
 |TUES<br>9/2|**- Tutorial:** [Variables](./02_variables.md)|**Due:**<br>- [Drawing In Color](./01_Processing.md/#independent-exercise-drawing-in-color)|
 |THUR<br>9/4|**- Tutorial:** [Flow]|**Due:**<br>- [Face Generator](./02_variables.md/#independent-exercise-face-generator)|
 |TUES<br>9/9|**- Tutorial:** [Repeat]|**Due:**<br> - Flow Exercise|

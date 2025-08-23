@@ -1,0 +1,1 @@
+Use the left menu or hamburger menu to navigate to in-class and independent exercises.

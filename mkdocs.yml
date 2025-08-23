@@ -1,7 +1,7 @@
 site_name: Code && Media Art
 nav:
   - Syllabus: index.md
-  - Schedule/Tutorials: schedule.md
+  - Schedule: schedule.md
   - Projects:
     - Time: time.md
     - Narrative: narrative.md
@@ -12,7 +12,22 @@ nav:
     - Culture && Ideology: culture.md
     - Power && Surveillance: power.md
     - Play && Internet: play.md
-
+  - Notes:
+    - p5.js: 01_p5.md
+    - Variables: 02_variables.md
+  - Exercises:
+    - Introduction(s):
+      - In-class:
+        - Conditional Drawing: exercises/00_conditiondrawing.md
+      - Independent:
+        - p5!: exercises/00_signup.md
+    # - Variables:
+    #   - In-class:
+    #     - Painting Program: exercises/02_paint.md
+    #     - Random Dots: exercises/02_dots.md
+    #   - Independent:
+    #     - Face Generator: exercises/02_face.md
+    
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
