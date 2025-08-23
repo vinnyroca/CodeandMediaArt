@@ -189,6 +189,7 @@ h1{
 
 a{
     color: #8d2d44!important;
+    text-decoration: underline !important;
 }
 
 a:hover{
