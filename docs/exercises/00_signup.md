@@ -8,6 +8,7 @@ In this class, we'll be using [p5.js](https://p5js.org/) to do the majority of o
 
 This exercise has a few steps:
 
+1. **Please make sure you have signed up for the class Discord!**
 1. Watch this interview with Lauren Lee McCarthy, the creator of p5.js:<br><iframe width="560" height="315" src="https://www.youtube.com/embed/0ft4XohXIqU?si=8YI9qW1qJvcXMlBT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 2. Watch this video by Dan Shiffman of Coding Train (an excellent resource)<br><iframe width="560" height="315" src="https://www.youtube.com/embed/MXs1cOlidWs?si=SfY3fDArbMl_FQMK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 3. [Sign up for p5.js](https://editor.p5js.org/signup)

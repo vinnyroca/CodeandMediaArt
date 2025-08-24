@@ -2,9 +2,13 @@
 
 ## Description
 
-Use what we have learned about `random()` and variables to make a sketch similar to the one below. Your sketch should slowly add dots with different levels of opacity in random positions across the canvas.
+Use what we have learned about `random()` and variables to make a sketch similar to the one below. Your sketch should add dots with different levels of opacity in random positions across the canvas.
 
-Optional: make the color of of the dots vary slightly.
+**Hint: You'll need 3 variables for your x, y, and alpha value.**
+
+**Challenge**: Make the color of of the dots vary slightly (you'll need to make more variables for this functionality!)
+
+**Challenge**: Make the program *reset* on mouse click.
 
 Steps to begin:
 

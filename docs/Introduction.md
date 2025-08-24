@@ -147,6 +147,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
 [Class Syllabus](./index.md)
 
+Note: Some parts of this class will require:
+
+1. A personal computer with a camera, microphone, and sound output
+2. Headphones
+   
+If you do not have access to this technology please contact me as soon as possible.
+
 ## Class Website and Schedule
 
 Class Website: code.vinnyroca.info

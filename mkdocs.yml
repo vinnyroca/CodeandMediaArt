@@ -2,6 +2,23 @@ site_name: Code && Media Art
 nav:
   - Syllabus: index.md
   - Schedule: schedule.md
+  - Notes:
+    - Notes Index: notes/notes.md
+    - 0. Playing with Code(s): 00_procedural_experiments.md
+    - 1. Shape && Color: 01_p5.md
+    - 0. Variables && Random: 02_variables.md
+  - Exercises:
+    - Exercises Index: exercises/exercises.md
+    - In-Class:
+      - 0. Conditional Drawing: exercises/00_conditiondrawing.md
+      - 1a. Drawing: exercises/01_Drawing.md
+      - 1b. Drawing in Color: exercises/01_drawingincolor.md
+      - 2a. Painting Program: exercises/02_paint.md
+      - 2b. Random Dots: exercises/02_dots.md 
+    - Independent:
+      - 1. p5!: exercises/00_signup.md
+      - 2. Light and Color: exercises/01_LightandColor.md
+      - 3. Face Generator: exercises/02_face.md
   - Projects:
     - Time: time.md
     - Narrative: narrative.md
@@ -12,22 +29,9 @@ nav:
     - Culture && Ideology: culture.md
     - Power && Surveillance: power.md
     - Play && Internet: play.md
-  - Notes:
-    - p5.js: 01_p5.md
-    - Variables: 02_variables.md
-  - Exercises:
-    - Introduction(s):
-      - In-class:
-        - Conditional Drawing: exercises/00_conditiondrawing.md
-      - Independent:
-        - p5!: exercises/00_signup.md
-    # - Variables:
-    #   - In-class:
-    #     - Painting Program: exercises/02_paint.md
-    #     - Random Dots: exercises/02_dots.md
-    #   - Independent:
-    #     - Face Generator: exercises/02_face.md
-    
+  - Artists:
+    - Casey Reas: artists/01_caseyreas.md
+    - Lauren Lee McCarthy: artists/02_laurenmccarthy.md
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
@@ -53,7 +57,8 @@ theme:
     - navigation.tabs
     - navigation.tabs.sticky
   font:
-    text: Noto Sans
+    text: Funnel Sans
+    code: Inconsolata monospace
 plugins:
   - search:
       enabled: false

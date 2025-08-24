@@ -2,17 +2,18 @@
 
 ## Description
 
-Using this sketch as a base, Spend some time to create your own painting program!
+Using this sketch as a base, spend some time to create your own painting program!
 
-Be sure to play with `fill()`, `stroke()`, and other attributes we have learned in class thus far.
+Be sure to play with `fill()`, `stroke()`, and other attributes we have learned in class thus far. Try swapping different values with `mouseX` and `mouseY`.
 
-What will your program do when you press your mouse?
+Make a note of what you want to do, but can't quite do just yet. This is you thinking in programming! Slowly we'll build our skills to add more and more complexity to our sketches. For now, think of the tools you know, and craft a sketch from that starting point.
+
 <script src="/assets/sketches/p5.js"></script>
 <script src="/assets/sketches/code_02/code_02_07.js"></script>
 
 ```js
 function setup(){
-    size(400,400);
+    createCanvas(400,400);
     background(12,123,220);
 }
 

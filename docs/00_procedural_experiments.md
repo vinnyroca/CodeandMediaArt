@@ -1,3 +1,115 @@
+
+
+<style>
+/* Button styling */
+#focusToggle {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+  padding: 0.2em .5em;
+  background: #333;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  opacity: .5;
+}
+
+/* Hide button on small screens */
+@media (max-width: 767.9px) {
+  #focusToggle {
+    display: none;
+  }
+}
+
+/* Focus mode styles */
+.focus-mode .section-content,
+.focus-mode h2 {
+  display: none; /* hide all by default in focus mode */
+}
+
+.focus-mode .section-content.active,
+.focus-mode h2.active {
+  display: block; /* show only active section */
+}
+</style>
+
+<button id="focusToggle">Focus</button>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const button = document.getElementById("focusToggle");
+  let focusEnabled = false;
+
+  // Wrap content after each h2
+  const headings = document.querySelectorAll("h2");
+  headings.forEach(h2 => {
+    const wrapper = document.createElement("div");
+    wrapper.classList.add("section-content");
+
+    let sibling = h2.nextElementSibling;
+    while (sibling && sibling.tagName !== "H2") {
+      const next = sibling.nextElementSibling;
+      wrapper.appendChild(sibling);
+      sibling = next;
+    }
+    h2.insertAdjacentElement("afterend", wrapper);
+  });
+
+  const sections = document.querySelectorAll(".section-content");
+
+  function showSectionById(id) {
+    sections.forEach(wrapper => {
+      const h2 = wrapper.previousElementSibling;
+      if (h2.id === id) {
+        wrapper.classList.add("active");
+        h2.classList.add("active");
+      } else {
+        wrapper.classList.remove("active");
+        h2.classList.remove("active");
+      }
+    });
+  }
+
+  // Default section
+  if (location.hash) {
+    showSectionById(location.hash.substring(1));
+  } else if (headings.length) {
+    showSectionById(headings[0].id);
+  }
+
+  window.addEventListener("hashchange", () => {
+    showSectionById(location.hash.substring(1));
+  });
+
+  // Toggle focus mode
+  function toggleFocusMode(enable) {
+    focusEnabled = enable;
+    document.body.classList.toggle("focus-mode", focusEnabled);
+    button.textContent = focusEnabled ? "Exit Focus" : "Focus";
+  }
+
+  button.addEventListener("click", () => {
+    toggleFocusMode(!focusEnabled);
+  });
+
+  // Disable focus mode on small screens
+  function checkScreenWidth() {
+    if (window.innerWidth <= 767.9) {
+      toggleFocusMode(false); // automatically turn off
+      button.style.display = "none"; // hide button
+    } else {
+      button.style.display = "block"; // show button
+    }
+  }
+
+  window.addEventListener("resize", checkScreenWidth);
+  checkScreenWidth(); // initial check
+});
+</script>
+
+
 # Playing with Code(s)
 
 Code can be approached as a conceptual framework.
@@ -24,7 +136,6 @@ Instructions:
 ### Vera Molnar
 
 <figure> <img src = "../assets/images/code_00_molar.jpg" ><figcaption>Vera Molnar. Lettres de ma Mère (“Letter from my Mother”). 1987. Courtesy of The Anne and Michael Spalter Digital Art Collection</figcaption></figure>
-
 
 ## Loose Codes of Art
 
@@ -61,9 +172,21 @@ Write it on a piece of paper.
 
 <figure> <img src = "../assets/images/code_00.jpg" ><figcaption>Mel Bochner. Measurement Room: No Vantage Point. 2019–2020.</figcaption></figure>
 
+---
+
 ### Sol LeWitt
 
-<figure> <img src = "../assets/images/code_00_lewitt_01.jpg" ><figcaption>Sol LeWitt. Wall Drawing #118. 1971 </figcaption></figure>
+<figure> <img src = "../assets/images/code_01_lewitt_01.jpg" ><figcaption>Sol LeWitt. Wall Drawing #260 (1975) </figcaption></figure>
+
+**Wall Drawing #260 (1975)**
+
+Instructions:
+
+“On black walls, all two-part combinations of white arcs from corners and sides, and white straight, not-straight, and broken lines.”
+
+---
+
+**Wall Drawing #118. 1971**
 
 Instructions:
 
@@ -79,11 +202,13 @@ Modified version of #118 for paper:
 
 ```
 On a pieces of paper, using a pencil,
+pen, or other writing utensil,
 place twenty points evenly distributed
 over the area of one of the paper's sides.
 All of the points should be connected
 with straight lines.
 ```
+[Code Version, Moving](https://editor.p5js.org/pickpanpuck/sketches/vzDHYyFav)
 
 ## Game Codes: Dots & Boxes
 
@@ -101,20 +226,7 @@ and takes another turn (mark initials in the box)
 The player with the most boxes at the end wins
 ```
 
-## In-class exercise: Conditional Drawing
 
-Using Sol LeWitt as a starting point, design your own set of conditions that produce a drawing.
 
-In this exercise, try to be as percise as possible with your instructions, while still leaving room for generative variation.
-
-Make one drawing with your conditions, then refine your *code*.
-
-After some time, we'll exchange our conditions and see what drawings emerge.
-
-## Independent Exercise: Sign up for p5.js
-
-We will be using p5.js for this class. To use p5.js you will need to make an account.
-
-[Sign Up](https://editor.p5js.org/signup)
 
 

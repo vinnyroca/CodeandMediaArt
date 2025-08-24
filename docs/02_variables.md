@@ -1,3 +1,5 @@
+
+
 <script src="../assets/sketches/p5.js"></script>
 <script src="../assets/sketches/code_02/code_02_01.js"></script>
 <script src="../assets/sketches/code_02/code_02_02.js"></script>
@@ -14,7 +16,7 @@
 <script src="../assets/sketches/code_02/code_02_13.js"></script>
 <script src="../assets/sketches/code_02/code_02_14.js"></script>
 
-# Variables
+# Variables && Randomness
 
 ## Overview
 
@@ -37,7 +39,6 @@ Class Overview:
 - How to make our own variables
 - How to use incrementation operators
 - `random()`
-- Independent exercise: Face Generator
 
 ## setup() and draw()
 
@@ -184,13 +185,13 @@ To use `mousePressed()` we need to make a new **function** block of code.
 ---
 
 ### Examples:
-`mousePressed()` Drawing Programming:
+`mousePressed()` Drawing Program:
 
 This program resets our drawing every time we click the mouse by redrawing our `background()`.
 
 ```js hl_lines="12 13 14"
 function setup(){
-	size(400,400);
+	createCanvas(400,400);
 	background(12,123,220);
 }
 
@@ -279,6 +280,7 @@ let frog;
 let toad;
 let bird;
 ```
+
 In JavaScript, we don't need to tell our editor what type of variable we are making. In other words, we don't need to let JavaScript know if our variable is a Number, a word, or something else. In part, it is up to the artist to keep track of what type of variable we want each new variable to be.
 
 Some variable types:
@@ -361,11 +363,11 @@ We won't go into too much detail about this now, but in short:
 
 - **Global** variables are declared at the top of our sketch. They can be used within any block of code.
 
-- **Local** variables are declared within a function and can only be used within that function.
+- **Local** variables are declared within a block of code and can only be used within that code block.
 
 ## Incrementation Operators
 
-We can use incrementation operators to change the value of our variable over time. If I want to increase the value of `circleX` by `1` every time `draw()` is called I can use the code:
+We can use incrementation operators to change the value of our variable over time. If I want to increase the value of `circleX` by `1` every time `draw()` is called, we can use the code:
 
 ```js
 circleX = circleX+1;

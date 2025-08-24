@@ -117,6 +117,13 @@ Students are expected to work on exercises and assignments outside of class. To 
 
 Students enrolled in this course will have 24/hr access to this computer lab. If you have any issues accessing the lab outside of the course hours, please contact me.
 
+**Note, some parts of this class will require:**
+
+1. A personal computer with a camera, microphone, and sound output
+2. Headphones, wired or wireless
+   
+**If you do not have access to this technology please contact me as soon as possible.**
+
 ## Use of Generative AI
 
 ChatGPT and many other models, including Claude or CoPilot, can write code. As new programmers, this will be very helpful for you. However, it can also be detrimental. 
@@ -195,9 +202,10 @@ Campus Disability Coordinators
 
 - [p5.js Reference](https://p5js.org/reference/)
 - [p5.js](https://p5js.org/)
-- [Coding Train](https://thecodingtrain.com/tracks/code-programming-with-p5-js)
-- [Patt Vira](https://www.youtube.com/@pattvira)
+- [Coding Train Videos](https://thecodingtrain.com/tracks/code-programming-with-p5-js)
+- [Patt Vira Youtube Channel](https://www.youtube.com/@pattvira)
 - [JavaScript Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [p5.js Cheat Shat - Ben Moren](https://cdn.glitch.me/5dd99b18-3ebb-45c5-90fb-b4b67dc2e128%2Fp5cheatsheet.pdf)
 
 - More advanced: [The Nature of Code](https://natureofcode.com/)
 - Further Reading: [Aesthetic Programming](https://aesthetic-programming.net/)
