@@ -129,7 +129,7 @@ Instructions:
 
 - Choose an arm position randomly: Both arms up, both arms to the left, both arms to the right.
 
-- If you choose the same position, clap hands and repeat from the top. If you choose different positions, repeat from the top.
+- If you choose the same position, after you clap your thighs, clap your partners hands and repeat from the top If you choose different positions, repeat from the top.
 
 ## Code and Art
 
