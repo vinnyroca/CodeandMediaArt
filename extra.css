@@ -3,6 +3,11 @@ md-footer__inner { display: none !important; }
 .nav-link[rel="next"] {display: none;}
 .nav-link[rel="prev"] {display: none;}
 
+.md-nav__title{
+    color: #da3b5f!important;
+    font-size: 1.1em !important;
+}
+
 .md-header {
     box-shadow: none !important;
 }
