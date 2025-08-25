@@ -56,12 +56,13 @@ theme:
   features:
     - navigation.tabs
     - navigation.tabs.sticky
+    - navigation.instant: false
   font:
     text: Funnel Sans
     code: Inconsolata monospace
 plugins:
   - search:
-      enabled: false
+      enabled: true
 
 
 extra_css:

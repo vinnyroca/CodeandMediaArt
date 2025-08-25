@@ -50,10 +50,6 @@ Consider for yourself, would you want the eyes closer or farther away, how would
 
 ## Submit
 
-**To Canvas:**
-
-1. Your p5 edit link
-
 **To Discord:**
 
 1. Your p5 edit link

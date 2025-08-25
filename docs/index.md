@@ -21,12 +21,10 @@ Vinny Roca, Scripps College
 Email: vroca@scrippscollege.edu  
 Office Hours: Lang 227. By appointment; Tuesday & Thursday 1:30-2:30
 [Schedule office hours](https://outlook.office.com/bookwithme/user/14e2aa0a493c4a659e608aab96b46635@scrippscollege.edu/meetingtype/ex7sQIfLLkiMdKnIgITX3w2?anonymous&ismsaljsauthenabled&ep=mlink)
----
+
 ## Course Description
 
 This interdisciplinary introductory course explores technical, artistic, and cultural aspects of programming. Using accessible and inclusive programming environments, students will learn the fundamentals of programming through making visual, interactive, and sound-based projects. Through readings and weekly discussions, students will engage with the political, economic, and cultural impact of code with a particular interest in code as an artistic medium and the power relations in programming.
-
----
 
 ## Learning Outcomes
 
@@ -38,10 +36,8 @@ The objective of this course is to introduce the fundamental skills of programmi
 - Gain a critical understanding of the history and cultural impact of programming.
 - Ability to create visual, interactive, and sound-based media art projects using programming.
 
-
----
 ## Grading, Assignments, Course Policy
----
+
 ### **Course Breakdown**
 
 |%||
@@ -53,6 +49,8 @@ The objective of this course is to introduce the fundamental skills of programmi
 |10|Participation|
 |20|Reading Responses|
 |30|Exercises|
+
+---
 
 ### **Evaluation Criteria**
 #### Projects
@@ -85,31 +83,39 @@ Reading responses will be graded on the level of engagement the student has with
 
 As reading responses are essential to the discussion section of the course, late reading responses will not be accepted.
 
+---
+
 ### Late Work and Extensions
 
 For all exercises, late work will not be accepted. Completing exercises on time is essential to the progression of the course. Not completing exercises will result in a student falling behind. In the situation that extra time is needed to complete exercises, students must reach out to the instructor as soon as possible.
 
 Late projects not ready by their assigned crit day will automatically lose one letter grade. Each day the project is late, it will lose one more letter grade. After three days, the project will not be accepted.
 
+---
+
 ### Class Website
 
 Class website will serve a a live syllabus, schedule, and notes for this course. All exercises and assignments are described on the class website.
 
+---
+
 ### Discord and Email
 
-For this class, we will be sharing our exercises, reading responses and projects through Discord. Students will be invited to join the class Discord server on the first day of class.
+We will be submitting and sharing our exercises, reading responses and projects through Discord. Students will be invited to join the class Discord server on the first day of class.
 
 I will respond to community Discord messages and email within 24 hrs of receipt. I will respond to messages sent over the weekend on the following Monday.
 
 For course communication, please send me an email rather than a DM on Discord.
 
-### Canvas Submissions
-
-Submissions for the class will be made through Canvas.
+---
 
 ### Readings
 
 All external readings and videos will be provided using Box.
+
+This link is password protected - password can be found in the class Discord.
+
+[Class Readings && Resources](https://scrippscollege.box.com/s/3je1kmbfik4jxdl2dhqeoajkj3sh1owr);
 
 ## Lab Hours && Course Materials
 

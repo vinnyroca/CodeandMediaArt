@@ -32,11 +32,6 @@ Experiment with:
 
 ## Submit
 
-### Submit to Canvas:
-
-1. Your p5 Edit link
-3. Text of your *Dividing the Light* instructions.
-
 ### Submit to Discord:
 
 1. An image of your abstract composition
