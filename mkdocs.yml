@@ -45,6 +45,7 @@ markdown_extensions:
       toc_depth: 2
 
 theme:
+  favicon: ampersand.svg
   icon:
     logo: material/ampersand
   name: material

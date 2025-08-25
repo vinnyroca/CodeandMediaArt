@@ -67,13 +67,13 @@ Completed projects will be graded using the following criteria:
 
 Exercises are mainly for student practice and experimentation. Exercises will be graded on their level of completion following the exercise prompt.
 
-#### Participation
+#### Participation & Attendance
 
-As this course includes in-person discussions, critiques, tutorials and exercises active participation and attendance make up 10 percent of students’ final grade. All students are required to participate actively during the discussion periods, which will be facilitated using each student’s reading responses.
+All students are expected to participate actively during the discussion periods and critiques.
 
 Students more than ten minutes late for class will be marked as late. Three late marks will result in an unexcused absence. More than two unexcused absences may, at the instructor’s discretion, affect the final participation grade.
 
-All critique classes are mandatory. If you anticipate missing a critique class or expect to have more than two absences during the course, inform the instructor as soon as possible.
+All classes are mandatory. If you anticipate missing a class or expect to have more than two absences during the course, inform the instructor as soon as possible.
 
 #### Reading Responses
 
