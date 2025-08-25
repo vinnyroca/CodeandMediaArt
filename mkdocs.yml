@@ -1,13 +1,13 @@
-site_name: Code && Media Art
+site_name: 💾Code && Media Art
 nav:
-  - Syllabus: index.md
-  - Schedule: schedule.md
-  - Notes:
+  - 📋Syllabus: index.md
+  - 📆Schedule: schedule.md
+  - 💻Notes:
     - Notes Index: notes/notes.md
     - 0. Playing with Code(s): 00_procedural_experiments.md
     - 1. Shape && Color: 01_p5.md
     - 0. Variables && Random: 02_variables.md
-  - Exercises:
+  - 📚Exercises:
     - Exercises Index: exercises/exercises.md
     - In-Class:
       - 0. Conditional Drawing: exercises/00_conditiondrawing.md
@@ -19,17 +19,17 @@ nav:
       - 1. p5!: exercises/00_signup.md
       - 2. Light and Color: exercises/01_LightandColor.md
       - 3. Face Generator: exercises/02_face.md
-  - Projects:
+  - 🌞Projects:
     - Time: time.md
     - Narrative: narrative.md
     - Performance: performance.md
     - Game Ring: game.md
-  - Responses:
+  - 📖Responses:
     - Art && Technology: art.md
     - Culture && Ideology: culture.md
     - Power && Surveillance: power.md
     - Play && Internet: play.md
-  - Artists:
+  - 🖍️Artists:
     - Casey Reas: artists/01_caseyreas.md
     - Lauren Lee McCarthy: artists/02_laurenmccarthy.md
 markdown_extensions:
