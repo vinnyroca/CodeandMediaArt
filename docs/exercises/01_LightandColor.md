@@ -35,5 +35,5 @@ Experiment with:
 ### Submit to Discord:
 
 1. An image of your abstract composition
-2. You p5 Edit link
+2. Your p5 Edit link
 3. Text of your *Dividing the Light* instructions.
