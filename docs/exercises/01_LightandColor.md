@@ -15,9 +15,9 @@ Reflect on your experience of the relationship between the LED color lights and 
 1. Read the article in our class [library](https://scrippscollege.box.com/s/3je1kmbfik4jxdl2dhqeoajkj3sh1owr) about the work of Mavis Pusey.
 
 2. Make your own abstract composition using p5.js! Explore the relationship between different shapes and colors. In what ways do they effect the feel and mood of the composition? How do Pusey and Turrell differ in their use of color and shape? What approach do you want to take? Notice how Pusey pulled from her life around her to create her compositions?
-
-3. Considering accessibility, use the `describe()` function ([Reference](https://p5js.org/reference/p5/describe/)) in your p5.js sketch to create a screen reader-accessible description of your composition.Make sure to use the `describe()` function within `setup()`. Notice that the text of your `describe()` function needs to be between `' '` marks. Deeply consider the words you are using to describe your art work. For inspiration, explore the work being done by the collective [Alt Text as Poetry](https://alt-text-as-poetry.net/).
-
+3. Read the about section for the project [Alt Text as Poetry](https://alt-text-as-poetry.net/#about). 
+4. Considering accessibility, use the `describe()` function ([Reference](https://p5js.org/reference/p5/describe/)) in your p5.js sketch to create a screen reader-accessible description of your composition. Make sure to use the `describe()` function within `setup()`. Notice that the text of your `describe()` function needs to be between `' '` marks. Deeply consider the words you are using to describe your art work.
+ 
 Feel free to experiment with:
 
 - Alpha
@@ -38,4 +38,5 @@ Feel free to experiment with:
 
 1. An image of your abstract composition (Right click > Save Image as...)
 2. Your p5 Edit link
-3. Text of your *Dividing the Light* instructions.
+3. Text of your *Dividing the Light* instructions. (You may need to break up your text into multiple messages if it is too long)
+4. The text you wrote in your `describe()` function
