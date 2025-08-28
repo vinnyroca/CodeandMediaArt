@@ -14,9 +14,9 @@ Reflect on your experience of the relationship between the LED color lights and 
 
 1. Read the article in our class [library](https://scrippscollege.box.com/s/3je1kmbfik4jxdl2dhqeoajkj3sh1owr) about the work of Mavis Pusey.
 
-2. Make your own abstract composition using p5.js! Explore the relationship between different shapes and colors. In what ways do you they effect the feel and mood of the composition? How do Pusey and Turrell differ in their use of color and shape? What approach do you want to take? Notice how Pusey pulled from her life around her to create her compositions?
+2. Make your own abstract composition using p5.js! Explore the relationship between different shapes and colors. In what ways do they effect the feel and mood of the composition? How do Pusey and Turrell differ in their use of color and shape? What approach do you want to take? Notice how Pusey pulled from her life around her to create her compositions?
 
-3. Considering accessibility, use the `describe()` function in your p5.js sketch to create a screen reader-accessible description of your composition. Deeply consider the words you are using to describe your art work. For inspiration, explore the work being done by the collective [Alt Text as Poetry](https://alt-text-as-poetry.net/).
+3. Considering accessibility, use the `describe()` function in your p5.js sketch to create a screen reader-accessible description of your composition.Make sure to use the `describe()` function within `setup()`. Notice that the text of your `describe()` function needs to be between `' '` marks. Deeply consider the words you are using to describe your art work. For inspiration, explore the work being done by the collective [Alt Text as Poetry](https://alt-text-as-poetry.net/).
 
 Feel free to experiment with:
 
