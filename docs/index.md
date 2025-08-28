@@ -123,6 +123,8 @@ Students are expected to work on exercises and assignments outside of class. To 
 
 Students enrolled in this course will have 24/hr access to this computer lab. If you have any issues accessing the lab outside of the course hours, please contact me.
 
+**Unavailable times: M: 1:15AM - 5:30 PM; W:11:00AM - 2:30PM; T/R: 10:00AM - 12:30 PM**
+
 **Note, some parts of this class will require:**
 
 1. A personal computer with a camera, microphone, and sound output
