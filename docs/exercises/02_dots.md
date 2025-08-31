@@ -1,4 +1,4 @@
-# In-Class Exercise: Random Dots
+
 
 ## Description
 

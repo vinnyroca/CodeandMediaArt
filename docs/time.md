@@ -38,7 +38,7 @@ Many artists have looked towards the concept of time for inspiration:
 
 ### Part 2: Your Time
 
-Create a visual clock that displays/tracks time in an experimental or unconventional way. Your clock should not use numerals. Your clock should represent a way of telling or understanding time that is personal to you or you find interesting. Your clock should be cyclical in some way. It does not need to keep track with the 60 minute system, but it must repeat on whichever scale of time you are working with. Consider color, scale form. How does these influence our feeling of time as we watch your clock?
+Create a visual clock that displays/tracks time in an experimental or unconventional way. Your clock should not use numerals. Your clock should represent a way of telling or understanding time that is personal to you or you find interesting. Your clock should be cyclical in some way. It does not need to keep track with the 60 minute system, but it must repeat on whichever scale of time you are working with. Consider color, scale form. How does these influence our feeling of time as we watch your clock? Try to convey the the operating logic of your clock through its visuals.
 
 What time frame does your clock follow? 
 

@@ -1,37 +1,36 @@
 <script src="../assets/sketches/p5.js"></script>
-<script src="../assets/sketches/code_03/code_03_pong.js"></script>
+
 <script src="../assets/sketches/code_03/code_03_01.js"></script>
 <script src="../assets/sketches/code_03/code_03_02.js"></script>
 <script src="../assets/sketches/code_03/code_03_03.js"></script>
-<script src="../assets/sketches/code_03/code_03_04.js"></script>
+
 <script src="../assets/sketches/code_03/code_03_05.js"></script>
-<div id ="pong"></div>
+<script src="../assets/sketches/code_03/code_03_06.js"></script>
+<script src="../assets/sketches/code_03/code_03_07.js"></script>
+
 
 # Flow
 
-> `RECAP:` What we learned last class:
+ `RECAP:` What we learned last class:
 
-> - `setup()` and `draw()`
-> - How to write blocks of code
-> - `mouseX` and `mouseY`
-> - `mousePressed()`
-> - `width` and `height`
-> - Basic math in p5.js
-> - How to make our own variables
-> - How to use incrementation operators
-> - `random()`
+- `setup()` and `draw()`
+- How to write blocks of code
+- `mouseX` and `mouseY`
+- `mousePressed()`
+- `width` and `height`
+- Basic math in p5.js
+- How to make our own variables
+- How to use incrementation operators
+- `random()`
 
-> `PLAN:`
+`PLAN:`
 
-> - `if`
-> - boolean expressions
-> - relational operators
-> - `else` and `else if`
-> - logical operators
-> - boolean data type
-
-
-Conditional Statement
+- `if`
+- boolean expressions
+- relational operators
+- `else` and `else if`
+- logical operators
+- boolean data type
 
 ## Conditional: if
 
@@ -79,15 +78,21 @@ Relational operators compare the values of two numbers and returns a value of tr
 For example:
 
 0 > 255 = true
+
 54.5 < 54.4 = false
 
 Relational operators work best when we use them with variables.
 
+### Example
+
+---
+**Changing Color Example:**
+
 Let's use an `if` statement and a **relational operator** in our code to change the color of our sketch when our mouse is on the right side of our canvas.
 
-<div id ="01"></div>
 
-```js
+
+```js hl_lines="7"
 function setup() {
   createCanvas(400, 400);
 }
@@ -104,6 +109,8 @@ function draw() {
 }
 ```
 
+<div id ="01"></div>
+
 ## Conditional: else
 
 We can use an `else` statement in conjunction with an `if` statement. And `else` statement is a block of code that will only run if the condition within our if statement is *not* met.
@@ -117,17 +124,22 @@ if(my birthday){
 	//Wait for my Birthday
 }
 ```
+### Example
+
+---
+
+**Changing Color Example:**
 
 We can use else in our screen color example to check when our mouse is on the right side of the screen.
 
-<div id ="02"></div>
 
-```js
+
+```js hl_lines="6-10"
 function setup() {
   createCanvas(400, 400);
 }
 
-function draw() {
+function draw() {  
   if (mouseX > width / 2) {
     background(255, 0, 0);
   } else {
@@ -140,15 +152,23 @@ function draw() {
 }
 ```
 
+<div id ="02"></div>
+
 ## Conditional: else if
 
 In addition to else, we can use an `else if` statement after our `if` statement to check for specific conditions. `else if`, like `if`, checks to see if a boolean expression is true.
 
+### Example
+
+---
+
+**Changing Color Example:**
+
 If we change the size of our canvas to 300 by 300 or 600 by 600, we can easily divide our canvas into thirds. From there we can use an `if`, `else if`, and `if` statement to change the color of our canvas when our mouse is in the left, right, and center.
 
-<div id ="03"></div>
 
-```js
+
+```js hl_lines="6-12"
 function setup() {
   createCanvas(300, 300);
 }
@@ -168,12 +188,9 @@ function draw() {
 }
 ```
 
-## Class Exercise: Conditional
+<div id ="03"></div>
 
-Use what we have learned thus far to make the below example. Start with a 400 by 200 canvas.
-As a hint, you'll need to use two `else if` statements! No need to include the "HOVER TO START" message. That is just to keep the class website tidy!
 
-<div id ="04"></div>
 
 ## Logical Operators
 
@@ -185,13 +202,20 @@ Logical Operators:
 
 We can use logical operators to check for multiple boolean expressions.
 
-Let's work towards making this hover effect!
+In pseudo code, this looks like the following:
 
-<div id ="05"></div>
+
+### Examples:
+
+---
+
+**Change Color on Hover Example:**
+
+
 
 To begin, we could start by detecting in our mouse passes over the left side of our square.
 
-```js
+```js hl_lines="8"
 function setup() {
   createCanvas(400, 400);
 }
@@ -213,7 +237,7 @@ function draw() {
 
 We can use the logical operator `&&` to check if our `mouseX` and `mouseY` are within our circle.
 
-```js
+```js hl_lines="8"
 function setup() {
   createCanvas(400, 400);
 }
@@ -233,90 +257,101 @@ function draw() {
 }
 ```
 
-We can also simply this code by replacing the x , y and width of our square with variables. If I keep my rectMode using CENTER, I can check my mouse position at the relationship between my x or y variable and half my width. This allows our code to work when our square is at any location and has any size.
+<div id ="05"></div>
 
-```js
-let x = 200;
-let y = 200;
-let w = 200;
+---
+
+**Bouncing Ball Example:**
+
+In this example, the circle moves at the opposite speed when it hits the the edge of our sketch.
+
+```js hl_lines="17 20"
+let x;
+let y;
+let radius = 25;
+let speedX = 5;
+let speedY = 3;
 
 function setup() {
   createCanvas(400, 400);
+  x = width / 2;
+  y = height / 2;
 }
 
 function draw() {
-  background(200);
+  background(0);
+  fill(255);
 
-  if (mouseX > x-w/2 && mouseX <x+w/2 && mouseY > y-w/2 && mouseY<y+w/2 ) {
-    fill(255);
-  } else {
-    fill(0);
+  if (x >= width - radius || x <= 0 + radius) {
+    speedX = speedX * -1;
+  }
+  if (y >= height - radius || y <= 0 + radius) {
+    speedY = speedY * -1;
   }
 
-  noStroke();
-  rectMode(CENTER);
-  square(x, y, w);
-  fill(255)
-  circle(x,y,10);
+    x = x + speedX;
+    y = y + speedY;
+
+  circle(x, y, 25 * 2);
 }
+
 ```
 
+<div id ="06"></div>
 
 
+## Boolean Variables
+
+Boolean variables are variables whose values can only be `true` or `false`. We can use boolean variables with the `!` operator to toggle the variables value between `true` and `false`.
+
+### Example:
+
+---
+
+**Using a boolean variable to pause a bouncing ball:**
+
+This bouncing ball will start and stop as the mouse is pressed.
+
+```js hl_lines="6 25 34"
+
+let x;
+let y;
+let radius = 25;
+let speedX = 5;
+let speedY = 3;
+let moving = false;
+
+function setup() {
+  createCanvas(400, 400);
+  x = width / 2;
+  y = height / 2;
+}
+
+function draw() {
+  background(0);
+  fill(255);
+
+  if (x >= width - radius || x <= 0 + radius) {
+    speedX = speedX * -1;
+  }
+  if (y >= height - radius || y <= 0 + radius) {
+    speedY = speedY * -1;
+  }
+
+  if (moving) {
+    x = x + speedX;
+    y = y + speedY;
+  }
+
+  circle(x, y, 25 * 2);
+}
+
+function mousePressed(){
+  moving = !moving
+}
 
 
+```
 
-if
-it is a new block of code
-only executed if a certain condition is what 
-what goes inside our parantheses
-boolean expression
-relational operators
-compares two values
-use relation operators with variable
-change color based on side of mouse
-
-else
-when there is a relationshp between different things
-
-else if
-
-exercise
-
-logical operators
-and , or and not
-
-roller over
-
-exercise fadded circle - dist();
-
-bouncing ball
-
-==
-
-show mistake
-x = x-7;
-x = x+7;
-
-show print
-
-variable for speed
-
-multiply -1
-
-or statement
-
-Y
-
-gravity
-
-mousePressed
-
-another variable, mouse pressed 
-
-boolean = !boolean.
-
-indpendent exercise
-
-
+<div id ="07"></div>
 

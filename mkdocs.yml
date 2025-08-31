@@ -6,7 +6,8 @@ nav:
     - Notes Index: notes/notes.md
     - 0. Playing with Code(s): 00_procedural_experiments.md
     - 1. Shape && Color: 01_p5.md
-    - 0. Variables && Random: 02_variables.md
+    - 2. Variables && Random: 02_variables.md
+    - 3. Flow: 03_flow.md
   - 📚Exercises:
     - Exercises Index: exercises/exercises.md
     - In-Class:
@@ -15,10 +16,13 @@ nav:
       - 1b. Drawing in Color: exercises/01_drawingincolor.md
       - 2a. Painting Program: exercises/02_paint.md
       - 2b. Random Dots: exercises/02_dots.md 
+      - 3a. Conditional Shapes: exercises/03_conditionalshapes.md
+      - 3b. Bouncing Ball: exercises/03_bouncingball.md
     - Independent:
-      - 1. p5!: exercises/00_signup.md
-      - 2. Light and Color: exercises/01_LightandColor.md
-      - 3. Face Generator: exercises/02_face.md
+      - 0. p5!: exercises/00_signup.md
+      - 1. Light and Color: exercises/01_LightandColor.md
+      - 2. Face Generator: exercises/02_face.md
+      - 3. Pong for One: exercises/03_pongforone.md
   - 🌞Projects:
     - Time: time.md
     - Narrative: narrative.md
@@ -32,6 +36,8 @@ nav:
   - 🖍️Artists:
     - Casey Reas: artists/01_caseyreas.md
     - Lauren Lee McCarthy: artists/02_laurenmccarthy.md
+    - Manfred Mohr: artists/03_mohr.md
+    - Vera Molnár: artists/04_molnar.md
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
