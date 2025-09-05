@@ -2,7 +2,7 @@
 
 ## Information
 
-Hungarian, b.1924
+Born.1924 (Hungary)
 
 [Interview](http://youtube.com/watch?v=1qe1i0If2OA)
 

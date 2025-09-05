@@ -1,7 +1,7 @@
 
 ## Information
 
-American, b. 1972
+Born. 1972 (USA)
 
 [Artist Website](https://reas.com/)
 

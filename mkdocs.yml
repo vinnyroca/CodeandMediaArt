@@ -8,6 +8,7 @@ nav:
     - 1. Shape && Color: 01_p5.md
     - 2. Variables && Random: 02_variables.md
     - 3. Flow: 03_flow.md
+    - 4. Repeat: 04_repeat.md
   - 📚Exercises:
     - Exercises Index: exercises/exercises.md
     - In-Class:
@@ -18,11 +19,14 @@ nav:
       - 2b. Random Dots: exercises/02_dots.md 
       - 3a. Conditional Shapes: exercises/03_conditionalshapes.md
       - 3b. Bouncing Ball: exercises/03_bouncingball.md
+      - 4a. Looping Drawing: exercises/04_loopdrawing.md
+      - 4b. 10 PRINT: exercises/04_10PRINT.md
     - Independent:
       - 0. p5!: exercises/00_signup.md
       - 1. Light and Color: exercises/01_LightandColor.md
       - 2. Face Generator: exercises/02_face.md
       - 3. Pong for One: exercises/03_pongforone.md
+      - 4. Repetition: exercises/04_Repetition.md
   - 🌞Projects:
     - Time: time.md
     - Narrative: narrative.md
@@ -38,6 +42,7 @@ nav:
     - Lauren Lee McCarthy: artists/02_laurenmccarthy.md
     - Manfred Mohr: artists/03_mohr.md
     - Vera Molnár: artists/04_molnar.md
+    - Ryoji Ikeda: artists/05_Ikeda.md
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true

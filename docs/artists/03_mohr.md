@@ -2,7 +2,7 @@
 
 ## Information
 
-German, b. 1938
+Born. 1938 (Germany)
 
 [Website](https://www.emohr.com/)
 
