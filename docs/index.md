@@ -1,7 +1,7 @@
 
  <link rel="stylesheet" type="text/css" href="extra.css">
- 
-# Syllabus
+
+# MS 053: Intro to Code & Media Art
 
 ## Course Information
 
@@ -51,6 +51,26 @@ The objective of this course is to introduce the fundamental skills of programmi
 |30|Exercises|
 
 ---
+
+### Letter Grading
+
+|Number|Letter|
+|:---:|:---:|
+|93-100|A|
+|90-92|A-|
+|87-89|B+|
+|83-86|B|
+|80-82|B-|
+|77-79|C+|
+|73-76|C|
+|70-72|C-|
+|67-69|D+|
+|63-66|D|
+|60-62|D-|
+|0-59|F|
+
+---
+
 
 ### **Evaluation Criteria**
 #### Projects

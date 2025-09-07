@@ -1,6 +1,7 @@
 # Schedule
-<!--removes sidebar outline-->
 <style>
+
+
   tbody tr:nth-child(4n+1),
     tbody tr:nth-child(4n+2) {
   background-color: 
@@ -10,6 +11,12 @@
     }
 #no-class{
     background-color: pink;
+}
+
+@media print{
+  .md-typeset__scrollwrap::-webkit-scrollbar{
+    display: none !important;
+  }
 }
 
 </style>
