@@ -255,7 +255,7 @@ function draw() {
 
 ---
 
-Next, we can iterate on that for loop using another for loop. We also next to replace the y coordinate postion of our square with the value of `y`. This will draw our same row of squares at different heights across our canvas.
+Next, we can iterate on that for loop using another for loop. We also need to replace the y coordinate postion of our square with the value of `y`. This will draw our same row of squares at different heights across our canvas.
 
 ```js
 function setup() {

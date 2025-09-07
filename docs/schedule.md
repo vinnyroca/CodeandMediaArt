@@ -32,7 +32,7 @@ Please note that is this is a live schedule and is ever evolving as the course (
 |TUES<br>9/2|**- Tutorial:** [Variables && Random]|**Due:**<br>- [Light and Color Exercise]|
 |THUR<br>9/4|**- Tutorial:** [Flow]|**Due:**<br>- [Face Generator Exercise]|
 |TUES<br>9/9|**- Tutorial:** [Repeat]|**Due:**<br> - [Pong for One Exercise]|
-|THUR<br>9/11|**- Tutorial:** [Time && Change]<br>**- Assign:** Time|**Due:**<br> - Repeat Exercise|
+|THUR<br>9/11|**- Tutorial:** [Time && Change]<br>**- Assign:** Time|**Due:**<br> - [Repetition Exercise] <br> - Read [Time] Project Description|
 |TUES<br>9/16|<span style="background-color: lightskyblue;">**- Discussion &#128214;**</span><br>**- Studio Time:** Time|**Due:**<br> - Begin work on Time project<br>**Due on Monday Before 5 pm:**<br> - Art && Technology Response|
 |THUR<br>9/18|**- Studio Time:** Time|**Due:**<br> - Continue work on time project|
 |TUES<br>9/23|<p style="background-color: lightgreen;">CRIT &#127774;: Time</p>|**Due:**<br> - Time Project|
