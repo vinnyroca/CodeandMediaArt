@@ -1,6 +1,6 @@
 ## Information
 
-American, b. 1987
+Born. 1987 (USA)
 
 [Artist Website](https://get-lauren.net/)
 
