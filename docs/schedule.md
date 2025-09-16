@@ -37,7 +37,7 @@ Please note that is this is a live schedule and is ever evolving as the course (
 |THUR<br>9/18|**- Studio Time:** Time|**Due:**<br> - Continue work on time project|
 |TUES<br>9/23|<p style="background-color: lightgreen;">CRIT &#127774;: Time</p>|**Due:**<br> - Time Project|
 |THUR<br>9/25|**- Tutorial:** [Text && Arrays] |**Due:**<br> - Exercise|
-|TUES<br>9/30|**- Tutorial:** [Image && Algorithms]|**Due:**<br> - Exercise|
+|TUES<br>9/30|**- Tutorial:** [Image && Algorithms]|**Due:**<br> - Exercise <br> Read [Narrative] project description|
 |THUR<br>10/2|**- Tutorial** [Functions]|**Due:**<br> - Exercise|
 |TUES<br>10/7|<span style="background-color: lightskyblue;">**- Discussion &#128214;**</span><br>**- Studio Time:** Narrative|**Due:**<br> - Begin work on Narrative project<br>**Due on Monday Before 5 pm:**<br> - Culture && Ideology Response|
 |THUR<br>10/9|<p style="background-color: lightgreen;">CRIT &#127774;: Narrative</p>|**Due:**<br>Narrative Project|

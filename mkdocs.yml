@@ -41,11 +41,15 @@ nav:
     - Power && Surveillance: power.md
     - Play && Internet: play.md
   - 🖍️Artists:
-    - Casey Reas: artists/01_caseyreas.md
-    - Lauren Lee McCarthy: artists/02_laurenmccarthy.md
-    - Manfred Mohr: artists/03_mohr.md
-    - Vera Molnár: artists/04_molnar.md
+    - Natalie Bookchin: artists/bookchin.md
+    - Ian Cheng: artists/cheng.md
+    - Taeyoon Choi: artists/choi.md
     - Ryoji Ikeda: artists/05_Ikeda.md
+    - Lauren Lee McCarthy: artists/02_laurenmccarthy.md
+    - Olia Lialina: artists/lialina.md
+    - Manfred Mohr: artists/03_mohr.md
+    - Vera Molnar: artists/04_molnar.md
+    - Casey Reas: artists/01_caseyreas.md
 markdown_extensions:
   - admonition
   - pymdownx.details
