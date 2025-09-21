@@ -9,7 +9,8 @@ nav:
     - 2. Variables && Random: 02_variables.md
     - 3. Flow: 03_flow.md
     - 4. Repeat: 04_repeat.md
-    - 4. Time: 05_time.md
+    - 5. Time: 05_time.md
+    - 6. Text && Arrays: 06_Text.md
   - 📚Exercises:
     - Exercises Index: exercises/exercises.md
     - In-Class:
