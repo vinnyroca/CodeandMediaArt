@@ -25,12 +25,14 @@ nav:
       - 4b. 10 PRINT: exercises/04_10PRINT.md
       - 5a. Rotating Shapes: exercises/05_rotate.md
       - 5b. Clock: exercises/05_clock.md
+      - 6a. Cut-Out Message: exercises/06_cutOutMessage.md
     - Independent:
-      - 0. p5!: exercises/00_signup.md
-      - 1. Light and Color: exercises/01_LightandColor.md
-      - 2. Face Generator: exercises/02_face.md
-      - 3. Pong for One: exercises/03_pongforone.md
-      - 4. Repetition: exercises/04_Repetition.md
+      - p5!: exercises/00_signup.md
+      - Light and Color: exercises/01_LightandColor.md
+      - Face Generator: exercises/02_face.md
+      - Pong for One: exercises/03_pongforone.md
+      - Repetition: exercises/04_Repetition.md
+      - p5 Poetics: exercises/06_poetics.md
   - 🌞Projects:
     - Time: time.md
     - Narrative: narrative.md
