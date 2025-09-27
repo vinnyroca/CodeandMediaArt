@@ -11,11 +11,11 @@ Technical Requirements:
 
 - The project uses text and/or images (photographs, drawings, digital paintings, svg images etc)
 - The project make use of functions
-- The project is interactive (A person can use a mouse or keys to navigate through it)
+- The project is interactive (A person can use a mouse or keys to navigate through it). Explore the p5.js reference: `keyPressed()`, `keyTyped()`, `keyIsDown()`, `keyReleased()`, `keyCode`, `doubleClick()`, `mouseMoved()`, `mouseDragged()`, `cursor()`, `mouseReleased()`, and others.
 - The project contains a narrative (This narrative may be poetic, prosaic or experimental)
 
 Optional:
-- The project uses the windowWidth and windowHeight variables for the canvas and works with the windowResized() and resizeCanvas() function.
+- The project uses the `windowWidth` and `windowHeight` variables for the canvas and works with the `windowResized()` and `resizeCanvas()` function.
 
 
 ## History of Interactive Narratives
@@ -94,7 +94,7 @@ Some contemporary interactive narratives I would recommend checking out include:
 - [*Kentucky Route Zero*](https://kentuckyroutezero.com/) by cardboard computer. “Kentucky Route Zero is a magical realist adventure game about a secret highway running through the caves beneath Kentucky, and the mysterious folks who travel it.” - kentuckyroutezero.com
 - The works of [Porpentine](https://xrafstar.monster/), including [With Those We Love Alive](https://xrafstar.monster/games/twine/wtwla/)
 - [Queers in Love at the End of the World](https://w.itch.io/end-of-the-world) by Anna Anthropy 
-- - [a-birth.site](http://a-birth.site/)
+- [a-birth.site](http://a-birth.site/)
 
 ![Kentucky Route Zero](../assets/images/krz.png)
 <small>*Kentucky Route Zero*</small>
