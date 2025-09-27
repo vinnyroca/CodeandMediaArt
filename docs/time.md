@@ -3,6 +3,7 @@
 ## Overview
 
 Our understanding of [time](https://www.time.gov/) is often limited to the digital clock on our wrist or phone, connected to satellites orbiting the Earth's atmosphere. These [satellites](https://www.faa.gov/about/office_org/headquarters_offices/ato/service_units/techops/navservices/gnss/gps/howitworks#:~:text=GPS%20satellites%20carry%20atomic%20clocks,time%20the%20signal%20was%20broadcast.), whose origins begin in US military research, each carry onboard atomic clocks pinpoint your location and send a globally unified time to your phone. 
+
 ---
 
 What other forms of time exist?
