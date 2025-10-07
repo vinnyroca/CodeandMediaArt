@@ -43,9 +43,9 @@ Please note that is this is a live schedule and is ever evolving as the course (
 |THUR<br>10/9|<p style="background-color: lightgreen;">CRIT &#127774;: Narrative</p>|**Due:**<br>Narrative Project|
 |TUES<br>10/14|<p style="background-color: pink;">No Class &#127773;: Break</p>|<p style="background-color: pink;">Break</p>|
 |THUR<br>10/16|**- Tutorial:** [Sound In && Sound Out]<br> **- Assign:** Performance||
-|TUES<br>10/21|**- Tutorial:** [Capture]|**Due:**<br> - Sound Exercise <br> - Performance Groups|
-|THUR<br>10/23|<span style="background-color: lightskyblue;">**- Discussion &#128214;**</span><br>**- Studio Time:** Performance|**Due:**<br> - Begin work on Performance project<br>**Due on Monday Before 5 pm:**<br> - Power && Surveillance Response|
-|TUES<br>10/28|**- Studio Time:** Testing Performance|**Due:**<br> - Completed Framework of Performance Project|
+|TUES<br>10/21|**- Tutorial:** [Capture]|**Due:**<br> - [p5.dj] <br> - Performance Groups Finalized|
+|THUR<br>10/23|**- Studio Time:** Performance|**Due:**<br> - Performance Proposal |
+|TUES<br>10/28|<span style="background-color: lightskyblue;">**- Discussion &#128214;**</span><br>**- Studio Time:** Testing Performance|**Due:**<br> - Completed Proposal of Performance Project <br>**Due on Monday Before 5 pm:**<br> - Power && Surveillance Response|
 |THUR<br>10/30|<p style="background-color: lightgreen;">CRIT &#127774;: Performance</p>|**Due:**<br> - Performance Project|
 |TUES<br>11/4|**- Tutorial:** [Classes && Objects]||
 |THUR<br>11/6|**- Tutorial:** [Classes && Objects]|**Due:**<br> - Classes Exercise|
