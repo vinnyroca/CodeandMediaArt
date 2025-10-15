@@ -515,3 +515,15 @@ Using `midiToFreq()` to create a simple digital instrument, played with the 1 th
     }
     ```
 
+ ## Further References
+
+There are a wide variety of sound options within p5.js - explore the below links:
+
+ - [p5.Envelope](https://p5js.org/reference/p5.sound/p5.Envelope/) - Use to set the Attack, Decay, Sustain, and Release of Audio
+ - [reverb()](https://p5js.org/reference/p5.sound/p5.Reverb/) - Use to add reverb to your sound
+- [monoSynth()](https://p5js.org/reference/p5.sound/p5.MonoSynth/) and [PolySynth()](https://p5js.org/reference/p5.sound/p5.PolySynth/) - use for single and multi voice sound synthesis
+
+
+[Twelve Tone Bouncing Ball Example](https://editor.p5js.org/pickpanpuck/sketches/cw3TiR56c)
+
+
