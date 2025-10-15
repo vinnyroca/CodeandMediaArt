@@ -1,8 +1,8 @@
-## Culture and Ideology
+# Culture and Ideology
 
 ## Description 
 
-Readings for this assignment can be found [here](https://scrippscollege.box.com/s/3je1kmbfik4jxdl2dhqeoajkj3sh1owr) (Check the class Discord for password.)
+Readings and videos for this assignment can be found [here](https://scrippscollege.box.com/s/3je1kmbfik4jxdl2dhqeoajkj3sh1owr) (Check the class Discord for password.)
 
 ---
 **Don’t wait until the weekend before discussion to begin engaging with the sources for our response. During the weeks between discussions,  move through the sources slowly**
@@ -17,6 +17,6 @@ For this response, do the following:
 - Read *Indigenous Circuits: Navajo Women and the Racialization of Early Electronic Manufacture*, Lisa Nakamura
 - Watch *It’s In the Game’17* - Sondra Perry
 
-Submit:
+## Submit:
 
-In the Discord channel for this response, post either a 500 word or 3 min video response. Reading responses should not be a summary of the readings and instead should connect the readings to your experience of programming and other experiences, academic or otherwise.
+In the Discord channel for this response, post either a 500 word or 3 min video response. Responses should not be a summary of the readings/watchings and instead should connect the readings to your experience of programming and other experiences, academic or otherwise.
