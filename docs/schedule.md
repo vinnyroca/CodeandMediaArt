@@ -48,10 +48,10 @@ Please note that is this is a live schedule and is ever evolving as the course (
 |TUES<br>10/28|<span style="background-color: lightskyblue;">**- Discussion &#128214;**</span><br>**- Studio Time:** Testing Performance|**Due:**<br> - Completed Proposal of Performance Project <br>**Due on Monday Before 5 pm:**<br> - Power && Surveillance Response|
 |THUR<br>10/30|<p style="background-color: lightgreen;">CRIT &#127774;: Performance</p>|**Due:**<br> - Performance Project|
 |TUES<br>11/4|**- Tutorial:** [Classes && Objects]||
-|THUR<br>11/6|**- Tutorial:** [Classes && Objects]|**Due:**<br> - Classes Exercise|
-|TUES<br>11/11|**- Tutorial:** [VS Code && HTML]|**Due:**<br> - Game Ring Design Document|
-|THUR<br>11/13|**- Tutorial:** [CSS + Github]|**Due:**<br> - Game Ring HTML Mock-up|
-|TUES<br>11/18|**- Studio Time:** Game Ring|**Due:**<br> - Git Repository and Game Ring Web Address|
+|THUR<br>11/6|**- Studio Time:** Game Ring|**Due:**<br> - Game Ring Proposal|
+|TUES<br>11/11|**- Tutorial:** [VS Code && HTML]|**Due:**<br> - Game Ring Gray Box|
+|THUR<br>11/13|**- Tutorial:** [CSS]|**Due:**<br> - Game Ring HTML Mock-up|
+|TUES<br>11/18|**- Tutorial:** [Github]|**Due:**<br> - Github Pages link First Pass of Website|
 |THUR<br>11/20|<span style="background-color: lightskyblue;">**- Discussion &#128214;**</span>**<br>- Studio Time:** Game Ring|**Due on Monday Before 5 pm:**<br> - Play && Internet Response|
 |TUES<br>11/25|**- Studio Time:** Game Ring|**Due:**<br> - Continued work on Game Ring|
 |THUR<br>11/27|<p style="background-color: pink;">No Class &#127773;: Break</p>|<p style="background-color: pink;">Break</p>|
