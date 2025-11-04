@@ -49,7 +49,7 @@ Please note that is this is a live schedule and is ever evolving as the course (
 |THUR<br>10/30|<p style="background-color: lightgreen;">CRIT &#127774;: Performance</p>|**Due:**<br> - Performance Project|
 |TUES<br>11/4|**- Tutorial:** [Classes && Objects]<br>**- Assign:** Game Ring|**Due:**<br> - Read Game Ring project description|
 |THUR<br>11/6|**- Studio Time:** Game Ring|**Due:**<br> - Game Ring Proposal|
-|TUES<br>11/11|**- Tutorial:** [VS Code && HTML]<br>**- Studio Time:** Game Ring|**Due:**<br> - Game Ring Gray Box <br> - Watch Laurel Schwulst's [Basics of HTML](https://www.youtube.com/watch?v=CkzbI1Tv_rQ)|
+|TUES<br>11/11|**- Tutorial:** [VS Code && HTML]<br>**- Studio Time:** Game Ring|**Due:**<br> - Game Ring Gray Box <br> - Watch Laurel Schwulst's [Basics of HTML](https://www.youtube.com/watch?v=CkzbI1Tv_rQ)<br> - Download [Visual Studio Code](https://code.visualstudio.com/Download)|
 |THUR<br>11/13|**- Tutorial:** [CSS]<br>**- Studio Time:** Game Ring|**Due:**<br> - Game Ring HTML Mock-up <br> - Watch Laurel Schwulst's [Basics of CSS](https://www.youtube.com/watch?v=BUZIaTHm_oE)|
 |TUES<br>11/18|**- Tutorial:** [Github Pages]<br>**- Studio Time:** Game Ring|**Due:**<br> - Continued work on Game Ring|
 |THUR<br>11/20|<span style="background-color: lightskyblue;">**- Discussion &#128214;**</span> <br>**- Studio Time:** Game Ring|**Due on Monday Before 5 pm:**<br> - Play && Internet Response <br>**Due:**<br> - Github Pages link First Pass of Website|
