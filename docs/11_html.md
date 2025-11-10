@@ -14,7 +14,7 @@ To begin creating our own website, we’ll first need to download the p5.js sket
 
 To download your p5 project:
 
-1. Navigate to file > download ![gif of downloading p5 sketch](../assets/images/11/11_01.gif);
+1. Navigate to file > download ![gif of downloading p5 sketch](../assets/images/11/11_01.gif)
 2. Unzip the downloaded project folder (Right-click > extract all on Windows, Double-click on MacOs) ![gif of unzipping folder](../assets/images/11/11_02.gif)
 
 You can optionally rename your project folder to the name of your project:
