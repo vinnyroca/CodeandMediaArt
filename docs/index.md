@@ -47,8 +47,8 @@ The objective of this course is to introduce the fundamental skills of programmi
 |15|Performance|
 |20|Game Ring|
 |10|Participation|
-|20|Reading Responses|
-|30|Exercises|
+|10|Reading Responses|
+|20|Exercises|
 
 ---
 
